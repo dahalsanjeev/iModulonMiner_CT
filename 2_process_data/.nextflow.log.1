@@ -1,0 +1,807 @@
+Mar-25 01:39:43.489 [main] DEBUG nextflow.cli.Launcher - $> nextflow run main_fixed_w_delete.nf -resume -profile local --organism bacillus_subtilis --metadata ../test/test_metadata_fixed.tsv --sequence_dir ../test/sequence_files/ --outdir ../test/nf_results/ --force
+Mar-25 01:39:43.558 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 22.10.0
+Mar-25 01:39:43.571 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/Users/skd6150/.nextflow/plugins; core-plugins: nf-amazon@1.11.0,nf-azure@0.14.2,nf-codecommit@0.1.2,nf-console@1.0.4,nf-ga4gh@1.0.4,nf-google@1.4.4,nf-tower@1.5.5,nf-wave@0.5.2
+Mar-25 01:39:43.578 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Mar-25 01:39:43.578 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Mar-25 01:39:43.580 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.4.1 in 'deployment' mode
+Mar-25 01:39:43.587 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Mar-25 01:39:43.598 [main] DEBUG nextflow.config.ConfigBuilder - Found config local: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/nextflow.config
+Mar-25 01:39:43.599 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/nextflow.config
+Mar-25 01:39:43.620 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `local`
+Mar-25 01:39:44.120 [main] DEBUG nextflow.config.ConfigBuilder - Available config profiles: [slurm, local]
+Mar-25 01:39:44.162 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=1 by probing script field
+Mar-25 01:39:44.176 [main] INFO  nextflow.cli.CmdRun - Launching `main_fixed_w_delete.nf` [tiny_hamilton] DSL1 - revision: 8d6d8342fb
+Mar-25 01:39:44.176 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+Mar-25 01:39:44.176 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[]
+Mar-25 01:39:44.181 [main] DEBUG nextflow.secret.LocalSecretsProvider - Secrets store: /Users/skd6150/.nextflow/secrets/store.json
+Mar-25 01:39:44.183 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@1886991b] - activable => nextflow.secret.LocalSecretsProvider@1886991b
+Mar-25 01:39:44.233 [main] DEBUG nextflow.Session - Session UUID: fe569bb7-ffdd-4451-87c8-4935b4661d7e
+Mar-25 01:39:44.233 [main] DEBUG nextflow.Session - Run name: tiny_hamilton
+Mar-25 01:39:44.234 [main] DEBUG nextflow.Session - Executor pool size: 8
+Mar-25 01:39:44.239 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=24; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+Mar-25 01:39:44.281 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 22.10.0 build 5826
+  Created: 13-10-2022 05:44 UTC (00:44 CDT)
+  System: Mac OS X 26.4
+  Runtime: Groovy 3.0.13 on OpenJDK 64-Bit Server VM 17.0.14+1-b1367.22
+  Encoding: UTF-8 (UTF-8)
+  Process: 79313@E5-CHE-CMMBP001 [192.168.0.199]
+  CPUs: 8 - Mem: 16 GB (3.3 GB) - Swap: 5 GB (1.6 GB)
+Mar-25 01:39:44.313 [main] DEBUG nextflow.Session - Work-dir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work [Mac OS X]
+Mar-25 01:39:44.328 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+Mar-25 01:39:44.334 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+Mar-25 01:39:44.362 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+Mar-25 01:39:44.368 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 9; maxThreads: 1000
+Mar-25 01:39:44.425 [main] DEBUG nextflow.Session - Session start
+Mar-25 01:39:44.428 [main] DEBUG nextflow.trace.TraceFileObserver - Workflow started -- trace file: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/trace/trace.txt
+Mar-25 01:39:45.406 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Mar-25 01:39:45.427 [PathVisitor-1] DEBUG nextflow.file.PathVisitor - files for syntax: glob; folder: ../test/sequence_files/; pattern: *.{fasta,gff3}; options: [checkIfExists:true]
+Mar-25 01:39:45.506 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:bowtie` matches labels `bowtie,small` for process with name bowtie_build
+Mar-25 01:39:45.506 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:small` matches labels `bowtie,small` for process with name bowtie_build
+Mar-25 01:39:45.508 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Mar-25 01:39:45.508 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Mar-25 01:39:45.511 [main] DEBUG nextflow.executor.Executor - [warm up] executor > local
+Mar-25 01:39:45.514 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=8; memory=16 GB; capacity=8; pollInterval=100ms; dumpInterval=5m
+Mar-25 01:39:45.548 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:small` matches labels `small` for process with name gff2bed
+Mar-25 01:39:45.548 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:gff2bed` matches process gff2bed
+Mar-25 01:39:45.549 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Mar-25 01:39:45.549 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Mar-25 01:39:45.575 [main] INFO  nextflow.Nextflow - DEBUG: run_list (already completed) = []
+Mar-25 01:39:45.576 [main] INFO  nextflow.Nextflow - DEBUG: sample_ids from metadata = [SRX4145737, SRX5621378, ERX1295610, SRX3775925, SRX5283813, ERX3440943, SRX3526682, SRX3526688, SRX3053966, SRX3526704, ERX3440920, SRX8170785, ERX1320318, ERX3440931, SRX315307]
+Mar-25 01:39:45.576 [main] INFO  nextflow.Nextflow - DEBUG: params.force = true
+Mar-25 01:39:45.600 [Actor Thread 4] INFO  nextflow.Nextflow - METADATA ROW: Experiment=SRX4145737, Layout=PAIRED, R1=[], in_run_list=false
+Mar-25 01:39:45.602 [Actor Thread 4] INFO  nextflow.Nextflow - METADATA ROW: Experiment=SRX5621378, Layout=SINGLE, R1=[], in_run_list=false
+Mar-25 01:39:45.602 [Actor Thread 4] INFO  nextflow.Nextflow - METADATA ROW: Experiment=ERX1295610, Layout=PAIRED, R1=[], in_run_list=false
+Mar-25 01:39:45.602 [Actor Thread 4] INFO  nextflow.Nextflow - METADATA ROW: Experiment=SRX3775925, Layout=SINGLE, R1=[], in_run_list=false
+Mar-25 01:39:45.602 [Actor Thread 4] INFO  nextflow.Nextflow - METADATA ROW: Experiment=SRX5283813, Layout=PAIRED, R1=[], in_run_list=false
+Mar-25 01:39:45.603 [Actor Thread 4] INFO  nextflow.Nextflow - METADATA ROW: Experiment=ERX3440943, Layout=PAIRED, R1=[], in_run_list=false
+Mar-25 01:39:45.603 [Actor Thread 4] INFO  nextflow.Nextflow - METADATA ROW: Experiment=SRX3526682, Layout=SINGLE, R1=[], in_run_list=false
+Mar-25 01:39:45.603 [Actor Thread 4] INFO  nextflow.Nextflow - METADATA ROW: Experiment=SRX3526688, Layout=SINGLE, R1=[], in_run_list=false
+Mar-25 01:39:45.603 [Actor Thread 4] INFO  nextflow.Nextflow - METADATA ROW: Experiment=SRX3053966, Layout=SINGLE, R1=[], in_run_list=false
+Mar-25 01:39:45.603 [Actor Thread 4] INFO  nextflow.Nextflow - METADATA ROW: Experiment=SRX3526704, Layout=SINGLE, R1=[], in_run_list=false
+Mar-25 01:39:45.603 [Actor Thread 4] INFO  nextflow.Nextflow - METADATA ROW: Experiment=ERX3440920, Layout=PAIRED, R1=[], in_run_list=false
+Mar-25 01:39:45.603 [Actor Thread 4] INFO  nextflow.Nextflow - METADATA ROW: Experiment=SRX8170785, Layout=SINGLE, R1=[], in_run_list=false
+Mar-25 01:39:45.604 [Actor Thread 4] INFO  nextflow.Nextflow - METADATA ROW: Experiment=ERX1320318, Layout=SINGLE, R1=[], in_run_list=false
+Mar-25 01:39:45.604 [Actor Thread 4] INFO  nextflow.Nextflow - METADATA ROW: Experiment=ERX3440931, Layout=PAIRED, R1=[], in_run_list=false
+Mar-25 01:39:45.604 [Actor Thread 4] INFO  nextflow.Nextflow - METADATA ROW: Experiment=SRX315307, Layout=SINGLE, R1=[], in_run_list=false
+Mar-25 01:39:45.605 [Actor Thread 4] INFO  nextflow.Nextflow - ROUTING SRX4145737 -> sra (download_fastq)
+Mar-25 01:39:45.610 [Actor Thread 4] INFO  nextflow.Nextflow - ROUTING SRX5621378 -> sra (download_fastq)
+Mar-25 01:39:45.610 [Actor Thread 4] INFO  nextflow.Nextflow - ROUTING ERX1295610 -> sra (download_fastq)
+Mar-25 01:39:45.613 [Actor Thread 4] INFO  nextflow.Nextflow - ROUTING SRX3775925 -> sra (download_fastq)
+Mar-25 01:39:45.613 [Actor Thread 4] INFO  nextflow.Nextflow - ROUTING SRX5283813 -> sra (download_fastq)
+Mar-25 01:39:45.613 [Actor Thread 4] INFO  nextflow.Nextflow - ROUTING ERX3440943 -> sra (download_fastq)
+Mar-25 01:39:45.613 [Actor Thread 4] INFO  nextflow.Nextflow - ROUTING SRX3526682 -> sra (download_fastq)
+Mar-25 01:39:45.613 [Actor Thread 4] INFO  nextflow.Nextflow - ROUTING SRX3526688 -> sra (download_fastq)
+Mar-25 01:39:45.613 [Actor Thread 4] INFO  nextflow.Nextflow - ROUTING SRX3053966 -> sra (download_fastq)
+Mar-25 01:39:45.613 [Actor Thread 4] INFO  nextflow.Nextflow - ROUTING SRX3526704 -> sra (download_fastq)
+Mar-25 01:39:45.613 [Actor Thread 4] INFO  nextflow.Nextflow - ROUTING ERX3440920 -> sra (download_fastq)
+Mar-25 01:39:45.614 [Actor Thread 4] INFO  nextflow.Nextflow - ROUTING SRX8170785 -> sra (download_fastq)
+Mar-25 01:39:45.614 [Actor Thread 4] INFO  nextflow.Nextflow - ROUTING ERX1320318 -> sra (download_fastq)
+Mar-25 01:39:45.614 [Actor Thread 4] INFO  nextflow.Nextflow - ROUTING ERX3440931 -> sra (download_fastq)
+Mar-25 01:39:45.615 [Actor Thread 4] INFO  nextflow.Nextflow - ROUTING SRX315307 -> sra (download_fastq)
+Mar-25 01:39:45.622 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:fastq` matches labels `fastq,medium,stage` for process with name download_fastq
+Mar-25 01:39:45.622 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:medium` matches labels `fastq,medium,stage` for process with name download_fastq
+Mar-25 01:39:45.622 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:stage` matches labels `fastq,medium,stage` for process with name download_fastq
+Mar-25 01:39:45.623 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Mar-25 01:39:45.623 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Mar-25 01:39:45.630 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:fastq` matches labels `fastq,medium,stage` for process with name stage_fastq_single
+Mar-25 01:39:45.631 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:medium` matches labels `fastq,medium,stage` for process with name stage_fastq_single
+Mar-25 01:39:45.631 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:stage` matches labels `fastq,medium,stage` for process with name stage_fastq_single
+Mar-25 01:39:45.631 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Mar-25 01:39:45.631 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Mar-25 01:39:45.641 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:fastq` matches labels `fastq,medium,stage` for process with name stage_fastq_paired
+Mar-25 01:39:45.641 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:medium` matches labels `fastq,medium,stage` for process with name stage_fastq_paired
+Mar-25 01:39:45.641 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:stage` matches labels `fastq,medium,stage` for process with name stage_fastq_paired
+Mar-25 01:39:45.642 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Mar-25 01:39:45.642 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Mar-25 01:39:45.654 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:trim_galore` matches labels `large,trim_galore` for process with name trim_galore
+Mar-25 01:39:45.654 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:large` matches labels `large,trim_galore` for process with name trim_galore
+Mar-25 01:39:45.655 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Mar-25 01:39:45.655 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Mar-25 01:39:45.663 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:bowtie` matches labels `bowtie,large` for process with name bowtie_align
+Mar-25 01:39:45.663 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:large` matches labels `bowtie,large` for process with name bowtie_align
+Mar-25 01:39:45.663 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Mar-25 01:39:45.663 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Mar-25 01:39:45.670 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:large` matches labels `large` for process with name sam2bam
+Mar-25 01:39:45.670 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:sam2bam` matches process sam2bam
+Mar-25 01:39:45.671 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Mar-25 01:39:45.671 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Mar-25 01:39:45.676 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:python` matches labels `python,small` for process with name get_read_direction
+Mar-25 01:39:45.676 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:small` matches labels `python,small` for process with name get_read_direction
+Mar-25 01:39:45.676 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:get_read_direction` matches process get_read_direction
+Mar-25 01:39:45.676 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Mar-25 01:39:45.676 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Mar-25 01:39:45.683 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:large` matches labels `large` for process with name featureCounts
+Mar-25 01:39:45.683 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:featureCounts` matches process featureCounts
+Mar-25 01:39:45.683 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Mar-25 01:39:45.683 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Mar-25 01:39:45.685 [Actor Thread 5] INFO  nextflow.processor.TaskProcessor - [skipping] Stored process > download_fastq (13)
+Mar-25 01:39:45.690 [Actor Thread 2] INFO  nextflow.processor.TaskProcessor - [skipping] Stored process > download_fastq (14)
+Mar-25 01:39:45.690 [Actor Thread 13] INFO  nextflow.processor.TaskProcessor - [skipping] Stored process > download_fastq (15)
+Mar-25 01:39:45.691 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:large` matches labels `large` for process with name multiqc
+Mar-25 01:39:45.697 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-25 01:39:45.744 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:multiqc` matches process multiqc
+Mar-25 01:39:45.744 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Mar-25 01:39:45.744 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Mar-25 01:39:45.745 [Task submitter] INFO  nextflow.Session - [ac/bcba74] Submitted process > bowtie_build
+Mar-25 01:39:45.747 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:python` matches labels `python,large` for process with name assemble_tpm
+Mar-25 01:39:45.748 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:large` matches labels `python,large` for process with name assemble_tpm
+Mar-25 01:39:45.748 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Mar-25 01:39:45.748 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Mar-25 01:39:45.749 [main] DEBUG nextflow.Session - Workflow process names [dsl1]: sam2bam, gff2bed, download_fastq, assemble_tpm, get_read_direction, stage_fastq_single, featureCounts, bowtie_align, bowtie_build, stage_fastq_paired, multiqc, trim_galore
+Mar-25 01:39:45.751 [main] DEBUG nextflow.script.ScriptRunner - > Awaiting termination 
+Mar-25 01:39:45.751 [main] DEBUG nextflow.Session - Session await
+Mar-25 01:39:45.759 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-25 01:39:45.760 [Task submitter] INFO  nextflow.Session - [bd/260c02] Submitted process > gff2bed
+Mar-25 01:39:49.825 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 2; name: gff2bed; status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/bd/260c02f93e3994b2f8c99f3075fd07]
+Mar-25 01:39:56.152 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 1; name: bowtie_build; status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/ac/bcba745012ba74f82f4889c643c965]
+Mar-25 01:39:56.160 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-25 01:39:56.160 [Task submitter] INFO  nextflow.Session - [fa/10183b] Submitted process > download_fastq (1)
+Mar-25 01:41:59.011 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 3; name: download_fastq (1); status: COMPLETED; exit: 1; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/fa/10183b01f229818c979f1d5958b02b]
+Mar-25 01:41:59.025 [Task monitor] INFO  nextflow.processor.TaskProcessor - [fa/10183b] NOTE: Process `download_fastq (1)` terminated with an error exit status (1) -- Execution is retried (1)
+Mar-25 01:41:59.036 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-25 01:41:59.036 [Task submitter] INFO  nextflow.Session - [af/5c6178] Submitted process > download_fastq (6)
+Mar-25 01:44:08.310 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 8; name: download_fastq (6); status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/af/5c6178632474549960cc6aee8e1f62]
+Mar-25 01:44:08.321 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-25 01:44:08.321 [Task submitter] INFO  nextflow.Session - [19/897fa8] Submitted process > download_fastq (7)
+Mar-25 01:44:45.713 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor local > tasks to be completed: 1 -- submitted tasks are shown below
+~> TaskHandler[id: 9; name: download_fastq (7); status: RUNNING; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/19/897fa8efaf7ded60f1f6e79b644e9b]
+Mar-25 01:44:46.452 [Task submitter] DEBUG n.processor.TaskPollingMonitor - %% executor local > tasks in the submission queue: 14 -- tasks to be submitted are shown below
+~> TaskHandler[id: 7; name: download_fastq (5); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/78/d4c3bd6c8909158d45c25a4a849a01]
+~> TaskHandler[id: 11; name: download_fastq (9); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/a2/8252bfcc52ec6079a8d3980fcc8e3b]
+~> TaskHandler[id: 4; name: download_fastq (2); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/9e/e4355760acff54ac9cc20c41bb445e]
+~> TaskHandler[id: 12; name: download_fastq (10); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/27/579304a5972767489266a58a4e4c7e]
+~> TaskHandler[id: 5; name: download_fastq (3); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/eb/b00b67f77fe2b6b3ed4676c51836ba]
+~> TaskHandler[id: 6; name: download_fastq (4); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/47/fb5022f448682e53826df53dc8224c]
+~> TaskHandler[id: 10; name: download_fastq (8); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/9a/b1eae0b833c816c6f91577a4689a06]
+~> TaskHandler[id: 14; name: download_fastq (12); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/a3/ee05046471a95341d2449741ba2084]
+~> TaskHandler[id: 13; name: download_fastq (11); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/b0/40e0836f7a63c70b5c628aff33db18]
+~> TaskHandler[id: 18; name: trim_galore (1); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/e5/5943908351a4e6ca71d18f929e0e9b]
+.. remaining tasks omitted.
+Mar-25 01:48:19.542 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 9; name: download_fastq (7); status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/19/897fa8efaf7ded60f1f6e79b644e9b]
+Mar-25 01:48:19.558 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-25 01:48:19.559 [Task submitter] INFO  nextflow.Session - [78/d4c3bd] Submitted process > download_fastq (5)
+Mar-25 01:49:45.791 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor local > tasks to be completed: 1 -- submitted tasks are shown below
+~> TaskHandler[id: 7; name: download_fastq (5); status: RUNNING; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/78/d4c3bd6c8909158d45c25a4a849a01]
+Mar-25 01:49:47.021 [Task submitter] DEBUG n.processor.TaskPollingMonitor - %% executor local > tasks in the submission queue: 14 -- tasks to be submitted are shown below
+~> TaskHandler[id: 11; name: download_fastq (9); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/a2/8252bfcc52ec6079a8d3980fcc8e3b]
+~> TaskHandler[id: 4; name: download_fastq (2); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/9e/e4355760acff54ac9cc20c41bb445e]
+~> TaskHandler[id: 12; name: download_fastq (10); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/27/579304a5972767489266a58a4e4c7e]
+~> TaskHandler[id: 5; name: download_fastq (3); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/eb/b00b67f77fe2b6b3ed4676c51836ba]
+~> TaskHandler[id: 6; name: download_fastq (4); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/47/fb5022f448682e53826df53dc8224c]
+~> TaskHandler[id: 10; name: download_fastq (8); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/9a/b1eae0b833c816c6f91577a4689a06]
+~> TaskHandler[id: 14; name: download_fastq (12); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/a3/ee05046471a95341d2449741ba2084]
+~> TaskHandler[id: 13; name: download_fastq (11); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/b0/40e0836f7a63c70b5c628aff33db18]
+~> TaskHandler[id: 18; name: trim_galore (1); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/e5/5943908351a4e6ca71d18f929e0e9b]
+~> TaskHandler[id: 20; name: trim_galore (3); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/ce/e2e90fa37d052afff8c14843e9b898]
+.. remaining tasks omitted.
+Mar-25 01:50:43.819 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 7; name: download_fastq (5); status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/78/d4c3bd6c8909158d45c25a4a849a01]
+Mar-25 01:50:43.840 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-25 01:50:43.841 [Task submitter] INFO  nextflow.Session - [a2/8252bf] Submitted process > download_fastq (9)
+Mar-25 01:54:45.895 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor local > tasks to be completed: 1 -- submitted tasks are shown below
+~> TaskHandler[id: 11; name: download_fastq (9); status: RUNNING; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/a2/8252bfcc52ec6079a8d3980fcc8e3b]
+Mar-25 01:54:47.893 [Task submitter] DEBUG n.processor.TaskPollingMonitor - %% executor local > tasks in the submission queue: 14 -- tasks to be submitted are shown below
+~> TaskHandler[id: 4; name: download_fastq (2); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/9e/e4355760acff54ac9cc20c41bb445e]
+~> TaskHandler[id: 12; name: download_fastq (10); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/27/579304a5972767489266a58a4e4c7e]
+~> TaskHandler[id: 5; name: download_fastq (3); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/eb/b00b67f77fe2b6b3ed4676c51836ba]
+~> TaskHandler[id: 6; name: download_fastq (4); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/47/fb5022f448682e53826df53dc8224c]
+~> TaskHandler[id: 10; name: download_fastq (8); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/9a/b1eae0b833c816c6f91577a4689a06]
+~> TaskHandler[id: 14; name: download_fastq (12); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/a3/ee05046471a95341d2449741ba2084]
+~> TaskHandler[id: 13; name: download_fastq (11); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/b0/40e0836f7a63c70b5c628aff33db18]
+~> TaskHandler[id: 18; name: trim_galore (1); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/e5/5943908351a4e6ca71d18f929e0e9b]
+~> TaskHandler[id: 20; name: trim_galore (3); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/ce/e2e90fa37d052afff8c14843e9b898]
+~> TaskHandler[id: 19; name: trim_galore (2); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/51/608bab0e7a7d94c5f792142080b6f5]
+.. remaining tasks omitted.
+Mar-25 01:56:18.642 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 11; name: download_fastq (9); status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/a2/8252bfcc52ec6079a8d3980fcc8e3b]
+Mar-25 01:56:18.668 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-25 01:56:18.668 [Task submitter] INFO  nextflow.Session - [9e/e43557] Submitted process > download_fastq (2)
+Mar-25 01:58:20.131 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 4; name: download_fastq (2); status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/9e/e4355760acff54ac9cc20c41bb445e]
+Mar-25 01:58:20.139 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-25 01:58:20.140 [Task submitter] INFO  nextflow.Session - [27/579304] Submitted process > download_fastq (10)
+Mar-25 01:59:45.948 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor local > tasks to be completed: 1 -- submitted tasks are shown below
+~> TaskHandler[id: 12; name: download_fastq (10); status: RUNNING; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/27/579304a5972767489266a58a4e4c7e]
+Mar-25 01:59:48.383 [Task submitter] DEBUG n.processor.TaskPollingMonitor - %% executor local > tasks in the submission queue: 14 -- tasks to be submitted are shown below
+~> TaskHandler[id: 5; name: download_fastq (3); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/eb/b00b67f77fe2b6b3ed4676c51836ba]
+~> TaskHandler[id: 6; name: download_fastq (4); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/47/fb5022f448682e53826df53dc8224c]
+~> TaskHandler[id: 10; name: download_fastq (8); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/9a/b1eae0b833c816c6f91577a4689a06]
+~> TaskHandler[id: 14; name: download_fastq (12); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/a3/ee05046471a95341d2449741ba2084]
+~> TaskHandler[id: 13; name: download_fastq (11); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/b0/40e0836f7a63c70b5c628aff33db18]
+~> TaskHandler[id: 18; name: trim_galore (1); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/e5/5943908351a4e6ca71d18f929e0e9b]
+~> TaskHandler[id: 20; name: trim_galore (3); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/ce/e2e90fa37d052afff8c14843e9b898]
+~> TaskHandler[id: 19; name: trim_galore (2); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/51/608bab0e7a7d94c5f792142080b6f5]
+~> TaskHandler[id: 21; name: download_fastq (1); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/5c/6e12b563beda4cf3705005ea58eeb8]
+~> TaskHandler[id: 22; name: trim_galore (4); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/40/570a23171f7a9f85205fccde56fd5f]
+.. remaining tasks omitted.
+Mar-25 02:01:03.100 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 12; name: download_fastq (10); status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/27/579304a5972767489266a58a4e4c7e]
+Mar-25 02:01:03.106 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-25 02:01:03.106 [Task submitter] INFO  nextflow.Session - [eb/b00b67] Submitted process > download_fastq (3)
+Mar-25 02:04:45.966 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor local > tasks to be completed: 1 -- submitted tasks are shown below
+~> TaskHandler[id: 5; name: download_fastq (3); status: RUNNING; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/eb/b00b67f77fe2b6b3ed4676c51836ba]
+Mar-25 02:04:48.952 [Task submitter] DEBUG n.processor.TaskPollingMonitor - %% executor local > tasks in the submission queue: 14 -- tasks to be submitted are shown below
+~> TaskHandler[id: 6; name: download_fastq (4); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/47/fb5022f448682e53826df53dc8224c]
+~> TaskHandler[id: 10; name: download_fastq (8); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/9a/b1eae0b833c816c6f91577a4689a06]
+~> TaskHandler[id: 14; name: download_fastq (12); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/a3/ee05046471a95341d2449741ba2084]
+~> TaskHandler[id: 13; name: download_fastq (11); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/b0/40e0836f7a63c70b5c628aff33db18]
+~> TaskHandler[id: 18; name: trim_galore (1); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/e5/5943908351a4e6ca71d18f929e0e9b]
+~> TaskHandler[id: 20; name: trim_galore (3); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/ce/e2e90fa37d052afff8c14843e9b898]
+~> TaskHandler[id: 19; name: trim_galore (2); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/51/608bab0e7a7d94c5f792142080b6f5]
+~> TaskHandler[id: 21; name: download_fastq (1); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/5c/6e12b563beda4cf3705005ea58eeb8]
+~> TaskHandler[id: 22; name: trim_galore (4); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/40/570a23171f7a9f85205fccde56fd5f]
+~> TaskHandler[id: 23; name: trim_galore (5); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/30/67d4ce4d85978f92798b1ce099f06b]
+.. remaining tasks omitted.
+Mar-25 02:06:37.537 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 5; name: download_fastq (3); status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/eb/b00b67f77fe2b6b3ed4676c51836ba]
+Mar-25 02:06:37.559 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-25 02:06:37.559 [Task submitter] INFO  nextflow.Session - [47/fb5022] Submitted process > download_fastq (4)
+Mar-25 02:08:20.378 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 6; name: download_fastq (4); status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/47/fb5022f448682e53826df53dc8224c]
+Mar-25 02:08:20.403 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-25 02:08:20.403 [Task submitter] INFO  nextflow.Session - [9a/b1eae0] Submitted process > download_fastq (8)
+Mar-25 02:09:46.025 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor local > tasks to be completed: 1 -- submitted tasks are shown below
+~> TaskHandler[id: 10; name: download_fastq (8); status: RUNNING; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/9a/b1eae0b833c816c6f91577a4689a06]
+Mar-25 02:09:49.869 [Task submitter] DEBUG n.processor.TaskPollingMonitor - %% executor local > tasks in the submission queue: 14 -- tasks to be submitted are shown below
+~> TaskHandler[id: 14; name: download_fastq (12); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/a3/ee05046471a95341d2449741ba2084]
+~> TaskHandler[id: 13; name: download_fastq (11); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/b0/40e0836f7a63c70b5c628aff33db18]
+~> TaskHandler[id: 18; name: trim_galore (1); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/e5/5943908351a4e6ca71d18f929e0e9b]
+~> TaskHandler[id: 20; name: trim_galore (3); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/ce/e2e90fa37d052afff8c14843e9b898]
+~> TaskHandler[id: 19; name: trim_galore (2); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/51/608bab0e7a7d94c5f792142080b6f5]
+~> TaskHandler[id: 21; name: download_fastq (1); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/5c/6e12b563beda4cf3705005ea58eeb8]
+~> TaskHandler[id: 22; name: trim_galore (4); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/40/570a23171f7a9f85205fccde56fd5f]
+~> TaskHandler[id: 23; name: trim_galore (5); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/30/67d4ce4d85978f92798b1ce099f06b]
+~> TaskHandler[id: 24; name: trim_galore (6); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/77/2e191ec6eb142e3de541788172e0af]
+~> TaskHandler[id: 25; name: trim_galore (7); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/dd/fc33b602f0bcbea3ff4422daa89471]
+.. remaining tasks omitted.
+Mar-25 02:11:48.325 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 10; name: download_fastq (8); status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/9a/b1eae0b833c816c6f91577a4689a06]
+Mar-25 02:11:48.347 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-25 02:11:48.347 [Task submitter] INFO  nextflow.Session - [a3/ee0504] Submitted process > download_fastq (12)
+Mar-25 02:14:13.207 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 14; name: download_fastq (12); status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/a3/ee05046471a95341d2449741ba2084]
+Mar-25 02:14:13.219 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-25 02:14:13.219 [Task submitter] INFO  nextflow.Session - [b0/40e083] Submitted process > download_fastq (11)
+Mar-25 02:14:46.085 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor local > tasks to be completed: 1 -- submitted tasks are shown below
+~> TaskHandler[id: 13; name: download_fastq (11); status: RUNNING; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/b0/40e0836f7a63c70b5c628aff33db18]
+Mar-25 02:14:50.389 [Task submitter] DEBUG n.processor.TaskPollingMonitor - %% executor local > tasks in the submission queue: 14 -- tasks to be submitted are shown below
+~> TaskHandler[id: 18; name: trim_galore (1); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/e5/5943908351a4e6ca71d18f929e0e9b]
+~> TaskHandler[id: 20; name: trim_galore (3); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/ce/e2e90fa37d052afff8c14843e9b898]
+~> TaskHandler[id: 19; name: trim_galore (2); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/51/608bab0e7a7d94c5f792142080b6f5]
+~> TaskHandler[id: 21; name: download_fastq (1); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/5c/6e12b563beda4cf3705005ea58eeb8]
+~> TaskHandler[id: 22; name: trim_galore (4); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/40/570a23171f7a9f85205fccde56fd5f]
+~> TaskHandler[id: 23; name: trim_galore (5); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/30/67d4ce4d85978f92798b1ce099f06b]
+~> TaskHandler[id: 24; name: trim_galore (6); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/77/2e191ec6eb142e3de541788172e0af]
+~> TaskHandler[id: 25; name: trim_galore (7); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/dd/fc33b602f0bcbea3ff4422daa89471]
+~> TaskHandler[id: 26; name: trim_galore (8); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/4e/d953f9c775792f905adda54a00cf65]
+~> TaskHandler[id: 27; name: trim_galore (9); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/03/2404a8efced49cfcd43c75b2c2925e]
+.. remaining tasks omitted.
+Mar-25 02:18:11.239 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 13; name: download_fastq (11); status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/b0/40e0836f7a63c70b5c628aff33db18]
+Mar-25 02:18:11.255 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-25 02:18:11.256 [Task submitter] INFO  nextflow.Session - [e5/594390] Submitted process > trim_galore (1)
+Mar-25 02:18:56.525 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 18; name: trim_galore (1); status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/e5/5943908351a4e6ca71d18f929e0e9b]
+Mar-25 02:18:56.539 [Task monitor] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'PublishDir' minSize=10; maxSize=24; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+Mar-25 02:18:56.567 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-25 02:18:56.568 [Task submitter] INFO  nextflow.Session - [ce/e2e90f] Submitted process > trim_galore (3)
+Mar-25 02:19:33.996 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 20; name: trim_galore (3); status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/ce/e2e90fa37d052afff8c14843e9b898]
+Mar-25 02:19:34.001 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-25 02:19:34.002 [Task submitter] INFO  nextflow.Session - [51/608bab] Submitted process > trim_galore (2)
+Mar-25 02:19:46.092 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor local > tasks to be completed: 1 -- submitted tasks are shown below
+~> TaskHandler[id: 19; name: trim_galore (2); status: RUNNING; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/51/608bab0e7a7d94c5f792142080b6f5]
+Mar-25 02:19:51.123 [Task submitter] DEBUG n.processor.TaskPollingMonitor - %% executor local > tasks in the submission queue: 14 -- tasks to be submitted are shown below
+~> TaskHandler[id: 21; name: download_fastq (1); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/5c/6e12b563beda4cf3705005ea58eeb8]
+~> TaskHandler[id: 22; name: trim_galore (4); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/40/570a23171f7a9f85205fccde56fd5f]
+~> TaskHandler[id: 23; name: trim_galore (5); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/30/67d4ce4d85978f92798b1ce099f06b]
+~> TaskHandler[id: 24; name: trim_galore (6); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/77/2e191ec6eb142e3de541788172e0af]
+~> TaskHandler[id: 25; name: trim_galore (7); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/dd/fc33b602f0bcbea3ff4422daa89471]
+~> TaskHandler[id: 26; name: trim_galore (8); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/4e/d953f9c775792f905adda54a00cf65]
+~> TaskHandler[id: 27; name: trim_galore (9); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/03/2404a8efced49cfcd43c75b2c2925e]
+~> TaskHandler[id: 28; name: trim_galore (10); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/81/35a6f966645b1e0fc839262dbeb424]
+~> TaskHandler[id: 29; name: trim_galore (11); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/9f/26c3194ee2c11bdd0db5f6b1b28ffd]
+~> TaskHandler[id: 30; name: trim_galore (12); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/35/8f72979c51b0b4779f810e1348751b]
+.. remaining tasks omitted.
+Mar-25 02:22:38.988 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 19; name: trim_galore (2); status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/51/608bab0e7a7d94c5f792142080b6f5]
+Mar-25 02:22:39.032 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-25 02:22:39.032 [Task submitter] INFO  nextflow.Session - [5c/6e12b5] Re-submitted process > download_fastq (1)
+Mar-25 02:24:38.383 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 21; name: download_fastq (1); status: COMPLETED; exit: 1; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/5c/6e12b563beda4cf3705005ea58eeb8]
+Mar-25 02:24:38.385 [Task monitor] INFO  nextflow.processor.TaskProcessor - [5c/6e12b5] NOTE: Process `download_fastq (1)` terminated with an error exit status (1) -- Error is ignored
+Mar-25 02:24:38.390 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-25 02:24:38.390 [Task submitter] INFO  nextflow.Session - [40/570a23] Submitted process > trim_galore (4)
+Mar-25 02:24:46.202 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor local > tasks to be completed: 1 -- submitted tasks are shown below
+~> TaskHandler[id: 22; name: trim_galore (4); status: RUNNING; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/40/570a23171f7a9f85205fccde56fd5f]
+Mar-25 02:24:51.461 [Task submitter] DEBUG n.processor.TaskPollingMonitor - %% executor local > tasks in the submission queue: 13 -- tasks to be submitted are shown below
+~> TaskHandler[id: 23; name: trim_galore (5); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/30/67d4ce4d85978f92798b1ce099f06b]
+~> TaskHandler[id: 24; name: trim_galore (6); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/77/2e191ec6eb142e3de541788172e0af]
+~> TaskHandler[id: 25; name: trim_galore (7); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/dd/fc33b602f0bcbea3ff4422daa89471]
+~> TaskHandler[id: 26; name: trim_galore (8); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/4e/d953f9c775792f905adda54a00cf65]
+~> TaskHandler[id: 27; name: trim_galore (9); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/03/2404a8efced49cfcd43c75b2c2925e]
+~> TaskHandler[id: 28; name: trim_galore (10); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/81/35a6f966645b1e0fc839262dbeb424]
+~> TaskHandler[id: 29; name: trim_galore (11); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/9f/26c3194ee2c11bdd0db5f6b1b28ffd]
+~> TaskHandler[id: 30; name: trim_galore (12); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/35/8f72979c51b0b4779f810e1348751b]
+~> TaskHandler[id: 31; name: trim_galore (13); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/77/b99fef67905e2bb04c258eb242a215]
+~> TaskHandler[id: 32; name: trim_galore (14); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/ef/ff5ce124f973b3167af9488cd84d1b]
+.. remaining tasks omitted.
+Mar-25 02:29:02.755 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 22; name: trim_galore (4); status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/40/570a23171f7a9f85205fccde56fd5f]
+Mar-25 02:29:02.779 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-25 02:29:02.779 [Task submitter] INFO  nextflow.Session - [30/67d4ce] Submitted process > trim_galore (5)
+Mar-25 02:29:46.259 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor local > tasks to be completed: 1 -- submitted tasks are shown below
+~> TaskHandler[id: 23; name: trim_galore (5); status: RUNNING; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/30/67d4ce4d85978f92798b1ce099f06b]
+Mar-25 02:29:52.076 [Task submitter] DEBUG n.processor.TaskPollingMonitor - %% executor local > tasks in the submission queue: 13 -- tasks to be submitted are shown below
+~> TaskHandler[id: 24; name: trim_galore (6); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/77/2e191ec6eb142e3de541788172e0af]
+~> TaskHandler[id: 25; name: trim_galore (7); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/dd/fc33b602f0bcbea3ff4422daa89471]
+~> TaskHandler[id: 26; name: trim_galore (8); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/4e/d953f9c775792f905adda54a00cf65]
+~> TaskHandler[id: 27; name: trim_galore (9); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/03/2404a8efced49cfcd43c75b2c2925e]
+~> TaskHandler[id: 28; name: trim_galore (10); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/81/35a6f966645b1e0fc839262dbeb424]
+~> TaskHandler[id: 29; name: trim_galore (11); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/9f/26c3194ee2c11bdd0db5f6b1b28ffd]
+~> TaskHandler[id: 30; name: trim_galore (12); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/35/8f72979c51b0b4779f810e1348751b]
+~> TaskHandler[id: 31; name: trim_galore (13); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/77/b99fef67905e2bb04c258eb242a215]
+~> TaskHandler[id: 32; name: trim_galore (14); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/ef/ff5ce124f973b3167af9488cd84d1b]
+~> TaskHandler[id: 33; name: bowtie_align (1); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/9b/d216c3bf113b13599814843c9e2c66]
+.. remaining tasks omitted.
+Mar-25 02:33:26.625 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 23; name: trim_galore (5); status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/30/67d4ce4d85978f92798b1ce099f06b]
+Mar-25 02:33:26.647 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-25 02:33:26.647 [Task submitter] INFO  nextflow.Session - [77/2e191e] Submitted process > trim_galore (6)
+Mar-25 02:34:46.261 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor local > tasks to be completed: 1 -- submitted tasks are shown below
+~> TaskHandler[id: 24; name: trim_galore (6); status: RUNNING; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/77/2e191ec6eb142e3de541788172e0af]
+Mar-25 02:34:52.153 [Task submitter] DEBUG n.processor.TaskPollingMonitor - %% executor local > tasks in the submission queue: 13 -- tasks to be submitted are shown below
+~> TaskHandler[id: 25; name: trim_galore (7); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/dd/fc33b602f0bcbea3ff4422daa89471]
+~> TaskHandler[id: 26; name: trim_galore (8); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/4e/d953f9c775792f905adda54a00cf65]
+~> TaskHandler[id: 27; name: trim_galore (9); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/03/2404a8efced49cfcd43c75b2c2925e]
+~> TaskHandler[id: 28; name: trim_galore (10); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/81/35a6f966645b1e0fc839262dbeb424]
+~> TaskHandler[id: 29; name: trim_galore (11); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/9f/26c3194ee2c11bdd0db5f6b1b28ffd]
+~> TaskHandler[id: 30; name: trim_galore (12); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/35/8f72979c51b0b4779f810e1348751b]
+~> TaskHandler[id: 31; name: trim_galore (13); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/77/b99fef67905e2bb04c258eb242a215]
+~> TaskHandler[id: 32; name: trim_galore (14); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/ef/ff5ce124f973b3167af9488cd84d1b]
+~> TaskHandler[id: 33; name: bowtie_align (1); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/9b/d216c3bf113b13599814843c9e2c66]
+~> TaskHandler[id: 34; name: bowtie_align (2); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/2e/7ed96082b7c69e24239a51fd8e3b9e]
+.. remaining tasks omitted.
+Mar-25 02:38:51.309 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 24; name: trim_galore (6); status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/77/2e191ec6eb142e3de541788172e0af]
+Mar-25 02:38:51.335 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-25 02:38:51.335 [Task submitter] INFO  nextflow.Session - [dd/fc33b6] Submitted process > trim_galore (7)
+Mar-25 02:39:46.312 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor local > tasks to be completed: 1 -- submitted tasks are shown below
+~> TaskHandler[id: 25; name: trim_galore (7); status: RUNNING; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/dd/fc33b602f0bcbea3ff4422daa89471]
+Mar-25 02:39:52.653 [Task submitter] DEBUG n.processor.TaskPollingMonitor - %% executor local > tasks in the submission queue: 13 -- tasks to be submitted are shown below
+~> TaskHandler[id: 26; name: trim_galore (8); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/4e/d953f9c775792f905adda54a00cf65]
+~> TaskHandler[id: 27; name: trim_galore (9); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/03/2404a8efced49cfcd43c75b2c2925e]
+~> TaskHandler[id: 28; name: trim_galore (10); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/81/35a6f966645b1e0fc839262dbeb424]
+~> TaskHandler[id: 29; name: trim_galore (11); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/9f/26c3194ee2c11bdd0db5f6b1b28ffd]
+~> TaskHandler[id: 30; name: trim_galore (12); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/35/8f72979c51b0b4779f810e1348751b]
+~> TaskHandler[id: 31; name: trim_galore (13); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/77/b99fef67905e2bb04c258eb242a215]
+~> TaskHandler[id: 32; name: trim_galore (14); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/ef/ff5ce124f973b3167af9488cd84d1b]
+~> TaskHandler[id: 33; name: bowtie_align (1); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/9b/d216c3bf113b13599814843c9e2c66]
+~> TaskHandler[id: 34; name: bowtie_align (2); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/2e/7ed96082b7c69e24239a51fd8e3b9e]
+~> TaskHandler[id: 35; name: bowtie_align (3); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/24/f0d267f1a2f98ba65f89861ad8a0df]
+.. remaining tasks omitted.
+Mar-25 02:44:46.403 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor local > tasks to be completed: 1 -- submitted tasks are shown below
+~> TaskHandler[id: 25; name: trim_galore (7); status: RUNNING; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/dd/fc33b602f0bcbea3ff4422daa89471]
+Mar-25 02:44:53.537 [Task submitter] DEBUG n.processor.TaskPollingMonitor - %% executor local > tasks in the submission queue: 13 -- tasks to be submitted are shown below
+~> TaskHandler[id: 26; name: trim_galore (8); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/4e/d953f9c775792f905adda54a00cf65]
+~> TaskHandler[id: 27; name: trim_galore (9); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/03/2404a8efced49cfcd43c75b2c2925e]
+~> TaskHandler[id: 28; name: trim_galore (10); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/81/35a6f966645b1e0fc839262dbeb424]
+~> TaskHandler[id: 29; name: trim_galore (11); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/9f/26c3194ee2c11bdd0db5f6b1b28ffd]
+~> TaskHandler[id: 30; name: trim_galore (12); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/35/8f72979c51b0b4779f810e1348751b]
+~> TaskHandler[id: 31; name: trim_galore (13); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/77/b99fef67905e2bb04c258eb242a215]
+~> TaskHandler[id: 32; name: trim_galore (14); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/ef/ff5ce124f973b3167af9488cd84d1b]
+~> TaskHandler[id: 33; name: bowtie_align (1); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/9b/d216c3bf113b13599814843c9e2c66]
+~> TaskHandler[id: 34; name: bowtie_align (2); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/2e/7ed96082b7c69e24239a51fd8e3b9e]
+~> TaskHandler[id: 35; name: bowtie_align (3); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/24/f0d267f1a2f98ba65f89861ad8a0df]
+.. remaining tasks omitted.
+Mar-25 02:46:50.905 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 25; name: trim_galore (7); status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/dd/fc33b602f0bcbea3ff4422daa89471]
+Mar-25 02:46:50.949 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-25 02:46:50.949 [Task submitter] INFO  nextflow.Session - [4e/d953f9] Submitted process > trim_galore (8)
+Mar-25 02:49:46.458 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor local > tasks to be completed: 1 -- submitted tasks are shown below
+~> TaskHandler[id: 26; name: trim_galore (8); status: RUNNING; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/4e/d953f9c775792f905adda54a00cf65]
+Mar-25 02:49:53.627 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 26; name: trim_galore (8); status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/4e/d953f9c775792f905adda54a00cf65]
+Mar-25 02:49:53.647 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-25 02:49:53.648 [Task submitter] INFO  nextflow.Session - [03/2404a8] Submitted process > trim_galore (9)
+Mar-25 02:49:53.653 [Task submitter] DEBUG n.processor.TaskPollingMonitor - %% executor local > tasks in the submission queue: 12 -- tasks to be submitted are shown below
+~> TaskHandler[id: 28; name: trim_galore (10); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/81/35a6f966645b1e0fc839262dbeb424]
+~> TaskHandler[id: 29; name: trim_galore (11); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/9f/26c3194ee2c11bdd0db5f6b1b28ffd]
+~> TaskHandler[id: 30; name: trim_galore (12); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/35/8f72979c51b0b4779f810e1348751b]
+~> TaskHandler[id: 31; name: trim_galore (13); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/77/b99fef67905e2bb04c258eb242a215]
+~> TaskHandler[id: 32; name: trim_galore (14); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/ef/ff5ce124f973b3167af9488cd84d1b]
+~> TaskHandler[id: 33; name: bowtie_align (1); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/9b/d216c3bf113b13599814843c9e2c66]
+~> TaskHandler[id: 34; name: bowtie_align (2); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/2e/7ed96082b7c69e24239a51fd8e3b9e]
+~> TaskHandler[id: 35; name: bowtie_align (3); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/24/f0d267f1a2f98ba65f89861ad8a0df]
+~> TaskHandler[id: 36; name: bowtie_align (4); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/1f/557a3fb49c90ee63c4f36988503bba]
+~> TaskHandler[id: 37; name: bowtie_align (5); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/7e/e28155144dca284fc7d6b03606a670]
+.. remaining tasks omitted.
+Mar-25 02:53:57.343 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 27; name: trim_galore (9); status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/03/2404a8efced49cfcd43c75b2c2925e]
+Mar-25 02:53:57.381 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-25 02:53:57.382 [Task submitter] INFO  nextflow.Session - [81/35a6f9] Submitted process > trim_galore (10)
+Mar-25 02:54:46.541 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor local > tasks to be completed: 1 -- submitted tasks are shown below
+~> TaskHandler[id: 28; name: trim_galore (10); status: RUNNING; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/81/35a6f966645b1e0fc839262dbeb424]
+Mar-25 02:54:53.707 [Task submitter] DEBUG n.processor.TaskPollingMonitor - %% executor local > tasks in the submission queue: 13 -- tasks to be submitted are shown below
+~> TaskHandler[id: 29; name: trim_galore (11); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/9f/26c3194ee2c11bdd0db5f6b1b28ffd]
+~> TaskHandler[id: 30; name: trim_galore (12); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/35/8f72979c51b0b4779f810e1348751b]
+~> TaskHandler[id: 31; name: trim_galore (13); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/77/b99fef67905e2bb04c258eb242a215]
+~> TaskHandler[id: 32; name: trim_galore (14); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/ef/ff5ce124f973b3167af9488cd84d1b]
+~> TaskHandler[id: 33; name: bowtie_align (1); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/9b/d216c3bf113b13599814843c9e2c66]
+~> TaskHandler[id: 34; name: bowtie_align (2); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/2e/7ed96082b7c69e24239a51fd8e3b9e]
+~> TaskHandler[id: 35; name: bowtie_align (3); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/24/f0d267f1a2f98ba65f89861ad8a0df]
+~> TaskHandler[id: 36; name: bowtie_align (4); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/1f/557a3fb49c90ee63c4f36988503bba]
+~> TaskHandler[id: 37; name: bowtie_align (5); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/7e/e28155144dca284fc7d6b03606a670]
+~> TaskHandler[id: 38; name: bowtie_align (6); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/15/f3e59df2c3447345eb0c56ed5e05c4]
+.. remaining tasks omitted.
+Mar-25 02:59:46.661 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor local > tasks to be completed: 1 -- submitted tasks are shown below
+~> TaskHandler[id: 28; name: trim_galore (10); status: RUNNING; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/81/35a6f966645b1e0fc839262dbeb424]
+Mar-25 02:59:54.391 [Task submitter] DEBUG n.processor.TaskPollingMonitor - %% executor local > tasks in the submission queue: 13 -- tasks to be submitted are shown below
+~> TaskHandler[id: 29; name: trim_galore (11); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/9f/26c3194ee2c11bdd0db5f6b1b28ffd]
+~> TaskHandler[id: 30; name: trim_galore (12); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/35/8f72979c51b0b4779f810e1348751b]
+~> TaskHandler[id: 31; name: trim_galore (13); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/77/b99fef67905e2bb04c258eb242a215]
+~> TaskHandler[id: 32; name: trim_galore (14); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/ef/ff5ce124f973b3167af9488cd84d1b]
+~> TaskHandler[id: 33; name: bowtie_align (1); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/9b/d216c3bf113b13599814843c9e2c66]
+~> TaskHandler[id: 34; name: bowtie_align (2); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/2e/7ed96082b7c69e24239a51fd8e3b9e]
+~> TaskHandler[id: 35; name: bowtie_align (3); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/24/f0d267f1a2f98ba65f89861ad8a0df]
+~> TaskHandler[id: 36; name: bowtie_align (4); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/1f/557a3fb49c90ee63c4f36988503bba]
+~> TaskHandler[id: 37; name: bowtie_align (5); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/7e/e28155144dca284fc7d6b03606a670]
+~> TaskHandler[id: 38; name: bowtie_align (6); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/15/f3e59df2c3447345eb0c56ed5e05c4]
+.. remaining tasks omitted.
+Mar-25 03:04:46.659 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor local > tasks to be completed: 1 -- submitted tasks are shown below
+~> TaskHandler[id: 28; name: trim_galore (10); status: RUNNING; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/81/35a6f966645b1e0fc839262dbeb424]
+Mar-25 03:04:55.267 [Task submitter] DEBUG n.processor.TaskPollingMonitor - %% executor local > tasks in the submission queue: 13 -- tasks to be submitted are shown below
+~> TaskHandler[id: 29; name: trim_galore (11); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/9f/26c3194ee2c11bdd0db5f6b1b28ffd]
+~> TaskHandler[id: 30; name: trim_galore (12); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/35/8f72979c51b0b4779f810e1348751b]
+~> TaskHandler[id: 31; name: trim_galore (13); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/77/b99fef67905e2bb04c258eb242a215]
+~> TaskHandler[id: 32; name: trim_galore (14); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/ef/ff5ce124f973b3167af9488cd84d1b]
+~> TaskHandler[id: 33; name: bowtie_align (1); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/9b/d216c3bf113b13599814843c9e2c66]
+~> TaskHandler[id: 34; name: bowtie_align (2); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/2e/7ed96082b7c69e24239a51fd8e3b9e]
+~> TaskHandler[id: 35; name: bowtie_align (3); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/24/f0d267f1a2f98ba65f89861ad8a0df]
+~> TaskHandler[id: 36; name: bowtie_align (4); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/1f/557a3fb49c90ee63c4f36988503bba]
+~> TaskHandler[id: 37; name: bowtie_align (5); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/7e/e28155144dca284fc7d6b03606a670]
+~> TaskHandler[id: 38; name: bowtie_align (6); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/15/f3e59df2c3447345eb0c56ed5e05c4]
+.. remaining tasks omitted.
+Mar-25 03:07:02.867 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 28; name: trim_galore (10); status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/81/35a6f966645b1e0fc839262dbeb424]
+Mar-25 03:07:02.916 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-25 03:07:02.917 [Task submitter] INFO  nextflow.Session - [9f/26c319] Submitted process > trim_galore (11)
+Mar-25 03:09:06.512 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 29; name: trim_galore (11); status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/9f/26c3194ee2c11bdd0db5f6b1b28ffd]
+Mar-25 03:09:06.526 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-25 03:09:06.526 [Task submitter] INFO  nextflow.Session - [35/8f7297] Submitted process > trim_galore (12)
+Mar-25 03:09:46.654 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor local > tasks to be completed: 1 -- submitted tasks are shown below
+~> TaskHandler[id: 30; name: trim_galore (12); status: RUNNING; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/35/8f72979c51b0b4779f810e1348751b]
+Mar-25 03:09:55.838 [Task submitter] DEBUG n.processor.TaskPollingMonitor - %% executor local > tasks in the submission queue: 13 -- tasks to be submitted are shown below
+~> TaskHandler[id: 31; name: trim_galore (13); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/77/b99fef67905e2bb04c258eb242a215]
+~> TaskHandler[id: 32; name: trim_galore (14); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/ef/ff5ce124f973b3167af9488cd84d1b]
+~> TaskHandler[id: 33; name: bowtie_align (1); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/9b/d216c3bf113b13599814843c9e2c66]
+~> TaskHandler[id: 34; name: bowtie_align (2); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/2e/7ed96082b7c69e24239a51fd8e3b9e]
+~> TaskHandler[id: 35; name: bowtie_align (3); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/24/f0d267f1a2f98ba65f89861ad8a0df]
+~> TaskHandler[id: 36; name: bowtie_align (4); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/1f/557a3fb49c90ee63c4f36988503bba]
+~> TaskHandler[id: 37; name: bowtie_align (5); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/7e/e28155144dca284fc7d6b03606a670]
+~> TaskHandler[id: 38; name: bowtie_align (6); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/15/f3e59df2c3447345eb0c56ed5e05c4]
+~> TaskHandler[id: 39; name: bowtie_align (7); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/b9/745320693283664a188f8cfdcbcf88]
+~> TaskHandler[id: 40; name: bowtie_align (8); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/64/2c097b98fdc2e341a0d5e90c2469c0]
+.. remaining tasks omitted.
+Mar-25 03:14:46.751 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor local > tasks to be completed: 1 -- submitted tasks are shown below
+~> TaskHandler[id: 30; name: trim_galore (12); status: RUNNING; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/35/8f72979c51b0b4779f810e1348751b]
+Mar-25 03:14:56.799 [Task submitter] DEBUG n.processor.TaskPollingMonitor - %% executor local > tasks in the submission queue: 13 -- tasks to be submitted are shown below
+~> TaskHandler[id: 31; name: trim_galore (13); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/77/b99fef67905e2bb04c258eb242a215]
+~> TaskHandler[id: 32; name: trim_galore (14); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/ef/ff5ce124f973b3167af9488cd84d1b]
+~> TaskHandler[id: 33; name: bowtie_align (1); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/9b/d216c3bf113b13599814843c9e2c66]
+~> TaskHandler[id: 34; name: bowtie_align (2); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/2e/7ed96082b7c69e24239a51fd8e3b9e]
+~> TaskHandler[id: 35; name: bowtie_align (3); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/24/f0d267f1a2f98ba65f89861ad8a0df]
+~> TaskHandler[id: 36; name: bowtie_align (4); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/1f/557a3fb49c90ee63c4f36988503bba]
+~> TaskHandler[id: 37; name: bowtie_align (5); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/7e/e28155144dca284fc7d6b03606a670]
+~> TaskHandler[id: 38; name: bowtie_align (6); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/15/f3e59df2c3447345eb0c56ed5e05c4]
+~> TaskHandler[id: 39; name: bowtie_align (7); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/b9/745320693283664a188f8cfdcbcf88]
+~> TaskHandler[id: 40; name: bowtie_align (8); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/64/2c097b98fdc2e341a0d5e90c2469c0]
+.. remaining tasks omitted.
+Mar-25 03:15:06.974 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 30; name: trim_galore (12); status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/35/8f72979c51b0b4779f810e1348751b]
+Mar-25 03:15:06.998 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-25 03:15:06.998 [Task submitter] INFO  nextflow.Session - [77/b99fef] Submitted process > trim_galore (13)
+Mar-25 03:19:46.831 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor local > tasks to be completed: 1 -- submitted tasks are shown below
+~> TaskHandler[id: 31; name: trim_galore (13); status: RUNNING; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/77/b99fef67905e2bb04c258eb242a215]
+Mar-25 03:19:56.869 [Task submitter] DEBUG n.processor.TaskPollingMonitor - %% executor local > tasks in the submission queue: 13 -- tasks to be submitted are shown below
+~> TaskHandler[id: 32; name: trim_galore (14); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/ef/ff5ce124f973b3167af9488cd84d1b]
+~> TaskHandler[id: 33; name: bowtie_align (1); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/9b/d216c3bf113b13599814843c9e2c66]
+~> TaskHandler[id: 34; name: bowtie_align (2); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/2e/7ed96082b7c69e24239a51fd8e3b9e]
+~> TaskHandler[id: 35; name: bowtie_align (3); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/24/f0d267f1a2f98ba65f89861ad8a0df]
+~> TaskHandler[id: 36; name: bowtie_align (4); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/1f/557a3fb49c90ee63c4f36988503bba]
+~> TaskHandler[id: 37; name: bowtie_align (5); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/7e/e28155144dca284fc7d6b03606a670]
+~> TaskHandler[id: 38; name: bowtie_align (6); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/15/f3e59df2c3447345eb0c56ed5e05c4]
+~> TaskHandler[id: 39; name: bowtie_align (7); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/b9/745320693283664a188f8cfdcbcf88]
+~> TaskHandler[id: 40; name: bowtie_align (8); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/64/2c097b98fdc2e341a0d5e90c2469c0]
+~> TaskHandler[id: 41; name: bowtie_align (9); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/54/b6ed3b3bc9341604596485945d35a2]
+.. remaining tasks omitted.
+Mar-25 03:20:00.812 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 31; name: trim_galore (13); status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/77/b99fef67905e2bb04c258eb242a215]
+Mar-25 03:20:00.826 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-25 03:20:00.827 [Task submitter] INFO  nextflow.Session - [ef/ff5ce1] Submitted process > trim_galore (14)
+Mar-25 03:24:46.931 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor local > tasks to be completed: 1 -- submitted tasks are shown below
+~> TaskHandler[id: 32; name: trim_galore (14); status: RUNNING; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/ef/ff5ce124f973b3167af9488cd84d1b]
+Mar-25 03:24:57.584 [Task submitter] DEBUG n.processor.TaskPollingMonitor - %% executor local > tasks in the submission queue: 13 -- tasks to be submitted are shown below
+~> TaskHandler[id: 33; name: bowtie_align (1); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/9b/d216c3bf113b13599814843c9e2c66]
+~> TaskHandler[id: 34; name: bowtie_align (2); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/2e/7ed96082b7c69e24239a51fd8e3b9e]
+~> TaskHandler[id: 35; name: bowtie_align (3); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/24/f0d267f1a2f98ba65f89861ad8a0df]
+~> TaskHandler[id: 36; name: bowtie_align (4); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/1f/557a3fb49c90ee63c4f36988503bba]
+~> TaskHandler[id: 37; name: bowtie_align (5); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/7e/e28155144dca284fc7d6b03606a670]
+~> TaskHandler[id: 38; name: bowtie_align (6); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/15/f3e59df2c3447345eb0c56ed5e05c4]
+~> TaskHandler[id: 39; name: bowtie_align (7); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/b9/745320693283664a188f8cfdcbcf88]
+~> TaskHandler[id: 40; name: bowtie_align (8); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/64/2c097b98fdc2e341a0d5e90c2469c0]
+~> TaskHandler[id: 41; name: bowtie_align (9); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/54/b6ed3b3bc9341604596485945d35a2]
+~> TaskHandler[id: 42; name: bowtie_align (10); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/a2/f4a1bc020e74b891836769dba849ef]
+.. remaining tasks omitted.
+Mar-25 03:27:06.480 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 32; name: trim_galore (14); status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/ef/ff5ce124f973b3167af9488cd84d1b]
+Mar-25 03:27:06.514 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-25 03:27:06.517 [Task submitter] INFO  nextflow.Session - [9b/d216c3] Submitted process > bowtie_align (1)
+Mar-25 03:27:30.464 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 33; name: bowtie_align (1); status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/9b/d216c3bf113b13599814843c9e2c66]
+Mar-25 03:27:30.475 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-25 03:27:30.475 [Task submitter] INFO  nextflow.Session - [2e/7ed960] Submitted process > bowtie_align (2)
+Mar-25 03:27:42.841 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 34; name: bowtie_align (2); status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/2e/7ed96082b7c69e24239a51fd8e3b9e]
+Mar-25 03:27:42.849 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-25 03:27:42.849 [Task submitter] INFO  nextflow.Session - [24/f0d267] Submitted process > bowtie_align (3)
+Mar-25 03:28:31.061 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 35; name: bowtie_align (3); status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/24/f0d267f1a2f98ba65f89861ad8a0df]
+Mar-25 03:28:31.067 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-25 03:28:31.067 [Task submitter] INFO  nextflow.Session - [1f/557a3f] Submitted process > bowtie_align (4)
+Mar-25 03:29:41.168 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 36; name: bowtie_align (4); status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/1f/557a3fb49c90ee63c4f36988503bba]
+Mar-25 03:29:41.199 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-25 03:29:41.200 [Task submitter] INFO  nextflow.Session - [7e/e28155] Submitted process > bowtie_align (5)
+Mar-25 03:29:46.967 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor local > tasks to be completed: 1 -- submitted tasks are shown below
+~> TaskHandler[id: 37; name: bowtie_align (5); status: RUNNING; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/7e/e28155144dca284fc7d6b03606a670]
+Mar-25 03:29:58.310 [Task submitter] DEBUG n.processor.TaskPollingMonitor - %% executor local > tasks in the submission queue: 17 -- tasks to be submitted are shown below
+~> TaskHandler[id: 38; name: bowtie_align (6); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/15/f3e59df2c3447345eb0c56ed5e05c4]
+~> TaskHandler[id: 39; name: bowtie_align (7); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/b9/745320693283664a188f8cfdcbcf88]
+~> TaskHandler[id: 40; name: bowtie_align (8); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/64/2c097b98fdc2e341a0d5e90c2469c0]
+~> TaskHandler[id: 41; name: bowtie_align (9); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/54/b6ed3b3bc9341604596485945d35a2]
+~> TaskHandler[id: 42; name: bowtie_align (10); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/a2/f4a1bc020e74b891836769dba849ef]
+~> TaskHandler[id: 43; name: bowtie_align (11); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/83/bf32fb3c8a0480d40ae0ffc1526263]
+~> TaskHandler[id: 44; name: bowtie_align (12); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/1f/c96047ee94d3b439db78ec3891370b]
+~> TaskHandler[id: 45; name: bowtie_align (13); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/68/a5983a7019d59842ee3343013911a6]
+~> TaskHandler[id: 46; name: bowtie_align (14); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/5a/267f75d25d6b6c9603cd71be02ff7b]
+~> TaskHandler[id: 47; name: sam2bam (1); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/0b/9139ea26e8909fce5b82a4d21006d5]
+.. remaining tasks omitted.
+Mar-25 03:31:37.741 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 37; name: bowtie_align (5); status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/7e/e28155144dca284fc7d6b03606a670]
+Mar-25 03:31:37.770 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-25 03:31:37.771 [Task submitter] INFO  nextflow.Session - [15/f3e59d] Submitted process > bowtie_align (6)
+Mar-25 03:33:23.371 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 38; name: bowtie_align (6); status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/15/f3e59df2c3447345eb0c56ed5e05c4]
+Mar-25 03:33:23.401 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-25 03:33:23.401 [Task submitter] INFO  nextflow.Session - [b9/745320] Submitted process > bowtie_align (7)
+Mar-25 03:34:46.996 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor local > tasks to be completed: 1 -- submitted tasks are shown below
+~> TaskHandler[id: 39; name: bowtie_align (7); status: RUNNING; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/b9/745320693283664a188f8cfdcbcf88]
+Mar-25 03:34:58.942 [Task submitter] DEBUG n.processor.TaskPollingMonitor - %% executor local > tasks in the submission queue: 19 -- tasks to be submitted are shown below
+~> TaskHandler[id: 40; name: bowtie_align (8); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/64/2c097b98fdc2e341a0d5e90c2469c0]
+~> TaskHandler[id: 41; name: bowtie_align (9); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/54/b6ed3b3bc9341604596485945d35a2]
+~> TaskHandler[id: 42; name: bowtie_align (10); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/a2/f4a1bc020e74b891836769dba849ef]
+~> TaskHandler[id: 43; name: bowtie_align (11); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/83/bf32fb3c8a0480d40ae0ffc1526263]
+~> TaskHandler[id: 44; name: bowtie_align (12); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/1f/c96047ee94d3b439db78ec3891370b]
+~> TaskHandler[id: 45; name: bowtie_align (13); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/68/a5983a7019d59842ee3343013911a6]
+~> TaskHandler[id: 46; name: bowtie_align (14); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/5a/267f75d25d6b6c9603cd71be02ff7b]
+~> TaskHandler[id: 47; name: sam2bam (1); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/0b/9139ea26e8909fce5b82a4d21006d5]
+~> TaskHandler[id: 48; name: get_read_direction (1); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/41/167238912b2f7512f15c6d6f1e7369]
+~> TaskHandler[id: 50; name: sam2bam (2); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/19/82d2cc891874c06144f051d11df170]
+.. remaining tasks omitted.
+Mar-25 03:36:35.284 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 39; name: bowtie_align (7); status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/b9/745320693283664a188f8cfdcbcf88]
+Mar-25 03:36:35.322 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-25 03:36:35.323 [Task submitter] INFO  nextflow.Session - [64/2c097b] Submitted process > bowtie_align (8)
+Mar-25 03:38:10.809 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 40; name: bowtie_align (8); status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/64/2c097b98fdc2e341a0d5e90c2469c0]
+Mar-25 03:38:10.842 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-25 03:38:10.843 [Task submitter] INFO  nextflow.Session - [54/b6ed3b] Submitted process > bowtie_align (9)
+Mar-25 03:39:46.543 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 41; name: bowtie_align (9); status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/54/b6ed3b3bc9341604596485945d35a2]
+Mar-25 03:39:46.572 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-25 03:39:46.573 [Task submitter] INFO  nextflow.Session - [a2/f4a1bc] Submitted process > bowtie_align (10)
+Mar-25 03:39:47.067 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor local > tasks to be completed: 1 -- submitted tasks are shown below
+~> TaskHandler[id: 42; name: bowtie_align (10); status: RUNNING; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/a2/f4a1bc020e74b891836769dba849ef]
+Mar-25 03:39:59.651 [Task submitter] DEBUG n.processor.TaskPollingMonitor - %% executor local > tasks in the submission queue: 22 -- tasks to be submitted are shown below
+~> TaskHandler[id: 43; name: bowtie_align (11); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/83/bf32fb3c8a0480d40ae0ffc1526263]
+~> TaskHandler[id: 44; name: bowtie_align (12); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/1f/c96047ee94d3b439db78ec3891370b]
+~> TaskHandler[id: 45; name: bowtie_align (13); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/68/a5983a7019d59842ee3343013911a6]
+~> TaskHandler[id: 46; name: bowtie_align (14); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/5a/267f75d25d6b6c9603cd71be02ff7b]
+~> TaskHandler[id: 47; name: sam2bam (1); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/0b/9139ea26e8909fce5b82a4d21006d5]
+~> TaskHandler[id: 48; name: get_read_direction (1); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/41/167238912b2f7512f15c6d6f1e7369]
+~> TaskHandler[id: 50; name: sam2bam (2); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/19/82d2cc891874c06144f051d11df170]
+~> TaskHandler[id: 49; name: get_read_direction (2); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/c2/e901bfd4de2b27d7c4873b0b6cbae3]
+~> TaskHandler[id: 52; name: sam2bam (3); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/b4/620a92cdf518fb08a95ed134db8954]
+~> TaskHandler[id: 51; name: get_read_direction (3); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/43/a6c5c0c47d5dd1202e817e4438bfee]
+.. remaining tasks omitted.
+Mar-25 03:43:27.583 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 42; name: bowtie_align (10); status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/a2/f4a1bc020e74b891836769dba849ef]
+Mar-25 03:43:27.612 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-25 03:43:27.616 [Task submitter] INFO  nextflow.Session - [83/bf32fb] Submitted process > bowtie_align (11)
+Mar-25 03:44:26.661 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 43; name: bowtie_align (11); status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/83/bf32fb3c8a0480d40ae0ffc1526263]
+Mar-25 03:44:26.694 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-25 03:44:26.695 [Task submitter] INFO  nextflow.Session - [1f/c96047] Submitted process > bowtie_align (12)
+Mar-25 03:44:47.161 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor local > tasks to be completed: 1 -- submitted tasks are shown below
+~> TaskHandler[id: 44; name: bowtie_align (12); status: RUNNING; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/1f/c96047ee94d3b439db78ec3891370b]
+Mar-25 03:44:59.855 [Task submitter] DEBUG n.processor.TaskPollingMonitor - %% executor local > tasks in the submission queue: 24 -- tasks to be submitted are shown below
+~> TaskHandler[id: 45; name: bowtie_align (13); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/68/a5983a7019d59842ee3343013911a6]
+~> TaskHandler[id: 46; name: bowtie_align (14); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/5a/267f75d25d6b6c9603cd71be02ff7b]
+~> TaskHandler[id: 47; name: sam2bam (1); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/0b/9139ea26e8909fce5b82a4d21006d5]
+~> TaskHandler[id: 48; name: get_read_direction (1); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/41/167238912b2f7512f15c6d6f1e7369]
+~> TaskHandler[id: 50; name: sam2bam (2); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/19/82d2cc891874c06144f051d11df170]
+~> TaskHandler[id: 49; name: get_read_direction (2); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/c2/e901bfd4de2b27d7c4873b0b6cbae3]
+~> TaskHandler[id: 52; name: sam2bam (3); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/b4/620a92cdf518fb08a95ed134db8954]
+~> TaskHandler[id: 51; name: get_read_direction (3); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/43/a6c5c0c47d5dd1202e817e4438bfee]
+~> TaskHandler[id: 54; name: get_read_direction (4); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/75/4c2d361abff51053b322412b792779]
+~> TaskHandler[id: 53; name: sam2bam (4); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/b8/4e2b372880fada7556861bb6df1da5]
+.. remaining tasks omitted.
+Mar-25 03:46:48.473 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 44; name: bowtie_align (12); status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/1f/c96047ee94d3b439db78ec3891370b]
+Mar-25 03:46:48.495 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-25 03:46:48.495 [Task submitter] INFO  nextflow.Session - [68/a5983a] Submitted process > bowtie_align (13)
+Mar-25 03:48:11.212 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 45; name: bowtie_align (13); status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/68/a5983a7019d59842ee3343013911a6]
+Mar-25 03:48:11.240 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-25 03:48:11.241 [Task submitter] INFO  nextflow.Session - [5a/267f75] Submitted process > bowtie_align (14)
+Mar-25 03:49:47.175 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor local > tasks to be completed: 1 -- submitted tasks are shown below
+~> TaskHandler[id: 46; name: bowtie_align (14); status: RUNNING; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/5a/267f75d25d6b6c9603cd71be02ff7b]
+Mar-25 03:49:59.904 [Task submitter] DEBUG n.processor.TaskPollingMonitor - %% executor local > tasks in the submission queue: 26 -- tasks to be submitted are shown below
+~> TaskHandler[id: 47; name: sam2bam (1); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/0b/9139ea26e8909fce5b82a4d21006d5]
+~> TaskHandler[id: 48; name: get_read_direction (1); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/41/167238912b2f7512f15c6d6f1e7369]
+~> TaskHandler[id: 50; name: sam2bam (2); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/19/82d2cc891874c06144f051d11df170]
+~> TaskHandler[id: 49; name: get_read_direction (2); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/c2/e901bfd4de2b27d7c4873b0b6cbae3]
+~> TaskHandler[id: 52; name: sam2bam (3); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/b4/620a92cdf518fb08a95ed134db8954]
+~> TaskHandler[id: 51; name: get_read_direction (3); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/43/a6c5c0c47d5dd1202e817e4438bfee]
+~> TaskHandler[id: 54; name: get_read_direction (4); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/75/4c2d361abff51053b322412b792779]
+~> TaskHandler[id: 53; name: sam2bam (4); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/b8/4e2b372880fada7556861bb6df1da5]
+~> TaskHandler[id: 55; name: get_read_direction (5); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/ac/e280e4605e0d86fd01edaea4064749]
+~> TaskHandler[id: 56; name: sam2bam (5); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/6f/b64105a02762697f26fb2d0d0f30b1]
+.. remaining tasks omitted.
+Mar-25 03:50:08.797 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 46; name: bowtie_align (14); status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/5a/267f75d25d6b6c9603cd71be02ff7b]
+Mar-25 03:50:08.824 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-25 03:50:08.825 [Task submitter] INFO  nextflow.Session - [0b/9139ea] Submitted process > sam2bam (1)
+Mar-25 03:50:16.254 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 47; name: sam2bam (1); status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/0b/9139ea26e8909fce5b82a4d21006d5]
+Mar-25 03:50:16.264 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-25 03:50:16.264 [Task submitter] INFO  nextflow.Session - [41/167238] Submitted process > get_read_direction (1)
+Mar-25 03:50:16.271 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-25 03:50:16.271 [Task submitter] INFO  nextflow.Session - [c2/e901bf] Submitted process > get_read_direction (2)
+Mar-25 03:50:19.958 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 49; name: get_read_direction (2); status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/c2/e901bfd4de2b27d7c4873b0b6cbae3]
+Mar-25 03:50:19.977 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-25 03:50:19.977 [Task submitter] INFO  nextflow.Session - [43/a6c5c0] Submitted process > get_read_direction (3)
+Mar-25 03:50:22.739 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 48; name: get_read_direction (1); status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/41/167238912b2f7512f15c6d6f1e7369]
+Mar-25 03:50:22.747 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-25 03:50:22.748 [Task submitter] INFO  nextflow.Session - [75/4c2d36] Submitted process > get_read_direction (4)
+Mar-25 03:50:23.526 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 51; name: get_read_direction (3); status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/43/a6c5c0c47d5dd1202e817e4438bfee]
+Mar-25 03:50:23.531 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-25 03:50:23.531 [Task submitter] INFO  nextflow.Session - [ac/e280e4] Submitted process > get_read_direction (5)
+Mar-25 03:50:26.121 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 54; name: get_read_direction (4); status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/75/4c2d361abff51053b322412b792779]
+Mar-25 03:50:26.131 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-25 03:50:26.131 [Task submitter] INFO  nextflow.Session - [58/65f811] Submitted process > get_read_direction (6)
+Mar-25 03:50:27.331 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 55; name: get_read_direction (5); status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/ac/e280e4605e0d86fd01edaea4064749]
+Mar-25 03:50:27.340 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-25 03:50:27.341 [Task submitter] INFO  nextflow.Session - [bf/8ec12f] Submitted process > get_read_direction (7)
+Mar-25 03:50:29.899 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 58; name: get_read_direction (6); status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/58/65f811cf8e38481d74cb7c5556252b]
+Mar-25 03:50:29.907 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-25 03:50:29.907 [Task submitter] INFO  nextflow.Session - [16/6df920] Submitted process > get_read_direction (8)
+Mar-25 03:50:30.947 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 59; name: get_read_direction (7); status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/bf/8ec12fc8545c3efb4c0cdfd24fa996]
+Mar-25 03:50:30.954 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-25 03:50:30.955 [Task submitter] INFO  nextflow.Session - [bd/4da02f] Submitted process > get_read_direction (9)
+Mar-25 03:50:34.371 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 64; name: get_read_direction (9); status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/bd/4da02f5e49e223276dc82b7b49f913]
+Mar-25 03:50:34.379 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-25 03:50:34.379 [Task submitter] INFO  nextflow.Session - [f1/800a10] Submitted process > get_read_direction (10)
+Mar-25 03:50:37.676 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 66; name: get_read_direction (10); status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/f1/800a102f3cf01f24c16047607f294b]
+Mar-25 03:50:37.679 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-25 03:50:37.680 [Task submitter] INFO  nextflow.Session - [76/94e0a7] Submitted process > get_read_direction (11)
+Mar-25 03:50:41.507 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 67; name: get_read_direction (11); status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/76/94e0a7e583a13983dd9256d46d3f32]
+Mar-25 03:50:41.513 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-25 03:50:41.513 [Task submitter] INFO  nextflow.Session - [35/cc001a] Submitted process > get_read_direction (12)
+Mar-25 03:50:45.147 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 69; name: get_read_direction (12); status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/35/cc001ac22869b8d7f09831d27e83c2]
+Mar-25 03:50:45.151 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-25 03:50:45.151 [Task submitter] INFO  nextflow.Session - [5c/fec4bb] Submitted process > get_read_direction (13)
+Mar-25 03:50:48.287 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 62; name: get_read_direction (8); status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/16/6df920123a7b205fb5ff02043028e1]
+Mar-25 03:50:48.292 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-25 03:50:48.292 [Task submitter] INFO  nextflow.Session - [7b/9753d8] Submitted process > get_read_direction (14)
+Mar-25 03:50:48.506 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 71; name: get_read_direction (13); status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/5c/fec4bb37954e675b6f454ab6afd094]
+Mar-25 03:50:51.532 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 74; name: get_read_direction (14); status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/7b/9753d86ae506268f4c374476c66db1]
+Mar-25 03:50:51.544 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-25 03:50:51.544 [Task submitter] INFO  nextflow.Session - [19/82d2cc] Submitted process > sam2bam (2)
+Mar-25 03:50:58.132 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 50; name: sam2bam (2); status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/19/82d2cc891874c06144f051d11df170]
+Mar-25 03:50:58.136 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-25 03:50:58.136 [Task submitter] INFO  nextflow.Session - [b4/620a92] Submitted process > sam2bam (3)
+Mar-25 03:51:24.768 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 52; name: sam2bam (3); status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/b4/620a92cdf518fb08a95ed134db8954]
+Mar-25 03:51:24.783 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-25 03:51:24.783 [Task submitter] INFO  nextflow.Session - [b8/4e2b37] Submitted process > sam2bam (4)
+Mar-25 03:52:01.136 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 53; name: sam2bam (4); status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/b8/4e2b372880fada7556861bb6df1da5]
+Mar-25 03:52:01.151 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-25 03:52:01.151 [Task submitter] INFO  nextflow.Session - [6f/b64105] Submitted process > sam2bam (5)
+Mar-25 03:52:46.496 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 56; name: sam2bam (5); status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/6f/b64105a02762697f26fb2d0d0f30b1]
+Mar-25 03:52:46.511 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-25 03:52:46.511 [Task submitter] INFO  nextflow.Session - [3a/7ee8b1] Submitted process > sam2bam (6)
+Mar-25 03:53:31.978 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 57; name: sam2bam (6); status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/3a/7ee8b1a6a803f52ce7ec94d4aa3f03]
+Mar-25 03:53:32.031 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-25 03:53:32.031 [Task submitter] INFO  nextflow.Session - [3e/4964d5] Submitted process > sam2bam (7)
+Mar-25 03:54:47.191 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor local > tasks to be completed: 1 -- submitted tasks are shown below
+~> TaskHandler[id: 60; name: sam2bam (7); status: RUNNING; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/3e/4964d5b036855ded61ca14ad3fa743]
+Mar-25 03:55:00.553 [Task submitter] DEBUG n.processor.TaskPollingMonitor - %% executor local > tasks in the submission queue: 13 -- tasks to be submitted are shown below
+~> TaskHandler[id: 61; name: sam2bam (8); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/3d/9d8f83685480031e68faf2dda3f5b5]
+~> TaskHandler[id: 63; name: sam2bam (9); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/1c/9ec1b8886d7be6376c59314a5d550a]
+~> TaskHandler[id: 65; name: sam2bam (10); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/c9/cdcfe19da2a2db13e10b3970f37a9f]
+~> TaskHandler[id: 68; name: sam2bam (11); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/85/96b4f80103aad38ead29e335f737ba]
+~> TaskHandler[id: 70; name: sam2bam (12); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/d7/82bca10fc1e3867397978313d1b457]
+~> TaskHandler[id: 72; name: sam2bam (13); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/6c/c55bb24381445097200a21cf3eda6d]
+~> TaskHandler[id: 73; name: sam2bam (14); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/e4/d18d2b29208b01d9ed8f32412c8819]
+~> TaskHandler[id: 75; name: featureCounts (1); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/ed/e8b02ea673e6f3d479df3f744af3ed]
+~> TaskHandler[id: 76; name: featureCounts (2); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/e2/a8f2fcdf78be1f78accf6945e63b99]
+~> TaskHandler[id: 77; name: featureCounts (3); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/0f/7ef28cc0be72b62ee30ca3746ffb86]
+.. remaining tasks omitted.
+Mar-25 03:55:02.687 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 60; name: sam2bam (7); status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/3e/4964d5b036855ded61ca14ad3fa743]
+Mar-25 03:55:02.718 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-25 03:55:02.718 [Task submitter] INFO  nextflow.Session - [3d/9d8f83] Submitted process > sam2bam (8)
+Mar-25 03:55:36.231 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 61; name: sam2bam (8); status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/3d/9d8f83685480031e68faf2dda3f5b5]
+Mar-25 03:55:36.259 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-25 03:55:36.259 [Task submitter] INFO  nextflow.Session - [1c/9ec1b8] Submitted process > sam2bam (9)
+Mar-25 03:56:24.569 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 63; name: sam2bam (9); status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/1c/9ec1b8886d7be6376c59314a5d550a]
+Mar-25 03:56:24.582 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-25 03:56:24.582 [Task submitter] INFO  nextflow.Session - [c9/cdcfe1] Submitted process > sam2bam (10)
+Mar-25 03:59:30.006 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 65; name: sam2bam (10); status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/c9/cdcfe19da2a2db13e10b3970f37a9f]
+Mar-25 03:59:30.017 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-25 03:59:30.018 [Task submitter] INFO  nextflow.Session - [85/96b4f8] Submitted process > sam2bam (11)
+Mar-25 03:59:47.197 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor local > tasks to be completed: 1 -- submitted tasks are shown below
+~> TaskHandler[id: 68; name: sam2bam (11); status: RUNNING; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/85/96b4f80103aad38ead29e335f737ba]
+Mar-25 03:59:54.129 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 68; name: sam2bam (11); status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/85/96b4f80103aad38ead29e335f737ba]
+Mar-25 03:59:54.143 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-25 03:59:54.143 [Task submitter] INFO  nextflow.Session - [d7/82bca1] Submitted process > sam2bam (12)
+Mar-25 04:00:01.178 [Task submitter] DEBUG n.processor.TaskPollingMonitor - %% executor local > tasks in the submission queue: 13 -- tasks to be submitted are shown below
+~> TaskHandler[id: 72; name: sam2bam (13); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/6c/c55bb24381445097200a21cf3eda6d]
+~> TaskHandler[id: 73; name: sam2bam (14); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/e4/d18d2b29208b01d9ed8f32412c8819]
+~> TaskHandler[id: 75; name: featureCounts (1); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/ed/e8b02ea673e6f3d479df3f744af3ed]
+~> TaskHandler[id: 76; name: featureCounts (2); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/e2/a8f2fcdf78be1f78accf6945e63b99]
+~> TaskHandler[id: 77; name: featureCounts (3); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/0f/7ef28cc0be72b62ee30ca3746ffb86]
+~> TaskHandler[id: 78; name: featureCounts (4); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/70/ea661f41adf4e6de0575bee11292d1]
+~> TaskHandler[id: 79; name: featureCounts (5); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/5a/f2b96de03b5b579e1011a08b7e9516]
+~> TaskHandler[id: 80; name: featureCounts (6); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/c4/551902dc9f3b44cecf2e81b6ab7b73]
+~> TaskHandler[id: 81; name: featureCounts (7); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/03/f072ec44d90431b3f9e81e1061710b]
+~> TaskHandler[id: 82; name: featureCounts (8); status: NEW; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/51/25962b4ee86f37e10c8255c6e6905f]
+.. remaining tasks omitted.
+Mar-25 04:01:06.004 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 70; name: sam2bam (12); status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/d7/82bca10fc1e3867397978313d1b457]
+Mar-25 04:01:06.033 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-25 04:01:06.033 [Task submitter] INFO  nextflow.Session - [6c/c55bb2] Submitted process > sam2bam (13)
+Mar-25 04:01:53.031 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 72; name: sam2bam (13); status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/6c/c55bb24381445097200a21cf3eda6d]
+Mar-25 04:01:53.066 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-25 04:01:53.067 [Task submitter] INFO  nextflow.Session - [e4/d18d2b] Submitted process > sam2bam (14)
+Mar-25 04:02:59.586 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 73; name: sam2bam (14); status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/e4/d18d2b29208b01d9ed8f32412c8819]
+Mar-25 04:02:59.627 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-25 04:02:59.628 [Task submitter] INFO  nextflow.Session - [ed/e8b02e] Submitted process > featureCounts (1)
+Mar-25 04:03:02.989 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 75; name: featureCounts (1); status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/ed/e8b02ea673e6f3d479df3f744af3ed]
+Mar-25 04:03:02.995 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-25 04:03:02.995 [Task submitter] INFO  nextflow.Session - [e2/a8f2fc] Submitted process > featureCounts (2)
+Mar-25 04:03:06.051 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 76; name: featureCounts (2); status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/e2/a8f2fcdf78be1f78accf6945e63b99]
+Mar-25 04:03:06.066 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-25 04:03:06.067 [Task submitter] INFO  nextflow.Session - [0f/7ef28c] Submitted process > featureCounts (3)
+Mar-25 04:03:11.175 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 77; name: featureCounts (3); status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/0f/7ef28cc0be72b62ee30ca3746ffb86]
+Mar-25 04:03:11.184 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-25 04:03:11.184 [Task submitter] INFO  nextflow.Session - [70/ea661f] Submitted process > featureCounts (4)
+Mar-25 04:03:17.244 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 78; name: featureCounts (4); status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/70/ea661f41adf4e6de0575bee11292d1]
+Mar-25 04:03:17.253 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-25 04:03:17.253 [Task submitter] INFO  nextflow.Session - [5a/f2b96d] Submitted process > featureCounts (5)
+Mar-25 04:03:23.821 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 79; name: featureCounts (5); status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/5a/f2b96de03b5b579e1011a08b7e9516]
+Mar-25 04:03:23.838 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-25 04:03:23.838 [Task submitter] INFO  nextflow.Session - [c4/551902] Submitted process > featureCounts (6)
+Mar-25 04:03:42.040 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 80; name: featureCounts (6); status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/c4/551902dc9f3b44cecf2e81b6ab7b73]
+Mar-25 04:03:42.047 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-25 04:03:42.048 [Task submitter] INFO  nextflow.Session - [03/f072ec] Submitted process > featureCounts (7)
+Mar-25 04:03:52.360 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 81; name: featureCounts (7); status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/03/f072ec44d90431b3f9e81e1061710b]
+Mar-25 04:03:52.374 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-25 04:03:52.374 [Task submitter] INFO  nextflow.Session - [51/25962b] Submitted process > featureCounts (8)
+Mar-25 04:03:58.114 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 82; name: featureCounts (8); status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/51/25962b4ee86f37e10c8255c6e6905f]
+Mar-25 04:03:58.120 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-25 04:03:58.120 [Task submitter] INFO  nextflow.Session - [20/52f506] Submitted process > featureCounts (9)
+Mar-25 04:04:04.441 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 83; name: featureCounts (9); status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/20/52f506ff11301ccb0e90f0ef10d31d]
+Mar-25 04:04:04.447 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-25 04:04:04.447 [Task submitter] INFO  nextflow.Session - [b3/c7af55] Submitted process > featureCounts (10)
+Mar-25 04:04:24.177 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 84; name: featureCounts (10); status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/b3/c7af5500e2ed4a1a0c1dde26f69753]
+Mar-25 04:04:24.192 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-25 04:04:24.192 [Task submitter] INFO  nextflow.Session - [cc/c65eb1] Submitted process > featureCounts (11)
+Mar-25 04:04:28.236 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 85; name: featureCounts (11); status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/cc/c65eb10eb7bc4fe7970acbd639ccbf]
+Mar-25 04:04:28.252 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-25 04:04:28.253 [Task submitter] INFO  nextflow.Session - [f3/01f53b] Submitted process > featureCounts (12)
+Mar-25 04:04:36.582 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 86; name: featureCounts (12); status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/f3/01f53b7bdede518148b2a34dd51baa]
+Mar-25 04:04:36.606 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-25 04:04:36.606 [Task submitter] INFO  nextflow.Session - [2d/e26384] Submitted process > featureCounts (13)
+Mar-25 04:04:41.817 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 87; name: featureCounts (13); status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/2d/e263843ac91e57f3ddebdb285d43b0]
+Mar-25 04:04:41.823 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-25 04:04:41.824 [Task submitter] INFO  nextflow.Session - [cd/c44578] Submitted process > featureCounts (14)
+Mar-25 04:04:47.294 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor local > tasks to be completed: 1 -- submitted tasks are shown below
+~> TaskHandler[id: 88; name: featureCounts (14); status: RUNNING; exit: -; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/cd/c44578fedc95796b265a3a51fbb33e]
+Mar-25 04:04:51.986 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 88; name: featureCounts (14); status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/cd/c44578fedc95796b265a3a51fbb33e]
+Mar-25 04:04:52.004 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-25 04:04:52.004 [Task submitter] INFO  nextflow.Session - [9e/d9abf8] Submitted process > assemble_tpm
+Mar-25 04:04:54.189 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 90; name: assemble_tpm; status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/9e/d9abf8faaf612d5ef8c994c4503119]
+Mar-25 04:04:54.203 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-25 04:04:54.203 [Task submitter] INFO  nextflow.Session - [1b/7bf457] Submitted process > multiqc (1)
+Mar-25 04:05:02.487 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 89; name: multiqc (1); status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/1b/7bf45727b754304c92ae221093f3d7]
+Mar-25 04:05:02.488 [main] DEBUG nextflow.Session - Session await > all processes finished
+Mar-25 04:05:02.496 [main] DEBUG nextflow.Session - Session await > all barriers passed
+Mar-25 04:05:02.548 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'PublishDir' shutdown completed (hard=false)
+Mar-25 04:05:02.561 [main] DEBUG nextflow.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=85; failedCount=2; ignoredCount=1; cachedCount=0; pendingCount=0; submittedCount=0; runningCount=0; retriesCount=1; abortedCount=0; succeedDuration=16h 5m 49s; failedDuration=16m 8s; cachedDuration=0ms;loadCpus=0; loadMemory=0; peakRunning=2; peakCpus=8; peakMemory=16 GB; ]
+Mar-25 04:05:02.561 [main] DEBUG nextflow.trace.TraceFileObserver - Workflow completed -- saving trace file
+Mar-25 04:05:02.565 [main] DEBUG nextflow.trace.ReportObserver - Workflow completed -- rendering execution report
+Mar-25 04:05:02.640 [main] DEBUG nextflow.trace.ReportObserver - Execution report summary data:
+  [{"cpuUsage":{"mean":49.75,"min":49.75,"q1":49.75,"q2":49.75,"q3":49.75,"max":49.75,"minLabel":"gff2bed","maxLabel":"gff2bed","q1Label":"gff2bed","q2Label":"gff2bed","q3Label":"gff2bed"},"process":"gff2bed","mem":{"mean":16576512,"min":16576512,"q1":16576512,"q2":16576512,"q3":16576512,"max":16576512,"minLabel":"gff2bed","maxLabel":"gff2bed","q1Label":"gff2bed","q2Label":"gff2bed","q3Label":"gff2bed"},"memUsage":{"mean":0.19,"min":0.19,"q1":0.19,"q2":0.19,"q3":0.19,"max":0.19,"minLabel":"gff2bed","maxLabel":"gff2bed","q1Label":"gff2bed","q2Label":"gff2bed","q3Label":"gff2bed"},"timeUsage":null,"vmem":{"mean":615485440,"min":615485440,"q1":615485440,"q2":615485440,"q3":615485440,"max":615485440,"minLabel":"gff2bed","maxLabel":"gff2bed","q1Label":"gff2bed","q2Label":"gff2bed","q3Label":"gff2bed"},"reads":{"mean":22142062,"min":22142062,"q1":22142062,"q2":22142062,"q3":22142062,"max":22142062,"minLabel":"gff2bed","maxLabel":"gff2bed","q1Label":"gff2bed","q2Label":"gff2bed","q3Label":"gff2bed"},"cpu":{"mean":99.5,"min":99.5,"q1":99.5,"q2":99.5,"q3":99.5,"max":99.5,"minLabel":"gff2bed","maxLabel":"gff2bed","q1Label":"gff2bed","q2Label":"gff2bed","q3Label":"gff2bed"},"time":null,"writes":{"mean":22213467,"min":22213467,"q1":22213467,"q2":22213467,"q3":22213467,"max":22213467,"minLabel":"gff2bed","maxLabel":"gff2bed","q1Label":"gff2bed","q2Label":"gff2bed","q3Label":"gff2bed"}},{"cpuUsage":{"mean":72.75,"min":72.75,"q1":72.75,"q2":72.75,"q3":72.75,"max":72.75,"minLabel":"bowtie_build","maxLabel":"bowtie_build","q1Label":"bowtie_build","q2Label":"bowtie_build","q3Label":"bowtie_build"},"process":"bowtie_build","mem":{"mean":124977152,"min":124977152,"q1":124977152,"q2":124977152,"q3":124977152,"max":124977152,"minLabel":"bowtie_build","maxLabel":"bowtie_build","q1Label":"bowtie_build","q2Label":"bowtie_build","q3Label":"bowtie_build"},"memUsage":{"mean":1.45,"min":1.45,"q1":1.45,"q2":1.45,"q3":1.45,"max":1.45,"minLabel":"bowtie_build","maxLabel":"bowtie_build","q1Label":"bowtie_build","q2Label":"bowtie_build","q3Label":"bowtie_build"},"timeUsage":null,"vmem":{"mean":827465728,"min":827465728,"q1":827465728,"q2":827465728,"q3":827465728,"max":827465728,"minLabel":"bowtie_build","maxLabel":"bowtie_build","q1Label":"bowtie_build","q2Label":"bowtie_build","q3Label":"bowtie_build"},"reads":{"mean":111635531,"min":111635531,"q1":111635531,"q2":111635531,"q3":111635531,"max":111635531,"minLabel":"bowtie_build","maxLabel":"bowtie_build","q1Label":"bowtie_build","q2Label":"bowtie_build","q3Label":"bowtie_build"},"cpu":{"mean":145.5,"min":145.5,"q1":145.5,"q2":145.5,"q3":145.5,"max":145.5,"minLabel":"bowtie_build","maxLabel":"bowtie_build","q1Label":"bowtie_build","q2Label":"bowtie_build","q3Label":"bowtie_build"},"time":{"mean":6000,"min":6000,"q1":6000,"q2":6000,"q3":6000,"max":6000,"minLabel":"bowtie_build","maxLabel":"bowtie_build","q1Label":"bowtie_build","q2Label":"bowtie_build","q3Label":"bowtie_build"},"writes":{"mean":97575990,"min":97575990,"q1":97575990,"q2":97575990,"q3":97575990,"max":97575990,"minLabel":"bowtie_build","maxLabel":"bowtie_build","q1Label":"bowtie_build","q2Label":"bowtie_build","q3Label":"bowtie_build"}},{"cpuUsage":{"mean":1.89,"min":1.38,"q1":1.67,"q2":1.9,"q3":1.98,"max":2.5,"minLabel":"download_fastq (7)","maxLabel":"download_fastq (8)","q1Label":"download_fastq (5)","q2Label":"download_fastq (6)","q3Label":"download_fastq (9)"},"process":"download_fastq","mem":{"mean":188628247.27,"min":177766400,"q1":182718464,"q2":187658240,"q3":195772416,"max":195854336,"minLabel":"download_fastq (7)","maxLabel":"download_fastq (5)","q1Label":"download_fastq (2)","q2Label":"download_fastq (9)","q3Label":"download_fastq (12)"},"memUsage":{"mean":1.1,"min":1.03,"q1":1.06,"q2":1.09,"q3":1.14,"max":1.14,"minLabel":"download_fastq (7)","maxLabel":"download_fastq (5)","q1Label":"download_fastq (2)","q2Label":"download_fastq (9)","q3Label":"download_fastq (12)"},"timeUsage":null,"vmem":{"mean":2231021195.64,"min":2231017472,"q1":2231019520,"q2":2231021568,"q3":2231021568,"max":2231025664,"minLabel":"download_fastq (9)","maxLabel":"download_fastq (2)","q1Label":"download_fastq (12)","q2Label":"download_fastq (10)","q3Label":"download_fastq (4)"},"reads":{"mean":1960007986.64,"min":865762424,"q1":1239187838.5,"q2":1800597244,"q3":2492821156.5,"max":3775260371,"minLabel":"download_fastq (4)","maxLabel":"download_fastq (9)","q1Label":"download_fastq (5)","q2Label":"download_fastq (7)","q3Label":"download_fastq (11)"},"cpu":{"mean":7.57,"min":5.5,"q1":6.7,"q2":7.6,"q3":7.9,"max":10,"minLabel":"download_fastq (7)","maxLabel":"download_fastq (8)","q1Label":"download_fastq (5)","q2Label":"download_fastq (6)","q3Label":"download_fastq (9)"},"time":{"mean":184926.38,"min":101000,"q1":122757,"q2":144000,"q3":237000,"max":334000,"minLabel":"download_fastq (4)","maxLabel":"download_fastq (3)","q1Label":"download_fastq (1)","q2Label":"download_fastq (12)","q3Label":"download_fastq (11)"},"writes":{"mean":1048724255.73,"min":418179034,"q1":651696281.5,"q2":928568599,"q3":1426061608.5,"max":1872928430,"minLabel":"download_fastq (4)","maxLabel":"download_fastq (9)","q1Label":"download_fastq (5)","q2Label":"download_fastq (6)","q3Label":"download_fastq (8)"}},{"cpuUsage":{"mean":32,"min":26.16,"q1":28.78,"q2":31.08,"q3":35.98,"max":39.44,"minLabel":"trim_galore (3)","maxLabel":"trim_galore (10)","q1Label":"trim_galore (9)","q2Label":"trim_galore (13)","q3Label":"trim_galore (8)"},"process":"trim_galore","mem":{"mean":526603702.86,"min":460107776,"q1":511356928,"q2":534652928,"q3":548624384,"max":557674496,"minLabel":"trim_galore (1)","maxLabel":"trim_galore (10)","q1Label":"trim_galore (8)","q2Label":"trim_galore (2)","q3Label":"trim_galore (6)"},"memUsage":{"mean":3.07,"min":2.68,"q1":2.98,"q2":3.11,"q3":3.19,"max":3.25,"minLabel":"trim_galore (1)","maxLabel":"trim_galore (10)","q1Label":"trim_galore (8)","q2Label":"trim_galore (2)","q3Label":"trim_galore (6)"},"timeUsage":{"mean":0.99,"min":0.13,"q1":0.63,"q2":0.91,"q3":1.21,"max":2.72,"minLabel":"trim_galore (3)","maxLabel":"trim_galore (10)","q1Label":"trim_galore (8)","q2Label":"trim_galore (5)","q3Label":"trim_galore (6)"},"vmem":{"mean":6736511561.14,"min":6618816512,"q1":6642732032,"q2":6662699008,"q3":6669192192,"max":7195578368,"minLabel":"trim_galore (1)","maxLabel":"trim_galore (14)","q1Label":"trim_galore (11)","q2Label":"trim_galore (7)","q3Label":"trim_galore (10)"},"reads":{"mean":17185070822.36,"min":2225589137,"q1":10390730178.5,"q2":14558999386.5,"q3":20430671486.25,"max":54123568202,"minLabel":"trim_galore (3)","maxLabel":"trim_galore (10)","q1Label":"trim_galore (8)","q2Label":"trim_galore (5)","q3Label":"trim_galore (12)"},"cpu":{"mean":256.03,"min":209.3,"q1":230.28,"q2":248.65,"q3":287.88,"max":315.5,"minLabel":"trim_galore (3)","maxLabel":"trim_galore (10)","q1Label":"trim_galore (9)","q2Label":"trim_galore (13)","q3Label":"trim_galore (8)"},"time":{"mean":285071.43,"min":36000,"q1":181500,"q2":262500,"q3":349750,"max":784000,"minLabel":"trim_galore (3)","maxLabel":"trim_galore (10)","q1Label":"trim_galore (8)","q2Label":"trim_galore (5)","q3Label":"trim_galore (6)"},"writes":{"mean":16361081483.93,"min":2089666049,"q1":9921982126.5,"q2":13708118264.5,"q3":19639791493.75,"max":52397179988,"minLabel":"trim_galore (3)","maxLabel":"trim_galore (10)","q1Label":"trim_galore (8)","q2Label":"trim_galore (5)","q3Label":"trim_galore (12)"}},{"cpuUsage":{"mean":80.78,"min":60.59,"q1":80.97,"q2":82.33,"q3":82.83,"max":86.35,"minLabel":"bowtie_align (11)","maxLabel":"bowtie_align (8)","q1Label":"bowtie_align (13)","q2Label":"bowtie_align (7)","q3Label":"bowtie_align (6)"},"process":"bowtie_align","mem":{"mean":183744512,"min":44802048,"q1":95430656,"q2":107556864,"q3":344940544,"max":367116288,"minLabel":"bowtie_align (2)","maxLabel":"bowtie_align (5)","q1Label":"bowtie_align (14)","q2Label":"bowtie_align (6)","q3Label":"bowtie_align (9)"},"memUsage":{"mean":1.07,"min":0.26,"q1":0.56,"q2":0.63,"q3":2.01,"max":2.14,"minLabel":"bowtie_align (2)","maxLabel":"bowtie_align (5)","q1Label":"bowtie_align (14)","q2Label":"bowtie_align (6)","q3Label":"bowtie_align (9)"},"timeUsage":null,"vmem":{"mean":1140214930.29,"min":736526336,"q1":1028254720,"q2":1247377408,"q3":1319574528,"max":1319587840,"minLabel":"bowtie_align (2)","maxLabel":"bowtie_align (10)","q1Label":"bowtie_align (13)","q2Label":"bowtie_align (12)","q3Label":"bowtie_align (14)"},"reads":{"mean":698530008.21,"min":84781484,"q1":392210014.25,"q2":563583646.5,"q3":806586364.25,"max":1715024131,"minLabel":"bowtie_align (2)","maxLabel":"bowtie_align (7)","q1Label":"bowtie_align (11)","q2Label":"bowtie_align (6)","q3Label":"bowtie_align (14)"},"cpu":{"mean":646.25,"min":484.7,"q1":647.73,"q2":658.6,"q3":662.63,"max":690.8,"minLabel":"bowtie_align (11)","maxLabel":"bowtie_align (8)","q1Label":"bowtie_align (13)","q2Label":"bowtie_align (7)","q3Label":"bowtie_align (6)"},"time":{"mean":96785.71,"min":11000,"q1":59750,"q2":94000,"q3":115750,"max":219000,"minLabel":"bowtie_align (2)","maxLabel":"bowtie_align (10)","q1Label":"bowtie_align (11)","q2Label":"bowtie_align (8)","q3Label":"bowtie_align (5)"},"writes":{"mean":2718532599.5,"min":353956940,"q1":1592894732,"q2":2524116344.5,"q3":3387865691,"max":7423841161,"minLabel":"bowtie_align (1)","maxLabel":"bowtie_align (10)","q1Label":"bowtie_align (3)","q2Label":"bowtie_align (9)","q3Label":"bowtie_align (6)"}},{"cpuUsage":{"mean":63.11,"min":45.69,"q1":59.55,"q2":65.75,"q3":67.98,"max":70.54,"minLabel":"sam2bam (1)","maxLabel":"sam2bam (7)","q1Label":"sam2bam (8)","q2Label":"sam2bam (3)","q3Label":"sam2bam (12)"},"process":"sam2bam","mem":{"mean":2888792356.57,"min":464560128,"q1":1809563648,"q2":2674464768,"q3":3564457984,"max":7419154432,"minLabel":"sam2bam (2)","maxLabel":"sam2bam (10)","q1Label":"sam2bam (3)","q2Label":"sam2bam (9)","q3Label":"sam2bam (12)"},"memUsage":{"mean":16.81,"min":2.7,"q1":10.53,"q2":15.57,"q3":20.75,"max":43.19,"minLabel":"sam2bam (2)","maxLabel":"sam2bam (10)","q1Label":"sam2bam (3)","q2Label":"sam2bam (9)","q3Label":"sam2bam (12)"},"timeUsage":null,"vmem":{"mean":8655194404.57,"min":8437190656,"q1":8558239744,"q2":8692391936,"q3":8692922368,"max":8960876544,"minLabel":"sam2bam (2)","maxLabel":"sam2bam (14)","q1Label":"sam2bam (3)","q2Label":"sam2bam (8)","q3Label":"sam2bam (7)"},"reads":{"mean":3589422047.5,"min":428005159,"q1":1957898331,"q2":3431422711.5,"q3":4558215835.5,"max":10528232995,"minLabel":"sam2bam (1)","maxLabel":"sam2bam (10)","q1Label":"sam2bam (3)","q2Label":"sam2bam (9)","q3Label":"sam2bam (6)"},"cpu":{"mean":504.87,"min":365.5,"q1":476.38,"q2":526,"q3":543.83,"max":564.3,"minLabel":"sam2bam (1)","maxLabel":"sam2bam (7)","q1Label":"sam2bam (8)","q2Label":"sam2bam (3)","q3Label":"sam2bam (12)"},"time":{"mean":50642.86,"min":5000,"q1":26500,"q2":44000,"q3":60500,"max":183000,"minLabel":"sam2bam (1)","maxLabel":"sam2bam (10)","q1Label":"sam2bam (3)","q2Label":"sam2bam (5)","q3Label":"sam2bam (9)"},"writes":{"mean":1417658602.5,"min":122986191,"q1":761466128.5,"q2":1045806701.5,"q3":1696576048.75,"max":4107820310,"minLabel":"sam2bam (2)","maxLabel":"sam2bam (10)","q1Label":"sam2bam (8)","q2Label":"sam2bam (13)","q3Label":"sam2bam (9)"}},{"cpuUsage":{"mean":50.61,"min":45.9,"q1":49.41,"q2":51.65,"q3":51.97,"max":54.15,"minLabel":"get_read_direction (1)","maxLabel":"get_read_direction (14)","q1Label":"get_read_direction (5)","q2Label":"get_read_direction (3)","q3Label":"get_read_direction (13)"},"process":"get_read_direction","mem":{"mean":44404150.86,"min":26906624,"q1":34288640,"q2":35399680,"q3":59191296,"max":59199488,"minLabel":"get_read_direction (2)","maxLabel":"get_read_direction (5)","q1Label":"get_read_direction (13)","q2Label":"get_read_direction (4)","q3Label":"get_read_direction (11)"},"memUsage":{"mean":0.52,"min":0.31,"q1":0.4,"q2":0.41,"q3":0.69,"max":0.69,"minLabel":"get_read_direction (2)","maxLabel":"get_read_direction (5)","q1Label":"get_read_direction (13)","q2Label":"get_read_direction (4)","q3Label":"get_read_direction (11)"},"timeUsage":null,"vmem":{"mean":912799451.43,"min":629874688,"q1":959568896,"q2":960765952,"q3":983199744,"max":983203840,"minLabel":"get_read_direction (2)","maxLabel":"get_read_direction (5)","q1Label":"get_read_direction (13)","q2Label":"get_read_direction (4)","q3Label":"get_read_direction (7)"},"reads":{"mean":234029113.79,"min":45393142,"q1":59832563,"q2":87653601,"q3":146487520.25,"max":1820639340,"minLabel":"get_read_direction (2)","maxLabel":"get_read_direction (8)","q1Label":"get_read_direction (10)","q2Label":"get_read_direction (13)","q3Label":"get_read_direction (12)"},"cpu":{"mean":101.23,"min":91.8,"q1":98.83,"q2":103.3,"q3":103.95,"max":108.3,"minLabel":"get_read_direction (1)","maxLabel":"get_read_direction (14)","q1Label":"get_read_direction (5)","q2Label":"get_read_direction (3)","q3Label":"get_read_direction (13)"},"time":{"mean":3214.29,"min":1000,"q1":2000,"q2":2000,"q3":2000,"max":16000,"minLabel":"get_read_direction (4)","maxLabel":"get_read_direction (8)","q1Label":"get_read_direction (6)","q2Label":"get_read_direction (10)","q3Label":"get_read_direction (13)"},"writes":{"mean":489.43,"min":480,"q1":481,"q2":488.5,"q3":499,"max":499,"minLabel":"get_read_direction (5)","maxLabel":"get_read_direction (14)","q1Label":"get_read_direction (11)","q2Label":"get_read_direction (8)","q3Label":"get_read_direction (3)"}},{"cpuUsage":{"mean":62.44,"min":27.03,"q1":61.12,"q2":70.5,"q3":73.48,"max":75.83,"minLabel":"featureCounts (2)","maxLabel":"featureCounts (14)","q1Label":"featureCounts (3)","q2Label":"featureCounts (5)","q3Label":"featureCounts (9)"},"process":"featureCounts","mem":{"mean":251858651.43,"min":8339456,"q1":198025216,"q2":198150144,"q3":244645888,"max":884117504,"minLabel":"featureCounts (1)","maxLabel":"featureCounts (6)","q1Label":"featureCounts (8)","q2Label":"featureCounts (12)","q3Label":"featureCounts (3)"},"memUsage":{"mean":1.47,"min":0.05,"q1":1.15,"q2":1.15,"q3":1.42,"max":5.15,"minLabel":"featureCounts (1)","maxLabel":"featureCounts (6)","q1Label":"featureCounts (8)","q2Label":"featureCounts (12)","q3Label":"featureCounts (3)"},"timeUsage":null,"vmem":{"mean":1292514450.29,"min":307691520,"q1":1227243520,"q2":1227243520,"q3":1697108992,"max":2101293056,"minLabel":"featureCounts (1)","maxLabel":"featureCounts (6)","q1Label":"featureCounts (5)","q2Label":"featureCounts (9)","q3Label":"featureCounts (10)"},"reads":{"mean":1243968753.71,"min":108210320,"q1":598305393.5,"q2":863981092,"q3":2061630548.75,"max":3057228817,"minLabel":"featureCounts (2)","maxLabel":"featureCounts (7)","q1Label":"featureCounts (13)","q2Label":"featureCounts (8)","q3Label":"featureCounts (5)"},"cpu":{"mean":499.54,"min":216.2,"q1":488.95,"q2":564,"q3":587.88,"max":606.6,"minLabel":"featureCounts (2)","maxLabel":"featureCounts (14)","q1Label":"featureCounts (3)","q2Label":"featureCounts (5)","q3Label":"featureCounts (9)"},"time":{"mean":6214.29,"min":1000,"q1":3250,"q2":4500,"q3":7750,"max":18000,"minLabel":"featureCounts (1)","maxLabel":"featureCounts (10)","q1Label":"featureCounts (3)","q2Label":"featureCounts (13)","q3Label":"featureCounts (12)"},"writes":{"mean":106543179.43,"min":3812531,"q1":3816247.75,"q2":3818739,"q3":26746584.25,"max":963200897,"minLabel":"featureCounts (8)","maxLabel":"featureCounts (6)","q1Label":"featureCounts (11)","q2Label":"featureCounts (12)","q3Label":"featureCounts (4)"}},{"cpuUsage":{"mean":23.53,"min":23.53,"q1":23.53,"q2":23.53,"q3":23.53,"max":23.53,"minLabel":"assemble_tpm","maxLabel":"assemble_tpm","q1Label":"assemble_tpm","q2Label":"assemble_tpm","q3Label":"assemble_tpm"},"process":"assemble_tpm","mem":{"mean":37330944,"min":37330944,"q1":37330944,"q2":37330944,"q3":37330944,"max":37330944,"minLabel":"assemble_tpm","maxLabel":"assemble_tpm","q1Label":"assemble_tpm","q2Label":"assemble_tpm","q3Label":"assemble_tpm"},"memUsage":{"mean":0.22,"min":0.22,"q1":0.22,"q2":0.22,"q3":0.22,"max":0.22,"minLabel":"assemble_tpm","maxLabel":"assemble_tpm","q1Label":"assemble_tpm","q2Label":"assemble_tpm","q3Label":"assemble_tpm"},"timeUsage":null,"vmem":{"mean":954703872,"min":954703872,"q1":954703872,"q2":954703872,"q3":954703872,"max":954703872,"minLabel":"assemble_tpm","maxLabel":"assemble_tpm","q1Label":"assemble_tpm","q2Label":"assemble_tpm","q3Label":"assemble_tpm"},"reads":{"mean":10812649,"min":10812649,"q1":10812649,"q2":10812649,"q3":10812649,"max":10812649,"minLabel":"assemble_tpm","maxLabel":"assemble_tpm","q1Label":"assemble_tpm","q2Label":"assemble_tpm","q3Label":"assemble_tpm"},"cpu":{"mean":188.2,"min":188.2,"q1":188.2,"q2":188.2,"q3":188.2,"max":188.2,"minLabel":"assemble_tpm","maxLabel":"assemble_tpm","q1Label":"assemble_tpm","q2Label":"assemble_tpm","q3Label":"assemble_tpm"},"time":{"mean":1310,"min":1310,"q1":1310,"q2":1310,"q3":1310,"max":1310,"minLabel":"assemble_tpm","maxLabel":"assemble_tpm","q1Label":"assemble_tpm","q2Label":"assemble_tpm","q3Label":"assemble_tpm"},"writes":{"mean":1219217,"min":1219217,"q1":1219217,"q2":1219217,"q3":1219217,"max":1219217,"minLabel":"assemble_tpm","maxLabel":"assemble_tpm","q1Label":"assemble_tpm","q2Label":"assemble_tpm","q3Label":"assemble_tpm"}},{"cpuUsage":{"mean":12.49,"min":12.49,"q1":12.49,"q2":12.49,"q3":12.49,"max":12.49,"minLabel":"multiqc (1)","maxLabel":"multiqc (1)","q1Label":"multiqc (1)","q2Label":"multiqc (1)","q3Label":"multiqc (1)"},"process":"multiqc","mem":{"mean":99078144,"min":99078144,"q1":99078144,"q2":99078144,"q3":99078144,"max":99078144,"minLabel":"multiqc (1)","maxLabel":"multiqc (1)","q1Label":"multiqc (1)","q2Label":"multiqc (1)","q3Label":"multiqc (1)"},"memUsage":{"mean":0.58,"min":0.58,"q1":0.58,"q2":0.58,"q3":0.58,"max":0.58,"minLabel":"multiqc (1)","maxLabel":"multiqc (1)","q1Label":"multiqc (1)","q2Label":"multiqc (1)","q3Label":"multiqc (1)"},"timeUsage":null,"vmem":{"mean":1845571584,"min":1845571584,"q1":1845571584,"q2":1845571584,"q3":1845571584,"max":1845571584,"minLabel":"multiqc (1)","maxLabel":"multiqc (1)","q1Label":"multiqc (1)","q2Label":"multiqc (1)","q3Label":"multiqc (1)"},"reads":{"mean":58064556,"min":58064556,"q1":58064556,"q2":58064556,"q3":58064556,"max":58064556,"minLabel":"multiqc (1)","maxLabel":"multiqc (1)","q1Label":"multiqc (1)","q2Label":"multiqc (1)","q3Label":"multiqc (1)"},"cpu":{"mean":99.9,"min":99.9,"q1":99.9,"q2":99.9,"q3":99.9,"max":99.9,"minLabel":"multiqc (1)","maxLabel":"multiqc (1)","q1Label":"multiqc (1)","q2Label":"multiqc (1)","q3Label":"multiqc (1)"},"time":{"mean":6600,"min":6600,"q1":6600,"q2":6600,"q3":6600,"max":6600,"minLabel":"multiqc (1)","maxLabel":"multiqc (1)","q1Label":"multiqc (1)","q2Label":"multiqc (1)","q3Label":"multiqc (1)"},"writes":{"mean":4920573,"min":4920573,"q1":4920573,"q2":4920573,"q3":4920573,"max":4920573,"minLabel":"multiqc (1)","maxLabel":"multiqc (1)","q1Label":"multiqc (1)","q2Label":"multiqc (1)","q3Label":"multiqc (1)"}}]
+Mar-25 04:05:03.565 [main] DEBUG nextflow.trace.TimelineObserver - Workflow completed -- rendering execution timeline
+Mar-25 04:05:03.743 [main] DEBUG nextflow.cache.CacheDB - Closing CacheDB done
+Mar-25 04:05:03.772 [main] DEBUG nextflow.plugin.PluginsFacade - Using Default plugins manager
+Mar-25 04:05:03.776 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Mar-25 04:05:03.777 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Mar-25 04:05:03.778 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.4.1 in 'deployment' mode
+Mar-25 04:05:03.780 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+Mar-25 04:05:04.328 [main] DEBUG nextflow.cache.CacheDB - Closing CacheDB done
+Mar-25 04:05:04.331 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'FileTransfer' shutdown completed (hard=false)
+Mar-25 04:05:04.332 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye

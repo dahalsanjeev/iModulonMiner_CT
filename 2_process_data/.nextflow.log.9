@@ -1,0 +1,126 @@
+Mar-24 23:21:21.896 [main] DEBUG nextflow.cli.Launcher - $> nextflow run main_fixed.nf -resume -profile local --organism bacillus_subtilis --metadata ../test/test_metadata_fixed.tsv --sequence_dir ../test/sequence_files/ --outdir ../test/nf_results/ --force
+Mar-24 23:21:21.964 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 22.10.0
+Mar-24 23:21:21.980 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/Users/skd6150/.nextflow/plugins; core-plugins: nf-amazon@1.11.0,nf-azure@0.14.2,nf-codecommit@0.1.2,nf-console@1.0.4,nf-ga4gh@1.0.4,nf-google@1.4.4,nf-tower@1.5.5,nf-wave@0.5.2
+Mar-24 23:21:21.987 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Mar-24 23:21:21.988 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Mar-24 23:21:21.990 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.4.1 in 'deployment' mode
+Mar-24 23:21:21.996 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Mar-24 23:21:22.006 [main] DEBUG nextflow.config.ConfigBuilder - Found config local: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/nextflow.config
+Mar-24 23:21:22.006 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/nextflow.config
+Mar-24 23:21:22.020 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `local`
+Mar-24 23:21:22.445 [main] DEBUG nextflow.config.ConfigBuilder - Available config profiles: [slurm, local]
+Mar-24 23:21:22.467 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=1 by probing script field
+Mar-24 23:21:22.479 [main] INFO  nextflow.cli.CmdRun - Launching `main_fixed.nf` [mighty_hugle] DSL1 - revision: 500d83b49e
+Mar-24 23:21:22.480 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+Mar-24 23:21:22.480 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[]
+Mar-24 23:21:22.485 [main] DEBUG nextflow.secret.LocalSecretsProvider - Secrets store: /Users/skd6150/.nextflow/secrets/store.json
+Mar-24 23:21:22.487 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@64aad809] - activable => nextflow.secret.LocalSecretsProvider@64aad809
+Mar-24 23:21:22.528 [main] DEBUG nextflow.Session - Session UUID: fe569bb7-ffdd-4451-87c8-4935b4661d7e
+Mar-24 23:21:22.528 [main] DEBUG nextflow.Session - Run name: mighty_hugle
+Mar-24 23:21:22.528 [main] DEBUG nextflow.Session - Executor pool size: 8
+Mar-24 23:21:22.534 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=24; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+Mar-24 23:21:22.555 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 22.10.0 build 5826
+  Created: 13-10-2022 05:44 UTC (00:44 CDT)
+  System: Mac OS X 26.4
+  Runtime: Groovy 3.0.13 on OpenJDK 64-Bit Server VM 17.0.14+1-b1367.22
+  Encoding: UTF-8 (UTF-8)
+  Process: 59213@E5-CHE-CMMBP001 [192.168.0.199]
+  CPUs: 8 - Mem: 16 GB (2.4 GB) - Swap: 2 GB (966.7 MB)
+Mar-24 23:21:22.583 [main] DEBUG nextflow.Session - Work-dir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work [Mac OS X]
+Mar-24 23:21:22.599 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+Mar-24 23:21:22.604 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+Mar-24 23:21:22.625 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+Mar-24 23:21:22.630 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 9; maxThreads: 1000
+Mar-24 23:21:22.674 [main] DEBUG nextflow.Session - Session start
+Mar-24 23:21:22.678 [main] DEBUG nextflow.trace.TraceFileObserver - Workflow started -- trace file: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/trace/trace.txt
+Mar-24 23:21:23.888 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Mar-24 23:21:23.909 [PathVisitor-1] DEBUG nextflow.file.PathVisitor - files for syntax: glob; folder: ../test/sequence_files/; pattern: *.{fasta,gff3}; options: [checkIfExists:true]
+Mar-24 23:21:23.978 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:bowtie` matches labels `bowtie,small` for process with name bowtie_build
+Mar-24 23:21:23.979 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:small` matches labels `bowtie,small` for process with name bowtie_build
+Mar-24 23:21:23.980 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Mar-24 23:21:23.980 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Mar-24 23:21:23.984 [main] DEBUG nextflow.executor.Executor - [warm up] executor > local
+Mar-24 23:21:23.987 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=8; memory=16 GB; capacity=8; pollInterval=100ms; dumpInterval=5m
+Mar-24 23:21:24.023 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:small` matches labels `small` for process with name gff2bed
+Mar-24 23:21:24.023 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:gff2bed` matches process gff2bed
+Mar-24 23:21:24.024 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Mar-24 23:21:24.024 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Mar-24 23:21:24.061 [main] INFO  nextflow.Nextflow - DEBUG: run_list (already completed) = []
+Mar-24 23:21:24.062 [main] INFO  nextflow.Nextflow - DEBUG: sample_ids from metadata = [ERX1320318, ERX3440931, SRX315307]
+Mar-24 23:21:24.062 [main] INFO  nextflow.Nextflow - DEBUG: params.force = true
+Mar-24 23:21:24.091 [Actor Thread 4] INFO  nextflow.Nextflow - METADATA ROW: Experiment=ERX1320318, Layout=SINGLE, R1=[], in_run_list=false
+Mar-24 23:21:24.093 [Actor Thread 6] INFO  nextflow.Nextflow - ROUTING ERX1320318 -> sra (download_fastq)
+Mar-24 23:21:24.093 [Actor Thread 4] INFO  nextflow.Nextflow - METADATA ROW: Experiment=ERX3440931, Layout=PAIRED, R1=[], in_run_list=false
+Mar-24 23:21:24.094 [Actor Thread 4] INFO  nextflow.Nextflow - METADATA ROW: Experiment=SRX315307, Layout=SINGLE, R1=[], in_run_list=false
+Mar-24 23:21:24.099 [Actor Thread 6] INFO  nextflow.Nextflow - ROUTING ERX3440931 -> sra (download_fastq)
+Mar-24 23:21:24.099 [Actor Thread 6] INFO  nextflow.Nextflow - ROUTING SRX315307 -> sra (download_fastq)
+Mar-24 23:21:24.110 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:fastq` matches labels `fastq,medium,stage` for process with name download_fastq
+Mar-24 23:21:24.110 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:medium` matches labels `fastq,medium,stage` for process with name download_fastq
+Mar-24 23:21:24.110 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:stage` matches labels `fastq,medium,stage` for process with name download_fastq
+Mar-24 23:21:24.111 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Mar-24 23:21:24.111 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Mar-24 23:21:24.120 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:fastq` matches labels `fastq,medium,stage` for process with name stage_fastq_single
+Mar-24 23:21:24.120 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:medium` matches labels `fastq,medium,stage` for process with name stage_fastq_single
+Mar-24 23:21:24.120 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:stage` matches labels `fastq,medium,stage` for process with name stage_fastq_single
+Mar-24 23:21:24.122 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Mar-24 23:21:24.122 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Mar-24 23:21:24.129 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:fastq` matches labels `fastq,medium,stage` for process with name stage_fastq_paired
+Mar-24 23:21:24.129 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:medium` matches labels `fastq,medium,stage` for process with name stage_fastq_paired
+Mar-24 23:21:24.129 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:stage` matches labels `fastq,medium,stage` for process with name stage_fastq_paired
+Mar-24 23:21:24.129 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Mar-24 23:21:24.129 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Mar-24 23:21:24.145 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:trim_galore` matches labels `large,trim_galore` for process with name trim_galore
+Mar-24 23:21:24.145 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:large` matches labels `large,trim_galore` for process with name trim_galore
+Mar-24 23:21:24.146 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Mar-24 23:21:24.146 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Mar-24 23:21:24.150 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:bowtie` matches labels `bowtie,large` for process with name bowtie_align
+Mar-24 23:21:24.151 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:large` matches labels `bowtie,large` for process with name bowtie_align
+Mar-24 23:21:24.151 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Mar-24 23:21:24.151 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Mar-24 23:21:24.157 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:large` matches labels `large` for process with name sam2bam
+Mar-24 23:21:24.157 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:sam2bam` matches process sam2bam
+Mar-24 23:21:24.157 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Mar-24 23:21:24.158 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Mar-24 23:21:24.162 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:python` matches labels `python,small` for process with name get_read_direction
+Mar-24 23:21:24.162 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:small` matches labels `python,small` for process with name get_read_direction
+Mar-24 23:21:24.162 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:get_read_direction` matches process get_read_direction
+Mar-24 23:21:24.163 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Mar-24 23:21:24.163 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Mar-24 23:21:24.173 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:large` matches labels `large` for process with name featureCounts
+Mar-24 23:21:24.173 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:featureCounts` matches process featureCounts
+Mar-24 23:21:24.173 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Mar-24 23:21:24.174 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Mar-24 23:21:24.180 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:large` matches labels `large` for process with name multiqc
+Mar-24 23:21:24.180 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:multiqc` matches process multiqc
+Mar-24 23:21:24.181 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Mar-24 23:21:24.181 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Mar-24 23:21:24.183 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:python` matches labels `python,large` for process with name assemble_tpm
+Mar-24 23:21:24.183 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:large` matches labels `python,large` for process with name assemble_tpm
+Mar-24 23:21:24.184 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Mar-24 23:21:24.184 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Mar-24 23:21:24.188 [main] DEBUG nextflow.Session - Workflow process names [dsl1]: sam2bam, gff2bed, download_fastq, assemble_tpm, get_read_direction, stage_fastq_single, featureCounts, bowtie_align, bowtie_build, stage_fastq_paired, multiqc, trim_galore
+Mar-24 23:21:24.190 [main] DEBUG nextflow.script.ScriptRunner - > Awaiting termination 
+Mar-24 23:21:24.190 [main] DEBUG nextflow.Session - Session await
+Mar-24 23:21:24.219 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-24 23:21:24.221 [Task submitter] INFO  nextflow.Session - [bd/260c02] Submitted process > gff2bed
+Mar-24 23:21:24.293 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-24 23:21:24.293 [Task submitter] INFO  nextflow.Session - [ac/bcba74] Submitted process > bowtie_build
+Mar-24 23:21:28.422 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 2; name: gff2bed; status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/bd/260c02f93e3994b2f8c99f3075fd07]
+Mar-24 23:21:35.134 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 1; name: bowtie_build; status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/ac/bcba745012ba74f82f4889c643c965]
+Mar-24 23:21:35.147 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-24 23:21:35.147 [Task submitter] INFO  nextflow.Session - [af/619b4f] Submitted process > download_fastq (3)
+Mar-24 23:22:08.770 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 5; name: download_fastq (3); status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/af/619b4ff1f6cf34140cec97b2f7728a]
+Mar-24 23:22:08.779 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-24 23:22:08.779 [Task submitter] INFO  nextflow.Session - [64/d3ba42] Submitted process > download_fastq (2)
+Mar-24 23:23:56.911 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 4; name: download_fastq (2); status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/64/d3ba42805ad0aee20f407e80bab293]
+Mar-24 23:23:56.921 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-24 23:23:56.922 [Task submitter] INFO  nextflow.Session - [9f/122f91] Submitted process > download_fastq (1)
+Mar-24 23:24:27.465 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 3; name: download_fastq (1); status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/9f/122f91439ad6e309bc4fe49c642f0c]
+Mar-24 23:24:27.472 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-24 23:24:27.472 [Task submitter] INFO  nextflow.Session - [c4/5eb549] Submitted process > trim_galore (1)
+Mar-24 23:25:15.350 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 6; name: trim_galore (1); status: COMPLETED; exit: 0; error: -; workDir: /Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner/2_process_data/work/c4/5eb5499d0296e0ccff71b668c425c8]
+Mar-24 23:25:15.357 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-24 23:25:15.358 [Task submitter] INFO  nextflow.Session - [28/45c7a8] Submitted process > trim_galore (2)
+Mar-24 23:25:15.431 [Task monitor] DEBUG nextflow.processor.TaskProcessor - Process trim_galore > Skipping output binding because one or more optional files are missing: fileoutparam<1>
+Mar-24 23:25:15.444 [Task monitor] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'PublishDir' minSize=10; maxSize=24; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false

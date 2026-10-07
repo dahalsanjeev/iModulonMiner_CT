@@ -1,0 +1,717 @@
+,gene_id,gene_name,gene_ontology
+0,Clo1313_0001,dnaA,ATP binding
+1,Clo1313_0001,dnaA, DNA replication origin binding
+2,Clo1313_0001,dnaA, lipid binding
+8,Clo1313_0004,recF,ATP binding
+9,Clo1313_0004,recF, single-stranded DNA binding
+12,Clo1313_0006,gyrB,ATP binding
+13,Clo1313_0006,gyrB, DNA binding
+14,Clo1313_0006,gyrB, DNA negative supercoiling activity
+15,Clo1313_0006,gyrB, metal ion binding
+24,Clo1313_0011,serS,ATP binding
+25,Clo1313_0011,serS," catalytic activity, acting on a protein"
+26,Clo1313_0011,serS, serine-tRNA ligase activity
+27,Clo1313_0011,serS, transferase activity
+105,Clo1313_0059,prmC,nucleic acid binding
+106,Clo1313_0059,prmC, peptide chain release factor N(5)-glutamine methyltransferase activity
+164,Clo1313_1367,tadA,tRNA-specific adenosine-34 deaminase activity
+165,Clo1313_1367,tadA, zinc ion binding
+202,Clo1313_0101,ilvC,ketol-acid reductoisomerase activity
+203,Clo1313_0101,ilvC, magnesium ion binding
+204,Clo1313_0101,ilvC, NADP binding
+209,Clo1313_2778,sigI,DNA binding
+210,Clo1313_2778,sigI, sigma factor activity
+218,Clo1313_0108,hemA,glutamyl-tRNA reductase activity
+219,Clo1313_0108,hemA, NADP binding
+222,Clo1313_0110,hemC,hydroxymethylbilane synthase activity
+231,Clo1313_0113,hemL,"glutamate-1-semialdehyde 2,1-aminomutase activity"
+232,Clo1313_0113,hemL, pyridoxal phosphate binding
+233,Clo1313_0113,hemL, transaminase activity
+403,Clo1313_0180,prfA,"translation release factor activity, codon specific"
+414,Clo1313_0185,upp,GTP binding
+415,Clo1313_0185,upp, magnesium ion binding
+416,Clo1313_0185,upp, uracil phosphoribosyltransferase activity
+425,Clo1313_0190,atpE,lipid binding
+426,Clo1313_0190,atpE," proton-transporting ATP synthase activity, rotational mechanism"
+427,Clo1313_0191,atpF,"proton-transporting ATP synthase activity, rotational mechanism"
+428,Clo1313_0191,atpF," proton-transporting ATPase activity, rotational mechanism"
+435,Clo1313_0195,atpD,ATP binding
+436,Clo1313_0195,atpD," proton-transporting ATP synthase activity, rotational mechanism"
+449,Clo1313_0202,murA,UDP-N-acetylglucosamine 1-carboxyvinyltransferase activity
+467,Clo1313_0213,fabZ,(3R)-hydroxyacyl-[acyl-carrier-protein] dehydratase activity
+472,Clo1313_0216,spoVG,
+473,Clo1313_0217,glmU,glucosamine-1-phosphate N-acetyltransferase activity
+474,Clo1313_0217,glmU, magnesium ion binding
+475,Clo1313_0217,glmU, UDP-N-acetylglucosamine diphosphorylase activity
+478,Clo1313_0220,mfd,ATP binding
+479,Clo1313_0220,mfd, damaged DNA binding
+480,Clo1313_0220,mfd, DNA helicase activity
+481,Clo1313_0220,mfd, hydrolase activity
+491,Clo1313_1162,murJ,lipid-linked peptidoglycan transporter activity
+671,Clo1313_0304,ilvD,"2 iron, 2 sulfur cluster binding"
+672,Clo1313_0304,ilvD, dihydroxy-acid dehydratase activity
+673,Clo1313_0304,ilvD, magnesium ion binding
+682,Clo1313_0306,rpmG,structural constituent of ribosome
+683,Clo1313_0307,secE,protein transmembrane transporter activity
+684,Clo1313_0308,nusG,
+685,Clo1313_0309,rplK,large ribosomal subunit rRNA binding
+686,Clo1313_0309,rplK, structural constituent of ribosome
+687,Clo1313_0310,rplA,rRNA binding
+688,Clo1313_0310,rplA, structural constituent of ribosome
+689,Clo1313_0310,rplA, tRNA binding
+692,Clo1313_0312,rplL,mRNA binding
+693,Clo1313_0312,rplL, structural constituent of ribosome
+694,Clo1313_0313,rpoB,DNA binding
+695,Clo1313_0313,rpoB, DNA-directed RNA polymerase activity
+696,Clo1313_0313,rpoB, ribonucleoside binding
+697,Clo1313_0314,rpoC,DNA binding
+698,Clo1313_0314,rpoC, DNA-directed RNA polymerase activity
+699,Clo1313_0314,rpoC, magnesium ion binding
+700,Clo1313_0314,rpoC, zinc ion binding
+703,Clo1313_0316,rpsL,rRNA binding
+704,Clo1313_0316,rpsL, structural constituent of ribosome
+705,Clo1313_0316,rpsL, tRNA binding
+706,Clo1313_0317,rpsG,rRNA binding
+707,Clo1313_0317,rpsG, structural constituent of ribosome
+708,Clo1313_0317,rpsG, tRNA binding
+709,Clo1313_2467,fusA,GTP binding
+710,Clo1313_2467,fusA, GTPase activity
+711,Clo1313_2467,fusA, translation elongation factor activity
+712,Clo1313_0319,tuf,GTP binding
+713,Clo1313_0319,tuf, GTPase activity
+714,Clo1313_0319,tuf, magnesium ion binding
+715,Clo1313_0319,tuf, translation elongation factor activity
+730,Clo1313_0326,uvrC,DNA binding
+731,Clo1313_0326,uvrC, excinuclease ABC activity
+737,Clo1313_0329,clpP,ATP-dependent peptidase activity
+738,Clo1313_0329,clpP, ATPase binding
+739,Clo1313_0329,clpP, serine-type endopeptidase activity
+740,Clo1313_0330,clpX,ATP binding
+741,Clo1313_0330,clpX, ATP hydrolysis activity
+742,Clo1313_0330,clpX, ATP-dependent protein folding chaperone
+743,Clo1313_0330,clpX, peptidase activity
+744,Clo1313_0330,clpX, protein dimerization activity
+745,Clo1313_0330,clpX, unfolded protein binding
+746,Clo1313_0330,clpX, zinc ion binding
+747,Clo1313_0330,clpX,ATP binding
+748,Clo1313_0330,clpX, ATP hydrolysis activity
+749,Clo1313_0330,clpX, ATP-dependent protein folding chaperone
+750,Clo1313_0330,clpX, protein dimerization activity
+751,Clo1313_0330,clpX, unfolded protein binding
+752,Clo1313_0330,clpX, zinc ion binding
+756,Clo1313_0332,tsaD,iron ion binding
+757,Clo1313_0332,tsaD, tRNA N(6)-L-threonylcarbamoyladenine synthase activity
+767,Clo1313_0337,smpB,RNA binding
+960,Clo1313_0421,hisZ,"catalytic activity, acting on a protein"
+961,Clo1313_0421,hisZ, glycosyltransferase activity
+962,Clo1313_0421,hisZ, histidine-tRNA ligase activity
+963,Clo1313_0421,hisZ,"catalytic activity, acting on a protein"
+964,Clo1313_0421,hisZ, histidine-tRNA ligase activity
+965,Clo1313_0421,hisZ, transferase activity
+968,Clo1313_0423,hisD,histidinol dehydrogenase activity
+969,Clo1313_0423,hisD, NAD binding
+970,Clo1313_0423,hisD, zinc ion binding
+971,Clo1313_0424,hisC,histidinol-phosphate transaminase activity
+972,Clo1313_0424,hisC, pyridoxal phosphate binding
+973,Clo1313_0425,hisB,imidazoleglycerol-phosphate dehydratase activity
+976,Clo1313_0427,hisH,glutaminase activity
+977,Clo1313_0427,hisH, imidazoleglycerol-phosphate synthase activity
+978,Clo1313_0427,hisH, lyase activity
+979,Clo1313_0428,hisA,1-(5-phosphoribosyl)-5-[(5-phosphoribosylamino)methylideneamino]imidazole-4-carboxamide isomerase activity
+980,Clo1313_0429,hisF,imidazoleglycerol-phosphate synthase activity
+981,Clo1313_0429,hisF, lyase activity
+987,Clo1313_0432,groES,ATP binding
+988,Clo1313_0432,groES, metal ion binding
+989,Clo1313_0432,groES, protein folding chaperone
+990,Clo1313_0432,groES, protein-folding chaperone binding
+991,Clo1313_0432,groES, unfolded protein binding
+1005,Clo1313_0438,greA,DNA binding
+1006,Clo1313_0438,greA, RNA polymerase binding
+1007,Clo1313_0438,greA, translation elongation factor activity
+1008,Clo1313_0438,greA,DNA binding
+1009,Clo1313_0438,greA, RNA polymerase binding
+1020,Clo1313_0444,rpsJ,structural constituent of ribosome
+1021,Clo1313_0444,rpsJ, tRNA binding
+1022,Clo1313_0445,rplC,rRNA binding
+1023,Clo1313_0445,rplC, structural constituent of ribosome
+1024,Clo1313_0446,rplD,rRNA binding
+1025,Clo1313_0446,rplD, structural constituent of ribosome
+1026,Clo1313_0447,rplW,rRNA binding
+1027,Clo1313_0447,rplW, structural constituent of ribosome
+1028,Clo1313_0448,rplB,rRNA binding
+1029,Clo1313_0448,rplB, structural constituent of ribosome
+1030,Clo1313_0448,rplB, transferase activity
+1031,Clo1313_0449,rpsS,rRNA binding
+1032,Clo1313_0449,rpsS, structural constituent of ribosome
+1033,Clo1313_0450,rplV,rRNA binding
+1034,Clo1313_0450,rplV, structural constituent of ribosome
+1035,Clo1313_0451,rpsC,mRNA binding
+1036,Clo1313_0451,rpsC, rRNA binding
+1037,Clo1313_0451,rpsC, structural constituent of ribosome
+1038,Clo1313_0452,rplP,rRNA binding
+1039,Clo1313_0452,rplP, structural constituent of ribosome
+1040,Clo1313_0452,rplP, tRNA binding
+1041,Clo1313_0453,rpmC,structural constituent of ribosome
+1042,Clo1313_0454,rpsQ,rRNA binding
+1043,Clo1313_0454,rpsQ, structural constituent of ribosome
+1044,Clo1313_0455,rplN,large ribosomal subunit rRNA binding
+1045,Clo1313_0455,rplN, structural constituent of ribosome
+1048,Clo1313_0457,rplE,rRNA binding
+1049,Clo1313_0457,rplE, structural constituent of ribosome
+1050,Clo1313_0457,rplE, tRNA binding
+1054,Clo1313_0459,rpsH,rRNA binding
+1055,Clo1313_0459,rpsH, structural constituent of ribosome
+1056,Clo1313_0460,rplF,rRNA binding
+1057,Clo1313_0460,rplF, structural constituent of ribosome
+1058,Clo1313_0461,rplR,5S rRNA binding
+1059,Clo1313_0461,rplR, structural constituent of ribosome
+1060,Clo1313_0462,rpsE,rRNA binding
+1061,Clo1313_0462,rpsE, structural constituent of ribosome
+1062,Clo1313_0463,rpmD,structural constituent of ribosome
+1063,Clo1313_0464,rplO,rRNA binding
+1064,Clo1313_0464,rplO, structural constituent of ribosome
+1065,Clo1313_0465,secY,
+1069,Clo1313_0467,map,initiator methionyl aminopeptidase activity
+1070,Clo1313_0467,map, metal ion binding
+1071,Clo1313_0467,map, metalloaminopeptidase activity
+1074,Clo1313_0469,infA,ribosome binding
+1075,Clo1313_0469,infA, rRNA binding
+1076,Clo1313_0469,infA, translation initiation factor activity
+1077,Clo1313_0470,rpmJ,structural constituent of ribosome
+1078,Clo1313_0471,rpsM,rRNA binding
+1079,Clo1313_0471,rpsM, structural constituent of ribosome
+1080,Clo1313_0471,rpsM, tRNA binding
+1081,Clo1313_0472,rpsK,rRNA binding
+1082,Clo1313_0472,rpsK, structural constituent of ribosome
+1083,Clo1313_0473,rpsD,rRNA binding
+1084,Clo1313_0473,rpsD, structural constituent of ribosome
+1088,Clo1313_0475,rplQ,structural constituent of ribosome
+1118,Clo1313_0490,truA,RNA binding
+1119,Clo1313_0490,truA, tRNA pseudouridine(38-40) synthase activity
+1122,Clo1313_0492,ispD,2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase activity
+1190,Clo1313_0523,sfsA,DNA binding
+1218,Clo1313_0541,msrA,peptide-methionine (S)-S-oxide reductase activity
+1219,Clo1313_0541,msrA,L-methionine:thioredoxin-disulfide S-oxidoreductase activity
+1220,Clo1313_0541,msrA, peptide-methionine (S)-S-oxide reductase activity
+1299,Clo1313_0569,hypA,nickel cation binding
+1300,Clo1313_0569,hypA, zinc ion binding
+1440,Clo1313_2470,aroA,3-phosphoshikimate 1-carboxyvinyltransferase activity
+1486,Clo1313_0656,queC,ATP binding
+1487,Clo1313_0656,queC," ligase activity, forming carbon-nitrogen bonds"
+1488,Clo1313_0656,queC, zinc ion binding
+1605,Clo1313_0701,cobD,ABC-type vitamin B12 transporter activity
+1606,Clo1313_0701,cobD, threonine-phosphate decarboxylase activity
+1714,Clo1313_0749,alaS,alanine-tRNA ligase activity
+1715,Clo1313_0749,alaS, aminoacyl-tRNA deacylase activity
+1716,Clo1313_0749,alaS, ATP binding
+1717,Clo1313_0749,alaS," catalytic activity, acting on a protein"
+1718,Clo1313_0749,alaS, transferase activity
+1719,Clo1313_0749,alaS, tRNA binding
+1720,Clo1313_0749,alaS, zinc ion binding
+1734,Clo1313_2969,cas2,hydrolase activity
+1735,Clo1313_2969,cas2, metal ion binding
+1736,Clo1313_2969,cas2, RNA endonuclease activity
+1856,Clo1313_0836,trpB,tryptophan synthase activity
+1916,Clo1313_0863,secA,ATP binding
+1917,Clo1313_0863,secA, metal ion binding
+1918,Clo1313_0863,secA, protein-exporting ATPase activity
+2038,Clo1313_2307,aspS,aspartate-tRNA ligase activity
+2039,Clo1313_2307,aspS, ATP binding
+2040,Clo1313_2307,aspS," catalytic activity, acting on a protein"
+2041,Clo1313_2307,aspS, nucleic acid binding
+2042,Clo1313_2307,aspS, transferase activity
+2049,Clo1313_0929,lepA,GTP binding
+2050,Clo1313_0929,lepA, GTPase activity
+2051,Clo1313_0929,lepA, ribosome binding
+2052,Clo1313_0929,lepA, translation elongation factor activity
+2059,Clo1313_0931,hrcA,DNA binding
+2060,Clo1313_0932,grpE,adenyl-nucleotide exchange factor activity
+2061,Clo1313_0932,grpE, protein homodimerization activity
+2062,Clo1313_0932,grpE, protein-folding chaperone binding
+2063,Clo1313_0932,grpE, unfolded protein binding
+2064,Clo1313_0933,dnaK,ATP binding
+2065,Clo1313_0933,dnaK, ATP-dependent protein folding chaperone
+2066,Clo1313_0933,dnaK, unfolded protein binding
+2067,Clo1313_0934,dnaJ,ATP binding
+2068,Clo1313_0934,dnaJ, heat shock protein binding
+2069,Clo1313_0934,dnaJ, unfolded protein binding
+2070,Clo1313_0934,dnaJ, zinc ion binding
+2071,Clo1313_0935,prmA,protein methyltransferase activity
+2072,Clo1313_0935,prmA,protein-lysine N-methyltransferase activity
+2084,Clo1313_0941,gmk,ATP binding
+2085,Clo1313_0941,gmk, GMP kinase activity
+2088,Clo1313_0943,coaBC,FMN binding
+2089,Clo1313_0943,coaBC, metal ion binding
+2090,Clo1313_0943,coaBC, phosphopantothenate--cysteine ligase activity
+2091,Clo1313_0943,coaBC, phosphopantothenoylcysteine decarboxylase activity
+2141,Clo1313_0960,cobT,nicotinate-nucleotide-dimethylbenzimidazole phosphoribosyltransferase activity
+2175,Clo1313_1947,glgA,"alpha-1,4-glucan glucosyltransferase (ADP-glucose donor) activity"
+2176,Clo1313_1947,glgA," alpha-1,4-glucan glucosyltransferase (UDP-glucose donor) activity"
+2177,Clo1313_0975,nth,"4 iron, 4 sulfur cluster binding"
+2178,Clo1313_0975,nth, class I DNA-(apurinic or apyrimidinic site) endonuclease activity
+2179,Clo1313_0975,nth, DNA binding
+2180,Clo1313_0975,nth, DNA N-glycosylase activity
+2181,Clo1313_0975,nth, metal ion binding
+2193,Clo1313_0982,coaD,ATP binding
+2194,Clo1313_0982,coaD, pantetheine-phosphate adenylyltransferase activity
+2227,Clo1313_0997,pfkA,6-phosphofructokinase activity
+2228,Clo1313_0997,pfkA, AMP binding
+2229,Clo1313_0997,pfkA, ATP binding
+2230,Clo1313_0997,pfkA, fructose-6-phosphate binding
+2231,Clo1313_0997,pfkA, identical protein binding
+2232,Clo1313_0997,pfkA, metal ion binding
+2233,Clo1313_0997,pfkA, monosaccharide binding
+2253,Clo1313_1008,purE,5-(carboxyamino)imidazole ribonucleotide mutase activity
+2254,Clo1313_1008,purE,5-(carboxyamino)imidazole ribonucleotide mutase activity
+2255,Clo1313_1008,purE, lyase activity
+2260,Clo1313_1012,purH,IMP cyclohydrolase activity
+2261,Clo1313_1012,purH, phosphoribosylaminoimidazolecarboxamide formyltransferase activity
+2262,Clo1313_1013,purD,ATP binding
+2263,Clo1313_1013,purD, metal ion binding
+2264,Clo1313_1013,purD, phosphoribosylamine-glycine ligase activity
+2274,Clo1313_1019,rsfS,ribosomal large subunit binding
+2288,Clo1313_1029,thrS,ATP binding
+2289,Clo1313_1029,thrS," catalytic activity, acting on a protein"
+2290,Clo1313_1029,thrS, hydrolase activity
+2291,Clo1313_1029,thrS, metal ion binding
+2292,Clo1313_1029,thrS, threonine-tRNA ligase activity
+2293,Clo1313_1029,thrS, transferase activity
+2294,Clo1313_1029,thrS, tRNA binding
+2295,Clo1313_1029,thrS,ATP binding
+2296,Clo1313_1029,thrS," catalytic activity, acting on a protein"
+2297,Clo1313_1029,thrS, metal ion binding
+2298,Clo1313_1029,thrS, threonine-tRNA ligase activity
+2299,Clo1313_1029,thrS, transferase activity
+2300,Clo1313_1029,thrS, tRNA binding
+2301,Clo1313_1030,thyA,thymidylate synthase activity
+2308,Clo1313_1033,rpmI,structural constituent of ribosome
+2309,Clo1313_1034,rplT,rRNA binding
+2310,Clo1313_1034,rplT, structural constituent of ribosome
+2325,Clo1313_1041,clpS,peptidase activity
+2326,Clo1313_1041,clpS,
+2333,Clo1313_0836,trpB,"L-serine hydro-lyase (adding indole, L-tryptophan-forming) activity"
+2334,Clo1313_0836,trpB, pyridoxal phosphate binding
+2335,Clo1313_0836,trpB, tryptophan synthase activity
+2409,Clo1313_1090,dapB,4-hydroxy-tetrahydrodipicolinate reductase
+2410,Clo1313_1090,dapB, NAD binding
+2411,Clo1313_1090,dapB, NADP binding
+2412,Clo1313_1090,dapB," oxidoreductase activity, acting on CH or CH2 groups, NAD or NADP as acceptor"
+2430,Clo1313_1099,glmS,carbohydrate derivative binding
+2431,Clo1313_1099,glmS, glutamine-fructose-6-phosphate transaminase (isomerizing) activity
+2480,Clo1313_1120,folD,methenyltetrahydrofolate cyclohydrolase activity
+2481,Clo1313_1120,folD, methylenetetrahydrofolate dehydrogenase (NADP+) activity
+2484,Clo1313_1122,rny,hydrolase activity
+2485,Clo1313_1122,rny, RNA binding
+2486,Clo1313_1122,rny, RNA endonuclease activity
+2528,Clo1313_1144,ybeY,metalloendopeptidase activity
+2529,Clo1313_1144,ybeY, RNA endonuclease activity
+2530,Clo1313_1144,ybeY, zinc ion binding
+2537,Clo1313_1146,era,GTP binding
+2538,Clo1313_1146,era, GTPase activity
+2539,Clo1313_1146,era, ribosomal small subunit binding
+2540,Clo1313_1146,era, small ribosomal subunit rRNA binding
+2543,Clo1313_1148,recO,
+2552,Clo1313_1151,thiI,ATP binding
+2553,Clo1313_1151,thiI, CCA tRNA nucleotidyltransferase activity
+2554,Clo1313_1151,thiI, tRNA binding
+2555,Clo1313_1151,thiI, tRNA-uracil-4 sulfurtransferase activity
+2574,Clo1313_1163,recA,ATP binding
+2575,Clo1313_1163,recA, ATP-dependent DNA damage sensor activity
+2576,Clo1313_1163,recA, damaged DNA binding
+2577,Clo1313_1163,recA, single-stranded DNA binding
+2594,Clo1313_1174,rpsT,small ribosomal subunit rRNA binding
+2595,Clo1313_1174,rpsT, structural constituent of ribosome
+2601,Clo1313_1178,ligA,DNA binding
+2602,Clo1313_1178,ligA, DNA ligase (NAD+) activity
+2603,Clo1313_1178,ligA, metal ion binding
+2608,Clo1313_1181,gatC,ATP binding
+2609,Clo1313_1181,gatC, glutaminyl-tRNA synthase (glutamine-hydrolyzing) activity
+2610,Clo1313_1181,gatC,asparaginyl-tRNA synthase (glutamine-hydrolyzing) activity
+2611,Clo1313_1181,gatC, ATP binding
+2612,Clo1313_1181,gatC, glutaminyl-tRNA synthase (glutamine-hydrolyzing) activity
+2613,Clo1313_2305,gatA,ATP binding
+2614,Clo1313_2305,gatA, glutaminyl-tRNA synthase (glutamine-hydrolyzing) activity
+2615,Clo1313_2305,gatA,ATP binding
+2616,Clo1313_2305,gatA, glutaminyl-tRNA synthase (glutamine-hydrolyzing) activity
+2617,Clo1313_2305,gatA, hydrolase activity
+2618,Clo1313_2304,gatB,ATP binding
+2619,Clo1313_2304,gatB, glutaminyl-tRNA synthase (glutamine-hydrolyzing) activity
+2620,Clo1313_2304,gatB,asparaginyl-tRNA synthase (glutamine-hydrolyzing) activity
+2621,Clo1313_2304,gatB, ATP binding
+2622,Clo1313_2304,gatB, glutaminyl-tRNA synthase (glutamine-hydrolyzing) activity
+2631,Clo1313_1188,rpmF,structural constituent of ribosome
+2633,Clo1313_1190,der,GTP binding
+2634,Clo1313_1190,der, ribosome binding
+2635,Clo1313_1191,plsY,acyl-phosphate glycerol-3-phosphate acyltransferase activity
+2676,Clo1313_1207,mltG,lytic endotransglycosylase activity
+2682,Clo1313_1209,rpsB,structural constituent of ribosome
+2683,Clo1313_1210,tsf,translation elongation factor activity
+2686,Clo1313_1212,frr,ribosomal large subunit binding
+2704,Clo1313_1218,ispG,"4 iron, 4 sulfur cluster binding"
+2705,Clo1313_1218,ispG, 4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase activity (ferredoxin)
+2706,Clo1313_1218,ispG, 4-hydroxy-3-methylbut-2-enyl-diphosphate synthase activity (flavodoxin)
+2707,Clo1313_1218,ispG, iron ion binding
+2712,Clo1313_1221,rimP,
+2713,Clo1313_1222,nusA,DNA-binding transcription factor activity
+2714,Clo1313_1222,nusA, RNA binding
+2719,Clo1313_1226,rbfA,ribosomal small subunit binding
+2722,Clo1313_1228,truB,RNA binding
+2723,Clo1313_1228,truB, tRNA pseudouridine(55) synthase activity
+2742,Clo1313_1236,mraZ,DNA-binding transcription factor activity
+2743,Clo1313_1236,mraZ, transcription cis-regulatory region binding
+2744,Clo1313_1237,rsmH,rRNA (cytosine-N4-)-methyltransferase activity
+2764,Clo1313_1244,murG,undecaprenyldiphospho-muramoylpentapeptide beta-N-acetylglucosaminyltransferase activity
+2765,Clo1313_1244,murG,"UDP-N-acetyl-D-glucosamine:N-acetylmuramoyl-L-alanyl-D-glutamyl-meso-2,6-diaminopimelyl-D-alanyl-D-alanine-diphosphoundecaprenol 4-beta-N-acetylglucosaminlytransferase activity"
+2766,Clo1313_1244,murG, undecaprenyldiphospho-muramoylpentapeptide beta-N-acetylglucosaminyltransferase activity
+2793,Clo1313_1257,queA,S-adenosylmethionine:tRNA ribosyltransferase-isomerase activity
+2794,Clo1313_1258,tgt,metal ion binding
+2795,Clo1313_1258,tgt, tRNA-guanosine(34) queuine transglycosylase activity
+2802,Clo1313_1262,pyrR,RNA binding
+2803,Clo1313_1262,pyrR, uracil phosphoribosyltransferase activity
+2811,Clo1313_1266,pyrF,orotidine-5'-phosphate decarboxylase activity
+2812,Clo1313_2559,carA,ATP binding
+2813,Clo1313_2559,carA, carbamoyl-phosphate synthase (glutamine-hydrolyzing) activity
+2814,Clo1313_2559,carA,ATP binding
+2815,Clo1313_2559,carA, carbamoyl-phosphate synthase (glutamine-hydrolyzing) activity
+2816,Clo1313_2559,carA, glutaminase activity
+2817,Clo1313_2560,carB,ATP binding
+2818,Clo1313_2560,carB, carbamoyl-phosphate synthase (ammonia) activity
+2819,Clo1313_2560,carB, carbamoyl-phosphate synthase (glutamine-hydrolyzing) activity
+2820,Clo1313_2560,carB, metal ion binding
+2834,Clo1313_1275,rimO,"4 iron, 4 sulfur cluster binding"
+2835,Clo1313_1275,rimO, aspartic acid methylthiotransferase activity
+2836,Clo1313_1275,rimO," catalytic activity, acting on a tRNA"
+2837,Clo1313_1275,rimO, metal ion binding
+2838,Clo1313_1275,rimO, protein methylthiotransferase activity
+2846,Clo1313_1280,plsX,phosphate:acyl-[acyl carrier protein] acyltransferase activity
+2855,Clo1313_1284,acpP,acyl binding
+2856,Clo1313_1284,acpP, acyl carrier activity
+2857,Clo1313_1284,acpP, phosphopantetheine binding
+2879,Clo1313_1290,smc,ATP binding
+2880,Clo1313_1290,smc, ATP hydrolysis activity
+2881,Clo1313_1290,smc, DNA binding
+2882,Clo1313_1291,ftsY,GTP binding
+2883,Clo1313_1291,ftsY, GTPase activity
+2884,Clo1313_1291,ftsY, signal recognition particle binding
+2908,Clo1313_1309,lspA,aspartic-type endopeptidase activity
+2923,Clo1313_1314,secD,protein-transporting ATPase activity
+2924,Clo1313_1315,secF,protein-transporting ATPase activity
+2925,Clo1313_1316,panB,3-methyl-2-oxobutanoate hydroxymethyltransferase activity
+2926,Clo1313_1316,panB, magnesium ion binding
+2960,Clo1313_1334,polA,3'-5' exonuclease activity
+2961,Clo1313_1334,polA, 5'-3' exonuclease activity
+2962,Clo1313_1334,polA, DNA binding
+2963,Clo1313_1334,polA, DNA-directed DNA polymerase activity
+2979,Clo1313_1342,ychF,ATP binding
+2980,Clo1313_1342,ychF, ATP hydrolysis activity
+2981,Clo1313_1342,ychF, GTP binding
+2982,Clo1313_1342,ychF, metal ion binding
+2983,Clo1313_1342,ychF, ribosomal large subunit binding
+2986,Clo1313_1344,trpE,anthranilate synthase activity
+2987,Clo1313_1344,trpE, metal ion binding
+2989,Clo1313_1346,trpD,anthranilate phosphoribosyltransferase activity
+2990,Clo1313_1346,trpD, magnesium ion binding
+2991,Clo1313_1347,trpC,indole-3-glycerol-phosphate synthase activity
+2992,Clo1313_1347,trpC, phosphoribosylanthranilate isomerase activity
+3020,Clo1313_1362,floA,
+3048,Clo1313_1371,aroQ,3-dehydroquinate dehydratase activity
+3052,Clo1313_1373,efp,translation elongation factor activity
+3077,Clo1313_1387,nusB,RNA binding
+3178,Clo1313_1434,ileS,aminoacyl-tRNA deacylase activity
+3179,Clo1313_1434,ileS, ATP binding
+3180,Clo1313_1434,ileS, isoleucine-tRNA ligase activity
+3181,Clo1313_1434,ileS, tRNA binding
+3182,Clo1313_1434,ileS, zinc ion binding
+3189,Clo1313_1438,miaB,"4 iron, 4 sulfur cluster binding"
+3190,Clo1313_1438,miaB, metal ion binding
+3191,Clo1313_1438,miaB, tRNA-2-methylthio-N(6)-dimethylallyladenosine(37) synthase activity
+3200,Clo1313_1445,mutS,ATP binding
+3201,Clo1313_1445,mutS, ATP-dependent DNA damage sensor activity
+3202,Clo1313_1445,mutS, damaged DNA binding
+3203,Clo1313_1445,mutS, mismatched DNA binding
+3204,Clo1313_1446,mutL,ATP binding
+3205,Clo1313_1446,mutL, ATP hydrolysis activity
+3206,Clo1313_1446,mutL, ATP-dependent DNA damage sensor activity
+3207,Clo1313_1446,mutL, mismatched DNA binding
+3208,Clo1313_1447,miaA,ATP binding
+3209,Clo1313_1447,miaA, tRNA dimethylallyltransferase activity
+3210,Clo1313_1448,hfq,RNA binding
+3211,Clo1313_1449,lexA,DNA binding
+3212,Clo1313_1449,lexA, serine-type endopeptidase activity
+3217,Clo1313_1452,ffh,7S RNA binding
+3218,Clo1313_1452,ffh, GTP binding
+3219,Clo1313_1452,ffh, GTPase activity
+3220,Clo1313_1453,rpsP,structural constituent of ribosome
+3222,Clo1313_1455,rimM,ribosome binding
+3223,Clo1313_1456,trmD,tRNA (guanine(37)-N1)-methyltransferase activity
+3224,Clo1313_1457,rplS,structural constituent of ribosome
+3307,Clo1313_1491,aroC,chorismate synthase activity
+3308,Clo1313_1491,aroC, FMN binding
+3327,Clo1313_1501,mnmA,ATP binding
+3328,Clo1313_1501,mnmA, tRNA binding
+3329,Clo1313_1501,mnmA, tRNA-uridine 2-sulfurtransferase activity
+3348,Clo1313_1508,ndk,ATP binding
+3349,Clo1313_1508,ndk, metal ion binding
+3350,Clo1313_1508,ndk, nucleoside diphosphate kinase activity
+3401,Clo1313_1530,speE,spermidine synthase activity
+3412,Clo1313_1535,scpB,
+3422,Clo1313_1540,lysA,diaminopimelate decarboxylase activity
+3423,Clo1313_1540,lysA, pyridoxal phosphate binding
+3442,Clo1313_1547,xerD,DNA binding
+3443,Clo1313_1547,xerD, tyrosine-based site-specific recombinase activity
+3447,Clo1313_1550,rnhA,magnesium ion binding
+3448,Clo1313_1550,rnhA, nucleic acid binding
+3449,Clo1313_1550,rnhA, RNA-DNA hybrid ribonuclease activity
+3450,Clo1313_1551,proC,pyrroline-5-carboxylate reductase activity
+3572,Clo1313_1607,mtnA,S-methyl-5-thioribose-1-phosphate isomerase activity
+3624,Clo1313_1627,thiC,"4 iron, 4 sulfur cluster binding"
+3625,Clo1313_1627,thiC, phosphomethylpyrimidine synthase activity
+3626,Clo1313_1627,thiC, zinc ion binding
+3685,Clo1313_2278,rsgA,GTP binding
+3686,Clo1313_2278,rsgA, GTPase activity
+3687,Clo1313_2278,rsgA, metal ion binding
+3688,Clo1313_2278,rsgA, rRNA binding
+3695,Clo1313_1665,rlmN,"4 iron, 4 sulfur cluster binding"
+3696,Clo1313_1665,rlmN, metal ion binding
+3697,Clo1313_1665,rlmN, rRNA (adenine(2503)-C2-)-methyltransferase activity
+3698,Clo1313_1665,rlmN, rRNA binding
+3699,Clo1313_1665,rlmN, tRNA (adenine(37)-C2)-methyltransferase activity
+3700,Clo1313_1665,rlmN, tRNA binding
+3709,Clo1313_1670,def,metal ion binding
+3710,Clo1313_1670,def, peptide deformylase activity
+3711,Clo1313_1671,priA,3'-5' DNA helicase activity
+3712,Clo1313_1671,priA, ATP binding
+3713,Clo1313_1671,priA, DNA binding
+3714,Clo1313_1671,priA, hydrolase activity
+3715,Clo1313_1671,priA, zinc ion binding
+3716,Clo1313_1671,priA,3'-5' DNA helicase activity
+3717,Clo1313_1671,priA, ATP binding
+3718,Clo1313_1671,priA, ATP hydrolysis activity
+3719,Clo1313_1671,priA, DNA binding
+3720,Clo1313_1671,priA, zinc ion binding
+3880,Clo1313_1735,flhA,
+3881,Clo1313_1736,flhB,
+3884,Clo1313_1738,fliQ,
+3885,Clo1313_1739,fliP,
+3920,Clo1313_1756,fliE,cytoskeletal motor activity
+3921,Clo1313_1756,fliE, structural molecule activity
+3925,Clo1313_1759,trmFO,flavin adenine dinucleotide binding
+3926,Clo1313_1759,trmFO," tRNA (uracil(54)-C5)-methyltransferase activity, 5,10-methylenetetrahydrofolate-dependent"
+3927,Clo1313_1760,topA,DNA binding
+3928,Clo1313_1760,topA," DNA topoisomerase type I (single strand cut, ATP-independent) activity"
+3929,Clo1313_1760,topA, zinc ion binding
+3953,Clo1313_1770,nrdR,ATP binding
+3954,Clo1313_1770,nrdR, DNA binding
+3955,Clo1313_1770,nrdR, zinc ion binding
+3968,Clo1313_1775,ftsZ,GTP binding
+3969,Clo1313_1775,ftsZ, GTPase activity
+3970,Clo1313_1776,ftsA,
+4039,Clo1313_1798,adhE,acetaldehyde dehydrogenase (acetylating) activity
+4040,Clo1313_1798,adhE, alcohol dehydrogenase (NADP+) activity
+4041,Clo1313_1798,adhE, aldehyde dehydrogenase (NAD+) activity
+4042,Clo1313_1798,adhE, butanol dehydrogenase (NAD+) activity
+4043,Clo1313_1798,adhE, metal ion binding
+4044,Clo1313_1798,adhE, methylglyoxal reductase (NADPH) (acetol producing) activity
+4065,Clo1313_1804,rpsO,rRNA binding
+4066,Clo1313_1804,rpsO, structural constituent of ribosome
+4160,Clo1313_1846,guaA,ATP binding
+4161,Clo1313_1846,guaA, GMP synthase activity
+4182,Clo1313_1852,larC,lyase activity
+4183,Clo1313_1852,larC, nickel cation binding
+4327,Clo1313_1916,uvrA,ATP binding
+4328,Clo1313_1916,uvrA, ATP hydrolysis activity
+4329,Clo1313_1916,uvrA, DNA binding
+4330,Clo1313_1916,uvrA, excinuclease ABC activity
+4331,Clo1313_1916,uvrA, zinc ion binding
+4333,Clo1313_1918,uvrB,ATP binding
+4334,Clo1313_1918,uvrB, ATP hydrolysis activity
+4335,Clo1313_1918,uvrB, DNA binding
+4336,Clo1313_1918,uvrB, excinuclease ABC activity
+4563,Clo1313_2018,pheS,ATP binding
+4564,Clo1313_2018,pheS," catalytic activity, acting on a protein"
+4565,Clo1313_2018,pheS, magnesium ion binding
+4566,Clo1313_2018,pheS, phenylalanine-tRNA ligase activity
+4567,Clo1313_2018,pheS, transferase activity
+4568,Clo1313_2018,pheS, tRNA binding
+4648,Clo1313_2045,rph,3'-5'-RNA exonuclease activity
+4649,Clo1313_2045,rph, tRNA binding
+4650,Clo1313_2045,rph, tRNA nucleotidyltransferase activity
+4659,Clo1313_2051,ruvB,ATP binding
+4660,Clo1313_2051,ruvB, four-way junction DNA binding
+4661,Clo1313_2051,ruvB, four-way junction helicase activity
+4662,Clo1313_2051,ruvB, hydrolase activity
+4663,Clo1313_2051,ruvB,ATP binding
+4664,Clo1313_2051,ruvB, ATP hydrolysis activity
+4665,Clo1313_2051,ruvB, four-way junction DNA binding
+4666,Clo1313_2051,ruvB, four-way junction helicase activity
+4667,Clo1313_2052,ruvA,ATP binding
+4668,Clo1313_2052,ruvA, four-way junction DNA binding
+4669,Clo1313_2052,ruvA, four-way junction helicase activity
+4670,Clo1313_2053,ruvC,crossover junction DNA endonuclease activity
+4671,Clo1313_2053,ruvC, DNA binding
+4672,Clo1313_2053,ruvC, magnesium ion binding
+4675,Clo1313_2055,argH,argininosuccinate lyase activity
+4705,Clo1313_2072,rpmA,structural constituent of ribosome
+4708,Clo1313_2074,rplU,rRNA binding
+4709,Clo1313_2074,rplU, structural constituent of ribosome
+4742,Clo1313_2086,rnr,exoribonuclease II activity
+4743,Clo1313_2086,rnr, RNA binding
+4747,Clo1313_2090,eno,magnesium ion binding
+4748,Clo1313_2090,eno, phosphopyruvate hydratase activity
+4754,Clo1313_2094,pgk,ADP binding
+4755,Clo1313_2094,pgk, ATP binding
+4756,Clo1313_2094,pgk, phosphoglycerate kinase activity
+4809,Clo1313_2115,whiA,DNA binding
+4820,Clo1313_2119,murB,FAD binding
+4821,Clo1313_2119,murB, UDP-N-acetylmuramate dehydrogenase activity
+4826,Clo1313_2121,hprK,ATP binding
+4827,Clo1313_2121,hprK, magnesium ion binding
+4828,Clo1313_2121,hprK, phosphorelay sensor kinase activity
+4829,Clo1313_2121,hprK, protein serine/threonine kinase activity
+4830,Clo1313_2121,hprK, protein serine/threonine/tyrosine kinase activity
+4849,Clo1313_2129,trmB,tRNA (guanine(46)-N7)-methyltransferase activity
+4865,Clo1313_2137,minE,
+4870,Clo1313_2139,minC,
+4886,Clo1313_2149,lon,ATP binding
+4887,Clo1313_2149,lon, ATP hydrolysis activity
+4888,Clo1313_2149,lon, ATP-dependent peptidase activity
+4889,Clo1313_2149,lon, sequence-specific DNA binding
+4890,Clo1313_2149,lon, serine-type endopeptidase activity
+4891,Clo1313_2150,argJ,L-glutamate N-acetyltransferase activity
+4892,Clo1313_2150,argJ," L-glutamate N-acetyltransferase activity, acting on acetyl-L-ornithine as donor"
+4911,Clo1313_2162,asnS,asparagine-tRNA ligase activity
+4912,Clo1313_2162,asnS, ATP binding
+4913,Clo1313_2162,asnS," catalytic activity, acting on a protein"
+4914,Clo1313_2162,asnS, nucleic acid binding
+4915,Clo1313_2162,asnS, transferase activity
+4987,Clo1313_2198,hcp,"4 iron, 4 sulfur cluster binding"
+4988,Clo1313_2198,hcp, hydroxylamine reductase activity
+4989,Clo1313_2198,hcp, metal ion binding
+4990,Clo1313_2198,hcp, peroxidase activity
+5005,Clo1313_2207,bioA,adenosylmethionine-8-amino-7-oxononanoate transaminase activity
+5006,Clo1313_2207,bioA, pyridoxal phosphate binding
+5007,Clo1313_2208,bioC,carboxyl-O-methyltransferase activity
+5008,Clo1313_2208,bioC, malonyl-CoA methyltransferase activity
+5012,Clo1313_2211,bioD,ATP binding
+5013,Clo1313_2211,bioD, dethiobiotin synthase activity
+5014,Clo1313_2211,bioD, magnesium ion binding
+5015,Clo1313_2211,bioD, protein homodimerization activity
+5016,Clo1313_2212,bioB,"2 iron, 2 sulfur cluster binding"
+5017,Clo1313_2212,bioB," 4 iron, 4 sulfur cluster binding"
+5018,Clo1313_2212,bioB, biotin synthase activity
+5019,Clo1313_2212,bioB, iron ion binding
+5057,Clo1313_2239,dcd,dCTP deaminase (dUMP-forming) activity
+5058,Clo1313_2239,dcd, dCTP deaminase activity
+5059,Clo1313_2239,dcd, nucleotide binding
+5172,Clo1313_2307,aspS,aspartate-tRNA ligase activity
+5173,Clo1313_2307,aspS, aspartate-tRNA(Asn) ligase activity
+5174,Clo1313_2307,aspS, ATP binding
+5175,Clo1313_2307,aspS," catalytic activity, acting on a protein"
+5176,Clo1313_2307,aspS, nucleic acid binding
+5177,Clo1313_2307,aspS, transferase activity
+5246,Clo1313_2339,nifH,"4 iron, 4 sulfur cluster binding"
+5247,Clo1313_2339,nifH, ATP binding
+5248,Clo1313_2339,nifH, metal ion binding
+5249,Clo1313_2339,nifH, nitrogenase activity
+5251,Clo1313_2341,deoD,purine-nucleoside phosphorylase activity
+5252,Clo1313_2341,deoD, uridine phosphorylase activity
+5272,Clo1313_2615,deoC,deoxyribose-phosphate aldolase activity
+5489,Clo1313_2439,proB,ATP binding
+5490,Clo1313_2439,proB, glutamate 5-kinase activity
+5519,Clo1313_2455,rpsI,RNA binding
+5520,Clo1313_2455,rpsI, structural constituent of ribosome
+5521,Clo1313_2456,rplM,mRNA binding
+5522,Clo1313_2456,rplM, structural constituent of ribosome
+5525,Clo1313_2458,disA,adenylate cyclase activity
+5526,Clo1313_2458,disA, ATP binding
+5527,Clo1313_2458,disA, diadenylate cyclase activity
+5528,Clo1313_2458,disA, DNA binding
+5529,Clo1313_2459,radA,ATP binding
+5530,Clo1313_2459,radA, ATP-dependent DNA damage sensor activity
+5531,Clo1313_2459,radA, ATP-dependent peptidase activity
+5532,Clo1313_2459,radA, damaged DNA binding
+5533,Clo1313_2459,radA, serine-type endopeptidase activity
+5534,Clo1313_2459,radA, zinc ion binding
+5611,Clo1313_2487,ureG,GTP binding
+5612,Clo1313_2487,ureG, GTPase activity
+5613,Clo1313_2487,ureG, nickel cation binding
+5615,Clo1313_2490,ureC,nickel cation binding
+5616,Clo1313_2490,ureC, urease activity
+5707,Clo1313_2544,hslO,protein folding chaperone
+5708,Clo1313_2544,hslO, unfolded protein binding
+5723,Clo1313_2552,ftsE,ATP binding
+5724,Clo1313_2552,ftsE, ATP hydrolysis activity
+5725,Clo1313_2552,ftsE, transmembrane transporter activity
+5737,Clo1313_2556,argB,acetylglutamate kinase activity
+5738,Clo1313_2556,argB, ATP binding
+5955,Clo1313_2694,addA,3'-5' DNA helicase activity
+5956,Clo1313_2694,addA, 3'-5' exonuclease activity
+5957,Clo1313_2694,addA, ATP binding
+5958,Clo1313_2694,addA, double-stranded DNA binding
+5959,Clo1313_2695,addB,"4 iron, 4 sulfur cluster binding"
+5960,Clo1313_2695,addB, 5'-3' exonuclease activity
+5961,Clo1313_2695,addB, ATP binding
+5962,Clo1313_2695,addB, double-stranded DNA binding
+5963,Clo1313_2695,addB, helicase activity
+5964,Clo1313_2695,addB, metal ion binding
+6041,Clo1313_2742,dinB,damaged DNA binding
+6042,Clo1313_2742,dinB, DNA-directed DNA polymerase activity
+6043,Clo1313_2742,dinB, magnesium ion binding
+6060,Clo1313_2750,rsmA,16S rRNA (adenine(1518)-N(6)/adenine(1519)-N(6))-dimethyltransferase activity
+6061,Clo1313_2750,rsmA, RNA binding
+6069,Clo1313_2754,metG,ATP binding
+6070,Clo1313_2754,metG, metal ion binding
+6071,Clo1313_2754,metG, methionine-tRNA ligase activity
+6072,Clo1313_2754,metG, tRNA binding
+6083,Clo1313_2759,rsmI,rRNA (cytosine-2'-O-)-methyltransferase activity
+6168,Clo1313_2800,recR,DNA binding
+6169,Clo1313_2800,recR, zinc ion binding
+6227,Clo1313_2831,rpmE,metal ion binding
+6228,Clo1313_2831,rpmE, rRNA binding
+6229,Clo1313_2831,rpmE, structural constituent of ribosome
+6265,Clo1313_2854,glgB,"1,4-alpha-glucan branching enzyme activity"
+6266,Clo1313_2854,glgB, cation binding
+6267,Clo1313_2854,glgB," hydrolase activity, hydrolyzing O-glycosyl compounds"
+6301,Clo1313_2876,folE,GTP binding
+6302,Clo1313_2876,folE, GTP cyclohydrolase I activity
+6303,Clo1313_2876,folE, zinc ion binding
+6320,Clo1313_2882,leuB,3-isopropylmalate dehydrogenase activity
+6321,Clo1313_2882,leuB, magnesium ion binding
+6322,Clo1313_2882,leuB, NAD binding
+6323,Clo1313_2883,leuD,3-isopropylmalate dehydratase activity
+6324,Clo1313_2884,leuC,3-isopropylmalate dehydratase activity
+6325,Clo1313_2884,leuC," 4 iron, 4 sulfur cluster binding"
+6326,Clo1313_2884,leuC, metal ion binding
+6380,Clo1313_2912,csrA,mRNA 5'-UTR binding
+6386,Clo1313_2917,flgK,structural molecule activity
+6406,Clo1313_2926,ftsH,ATP binding
+6407,Clo1313_2926,ftsH, ATP hydrolysis activity
+6408,Clo1313_2926,ftsH, ATP-dependent peptidase activity
+6409,Clo1313_2926,ftsH, metalloendopeptidase activity
+6410,Clo1313_2926,ftsH, zinc ion binding
+6419,Clo1313_2928,tilS,ATP binding
+6420,Clo1313_2928,tilS, tRNA(Ile)-lysidine synthase activity
+6438,Clo1313_2933,pheA,prephenate dehydratase activity
+6446,Clo1313_0190,atpE,ATP binding
+6447,Clo1313_0190,atpE," proton-transporting ATP synthase activity, rotational mechanism"
+6448,Clo1313_0190,atpE," proton-transporting ATPase activity, rotational mechanism"
+6456,Clo1313_0195,atpD,ATP binding
+6457,Clo1313_0195,atpD," proton-transporting ATP synthase activity, rotational mechanism"
+6458,Clo1313_0195,atpD," proton-transporting ATPase activity, rotational mechanism"
+6562,Clo1313_2987,rlmH,rRNA (pseudouridine-N3-)-methyltransferase activity
+6625,Clo1313_3019,nadA,"4 iron, 4 sulfur cluster binding"
+6626,Clo1313_3019,nadA, metal ion binding
+6627,Clo1313_3019,nadA, quinolinate synthetase A activity
+6636,Clo1313_3024,gyrA,ATP binding
+6637,Clo1313_3024,gyrA, DNA binding
+6638,Clo1313_3024,gyrA, DNA negative supercoiling activity
+6641,Clo1313_3026,rsmG,rRNA (guanine-N7-)-methyltransferase activity
+6642,Clo1313_3027,mnmG,flavin adenine dinucleotide binding
+6643,Clo1313_3028,mnmE,GTP binding
+6644,Clo1313_3028,mnmE, GTPase activity
+6645,Clo1313_3028,mnmE, identical protein binding
+6646,Clo1313_3028,mnmE, metal ion binding
+6652,Clo1313_3032,rnpA,3'-tRNA processing endoribonuclease activity
+6653,Clo1313_3032,rnpA, ribonuclease P activity
+6654,Clo1313_3032,rnpA, tRNA binding
+6655,Clo1313_3033,rpmH,structural constituent of ribosome

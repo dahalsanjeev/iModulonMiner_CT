@@ -1,0 +1,26 @@
+# Used Gemini Thinking to find the packages required. It suggested to add Mamba for faster dependency solving. Here is the prompt:
+### You are an expert in conda and package installations. I would like to install the packages from the environment.yml file attached on MacOSX: 26.2. How do I install the packages without any issues. If needed make changes to the package versions, but keep the number of changes to a  minimum.
+
+name: modulome_mac
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.9  # Upgraded for modern macOS compatibility
+  - matplotlib>=3.5.3
+  - pandas>=1.3.5
+  - adjusttext
+  - notebook
+  - seaborn
+  - numpy>=1.21
+  - jupyterlab
+  - scipy
+  - entrez-direct
+  - tqdm
+  - ipywidgets
+  - mpi4py
+  - openmpi
+  - scikit-learn=1.0.2
+  - nextflow=22.10.0
+  - pymodulon=0.2.1

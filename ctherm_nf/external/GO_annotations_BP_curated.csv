@@ -1,0 +1,451 @@
+,gene_id,gene_name,gene_ontology
+0,Clo1313_0001,dnaA,DNA replication initiation
+1,Clo1313_0001,dnaA, regulation of DNA replication
+5,Clo1313_0004,recF,DNA replication
+6,Clo1313_0004,recF, DNA synthesis involved in DNA repair
+7,Clo1313_0004,recF, double-strand break repair
+8,Clo1313_0004,recF, SOS response
+11,Clo1313_0006,gyrB,DNA topological change
+12,Clo1313_0006,gyrB, DNA-templated DNA replication
+23,Clo1313_0011,serS,selenocysteine biosynthetic process
+24,Clo1313_0011,serS, seryl-tRNA aminoacylation
+102,Clo1313_0059,prmC,methylation
+147,Clo1313_1367,tadA,tRNA wobble adenosine to inosine editing
+177,Clo1313_0101,ilvC,isoleucine biosynthetic process
+178,Clo1313_0101,ilvC, L-valine biosynthetic process
+183,Clo1313_2778,sigI,DNA-templated transcription initiation
+189,Clo1313_0108,hemA,protoporphyrinogen IX biosynthetic process from glutamate
+191,Clo1313_0110,hemC,protoporphyrinogen IX biosynthetic process
+198,Clo1313_0113,hemL,protoporphyrinogen IX biosynthetic process
+308,Clo1313_0180,prfA,
+317,Clo1313_0185,upp,UMP salvage
+318,Clo1313_0185,upp, uracil salvage
+328,Clo1313_0190,atpE,
+329,Clo1313_0191,atpF,
+333,Clo1313_0195,atpD,
+344,Clo1313_0202,murA,cell division
+345,Clo1313_0202,murA, cell wall organization
+346,Clo1313_0202,murA, peptidoglycan biosynthetic process
+347,Clo1313_0202,murA, regulation of cell shape
+348,Clo1313_0202,murA, UDP-N-acetylgalactosamine biosynthetic process
+364,Clo1313_0213,fabZ,fatty acid biosynthetic process
+365,Clo1313_0213,fabZ, lipid A biosynthetic process
+374,Clo1313_0216,spoVG,division septum assembly
+375,Clo1313_0216,spoVG, sporulation resulting in formation of a cellular spore
+376,Clo1313_0217,glmU,cell morphogenesis
+377,Clo1313_0217,glmU, cell wall organization
+378,Clo1313_0217,glmU, lipid A biosynthetic process
+379,Clo1313_0217,glmU, peptidoglycan biosynthetic process
+380,Clo1313_0217,glmU, regulation of cell shape
+381,Clo1313_0217,glmU, UDP-N-acetylglucosamine biosynthetic process
+384,Clo1313_0220,mfd,regulation of DNA-templated transcription
+385,Clo1313_0220,mfd," transcription-coupled nucleotide-excision repair, DNA damage recognition"
+393,Clo1313_1162,murJ,cell wall organization
+394,Clo1313_1162,murJ, lipid translocation
+395,Clo1313_1162,murJ, peptidoglycan biosynthetic process
+396,Clo1313_1162,murJ, regulation of cell shape
+545,Clo1313_0304,ilvD,isoleucine biosynthetic process
+546,Clo1313_0304,ilvD, L-valine biosynthetic process
+551,Clo1313_0306,rpmG,translation
+552,Clo1313_0307,secE,intracellular protein transmembrane transport
+553,Clo1313_0307,secE, protein secretion
+554,Clo1313_0307,secE, protein targeting
+555,Clo1313_0307,secE, protein transport by the Sec complex
+556,Clo1313_0308,nusG,DNA-templated transcription elongation
+557,Clo1313_0308,nusG, DNA-templated transcription termination
+558,Clo1313_0308,nusG, regulation of DNA-templated transcription elongation
+559,Clo1313_0308,nusG, transcription antitermination
+560,Clo1313_0309,rplK,translation
+561,Clo1313_0310,rplA,regulation of translation
+562,Clo1313_0310,rplA, translation
+564,Clo1313_0312,rplL,translation
+565,Clo1313_0313,rpoB,DNA-templated transcription
+566,Clo1313_0314,rpoC,DNA-templated transcription
+569,Clo1313_0316,rpsL,translation
+570,Clo1313_0317,rpsG,translation
+571,Clo1313_2467,fusA,ribosome disassembly
+572,Clo1313_0319,tuf,
+583,Clo1313_0326,uvrC,nucleotide-excision repair
+584,Clo1313_0326,uvrC, SOS response
+591,Clo1313_0329,clpP,protein quality control for misfolded or incompletely synthesized proteins
+592,Clo1313_0330,clpX,cell division
+593,Clo1313_0330,clpX, proteolysis involved in protein catabolic process
+597,Clo1313_0332,tsaD,tRNA threonylcarbamoyladenosine modification
+605,Clo1313_0337,smpB,trans-translation
+606,Clo1313_0337,smpB, trans-translation-dependent protein tagging
+763,Clo1313_0421,hisZ,histidyl-tRNA aminoacylation
+764,Clo1313_0421,hisZ, L-histidine biosynthetic process
+766,Clo1313_0423,hisD,L-histidine biosynthetic process
+767,Clo1313_0424,hisC,L-histidine biosynthetic process
+768,Clo1313_0425,hisB,L-histidine biosynthetic process
+770,Clo1313_0427,hisH,L-histidine biosynthetic process
+771,Clo1313_0428,hisA,L-histidine biosynthetic process
+772,Clo1313_0428,hisA, L-tryptophan biosynthetic process
+773,Clo1313_0429,hisF,L-histidine biosynthetic process
+777,Clo1313_0432,groES,
+786,Clo1313_0438,greA,DNA-templated transcription elongation
+787,Clo1313_0438,greA, regulation of DNA-templated transcription elongation
+798,Clo1313_0444,rpsJ,translation
+799,Clo1313_0445,rplC,translation
+800,Clo1313_0446,rplD,translation
+801,Clo1313_0447,rplW,translation
+802,Clo1313_0448,rplB,cytoplasmic translation
+803,Clo1313_0449,rpsS,ribosomal small subunit assembly
+804,Clo1313_0449,rpsS, translation
+805,Clo1313_0450,rplV,translation
+806,Clo1313_0451,rpsC,translation
+807,Clo1313_0452,rplP,translation
+808,Clo1313_0453,rpmC,translation
+809,Clo1313_0454,rpsQ,translation
+810,Clo1313_0455,rplN,translation
+812,Clo1313_0457,rplE,translation
+814,Clo1313_0459,rpsH,translation
+815,Clo1313_0460,rplF,cytoplasmic translation
+816,Clo1313_0461,rplR,translation
+817,Clo1313_0462,rpsE,ribosome biogenesis
+818,Clo1313_0462,rpsE, translation
+819,Clo1313_0463,rpmD,translation
+820,Clo1313_0464,rplO,translation
+821,Clo1313_0465,secY,intracellular protein transmembrane transport
+822,Clo1313_0465,secY, protein targeting
+823,Clo1313_0465,secY, protein transport by the Sec complex
+825,Clo1313_0467,map,proteolysis
+828,Clo1313_0469,infA,
+829,Clo1313_0470,rpmJ,translation
+830,Clo1313_0471,rpsM,translation
+831,Clo1313_0472,rpsK,translation
+832,Clo1313_0473,rpsD,ribosomal small subunit biogenesis
+833,Clo1313_0473,rpsD, translation
+835,Clo1313_0475,rplQ,translation
+852,Clo1313_0490,truA,tRNA pseudouridine synthesis
+855,Clo1313_0492,ispD,"isopentenyl diphosphate biosynthetic process, methylerythritol 4-phosphate pathway"
+902,Clo1313_0523,sfsA,
+924,Clo1313_0541,msrA,
+974,Clo1313_0569,hypA,protein maturation
+1079,Clo1313_2470,aroA,amino acid biosynthetic process
+1080,Clo1313_2470,aroA, aromatic amino acid family biosynthetic process
+1081,Clo1313_2470,aroA, chorismate biosynthetic process
+1116,Clo1313_0656,queC,tRNA queuosine(34) biosynthetic process
+1195,Clo1313_0701,cobD,cobalamin biosynthetic process
+1273,Clo1313_0749,alaS,alanyl-tRNA aminoacylation
+1287,Clo1313_2969,cas2,defense response to virus
+1288,Clo1313_2969,cas2, maintenance of CRISPR repeat elements
+1385,Clo1313_0836,trpB,
+1424,Clo1313_0863,secA,intracellular protein transmembrane transport
+1425,Clo1313_0863,secA, protein import
+1426,Clo1313_0863,secA, protein targeting
+1427,Clo1313_0863,secA, protein transport by the Sec complex
+1535,Clo1313_2307,aspS,aspartyl-tRNA aminoacylation
+1542,Clo1313_0929,lepA,positive regulation of translation
+1545,Clo1313_0931,hrcA,negative regulation of DNA-templated transcription
+1546,Clo1313_0932,grpE,protein folding
+1547,Clo1313_0933,dnaK,
+1548,Clo1313_0934,dnaJ,DNA replication
+1549,Clo1313_0934,dnaJ, protein refolding
+1550,Clo1313_0934,dnaJ, response to heat
+1551,Clo1313_0935,prmA,methylation
+1561,Clo1313_0941,gmk,
+1563,Clo1313_0943,coaBC,coenzyme A biosynthetic process
+1564,Clo1313_0943,coaBC, pantothenate catabolic process
+1590,Clo1313_0960,cobT,cobalamin biosynthetic process
+1614,Clo1313_1947,glgA,glycogen biosynthetic process
+1615,Clo1313_0975,nth,"base-excision repair, AP site formation"
+1625,Clo1313_0982,coaD,coenzyme A biosynthetic process
+1652,Clo1313_0997,pfkA,canonical glycolysis
+1653,Clo1313_0997,pfkA," fructose 1,6-bisphosphate metabolic process"
+1654,Clo1313_0997,pfkA, fructose 6-phosphate metabolic process
+1671,Clo1313_1008,purE,'de novo' IMP biosynthetic process
+1675,Clo1313_1012,purH,'de novo' IMP biosynthetic process
+1676,Clo1313_1013,purD,'de novo' IMP biosynthetic process
+1677,Clo1313_1013,purD, purine nucleobase biosynthetic process
+1684,Clo1313_1019,rsfS,cytosolic ribosome assembly
+1685,Clo1313_1019,rsfS, negative regulation of ribosome biogenesis
+1686,Clo1313_1019,rsfS, negative regulation of translation
+1706,Clo1313_1029,thrS,threonyl-tRNA aminoacylation
+1707,Clo1313_1030,thyA,dTMP biosynthetic process
+1708,Clo1313_1030,thyA, dTTP biosynthetic process
+1709,Clo1313_1030,thyA, methylation
+1719,Clo1313_1033,rpmI,translation
+1720,Clo1313_1034,rplT,ribosomal large subunit assembly
+1721,Clo1313_1034,rplT, translation
+1735,Clo1313_1041,clpS,protein catabolic process
+1736,Clo1313_1041,clpS, proteolysis
+1815,Clo1313_1090,dapB,diaminopimelate biosynthetic process
+1816,Clo1313_1090,dapB, lysine biosynthetic process via diaminopimelate
+1831,Clo1313_1099,glmS,carbohydrate metabolic process
+1832,Clo1313_1099,glmS, fructose 6-phosphate metabolic process
+1833,Clo1313_1099,glmS, protein N-linked glycosylation
+1834,Clo1313_1099,glmS, UDP-N-acetylglucosamine metabolic process
+1869,Clo1313_1120,folD,L-histidine biosynthetic process
+1870,Clo1313_1120,folD, methionine biosynthetic process
+1871,Clo1313_1120,folD, purine nucleotide biosynthetic process
+1872,Clo1313_1120,folD, tetrahydrofolate interconversion
+1875,Clo1313_1122,rny,mRNA catabolic process
+1912,Clo1313_1144,ybeY,rRNA processing
+1917,Clo1313_1146,era,ribosomal small subunit assembly
+1920,Clo1313_1148,recO,DNA recombination
+1921,Clo1313_1148,recO, double-strand break repair
+1926,Clo1313_1151,thiI,thiamine biosynthetic process
+1927,Clo1313_1151,thiI, thiamine diphosphate biosynthetic process
+1928,Clo1313_1151,thiI, thiazole biosynthetic process
+1929,Clo1313_1151,thiI, tRNA 4-thiouridine biosynthesis
+1947,Clo1313_1163,recA,DNA recombination
+1948,Clo1313_1163,recA, DNA repair
+1949,Clo1313_1163,recA, SOS response
+1967,Clo1313_1174,rpsT,translation
+1974,Clo1313_1178,ligA,DNA repair
+1975,Clo1313_1178,ligA, DNA replication
+1980,Clo1313_1181,gatC,glutaminyl-tRNAGln biosynthesis via transamidation
+1981,Clo1313_1181,gatC, regulation of translational fidelity
+1982,Clo1313_1181,gatC, translation
+1983,Clo1313_2305,gatA,translation
+1984,Clo1313_2304,gatB,glutaminyl-tRNAGln biosynthesis via transamidation
+1985,Clo1313_2304,gatB, translation
+1993,Clo1313_1188,rpmF,translation
+1995,Clo1313_1190,der,ribosome biogenesis
+1996,Clo1313_1191,plsY,phospholipid biosynthetic process
+2028,Clo1313_1207,mltG,cell wall organization
+2029,Clo1313_1207,mltG, peptidoglycan biosynthetic process
+2033,Clo1313_1209,rpsB,translation
+2034,Clo1313_1210,tsf,
+2037,Clo1313_1212,frr,translational termination
+2047,Clo1313_1218,ispG,"isopentenyl diphosphate biosynthetic process, methylerythritol 4-phosphate pathway"
+2048,Clo1313_1218,ispG, terpenoid biosynthetic process
+2051,Clo1313_1221,rimP,ribosomal small subunit assembly
+2052,Clo1313_1221,rimP, translation
+2053,Clo1313_1222,nusA,DNA-templated transcription termination
+2054,Clo1313_1222,nusA, transcription antitermination
+2059,Clo1313_1226,rbfA,maturation of SSU-rRNA
+2062,Clo1313_1228,truB,mRNA pseudouridine synthesis
+2063,Clo1313_1228,truB, tRNA pseudouridine synthesis
+2086,Clo1313_1236,mraZ,negative regulation of DNA-templated transcription initiation
+2087,Clo1313_1237,rsmH,rRNA base methylation
+2112,Clo1313_1244,murG,carbohydrate metabolic process
+2113,Clo1313_1244,murG, cell division
+2114,Clo1313_1244,murG, cell wall organization
+2115,Clo1313_1244,murG, peptidoglycan biosynthetic process
+2116,Clo1313_1244,murG, regulation of cell shape
+2143,Clo1313_1257,queA,tRNA queuosine(34) biosynthetic process
+2144,Clo1313_1258,tgt,tRNA queuosine(34) biosynthetic process
+2151,Clo1313_1262,pyrR,DNA-templated transcription termination
+2159,Clo1313_1266,pyrF,'de novo' pyrimidine nucleobase biosynthetic process
+2160,Clo1313_1266,pyrF, 'de novo' UMP biosynthetic process
+2161,Clo1313_2559,carA,'de novo' pyrimidine nucleobase biosynthetic process
+2162,Clo1313_2559,carA, 'de novo' UMP biosynthetic process
+2163,Clo1313_2559,carA, glutamine metabolic process
+2164,Clo1313_2559,carA, L-arginine biosynthetic process
+2165,Clo1313_2560,carB,'de novo' UMP biosynthetic process
+2166,Clo1313_2560,carB, glutamine metabolic process
+2167,Clo1313_2560,carB, L-arginine biosynthetic process
+2180,Clo1313_1275,rimO,tRNA methylthiolation
+2189,Clo1313_1280,plsX,fatty acid biosynthetic process
+2190,Clo1313_1280,plsX, phospholipid biosynthetic process
+2198,Clo1313_1284,acpP,lipid A biosynthetic process
+2211,Clo1313_1290,smc,chromosome condensation
+2212,Clo1313_1290,smc, chromosome segregation
+2213,Clo1313_1290,smc, DNA replication
+2214,Clo1313_1290,smc, sister chromatid cohesion
+2215,Clo1313_1291,ftsY,SRP-dependent cotranslational protein targeting to membrane
+2237,Clo1313_1309,lspA,proteolysis
+2245,Clo1313_1314,secD,intracellular protein transmembrane transport
+2246,Clo1313_1314,secD, protein targeting
+2247,Clo1313_1314,secD, protein transport by the Sec complex
+2248,Clo1313_1315,secF,intracellular protein transmembrane transport
+2249,Clo1313_1315,secF, protein targeting
+2250,Clo1313_1315,secF, protein transport by the Sec complex
+2251,Clo1313_1316,panB,pantothenate biosynthetic process
+2278,Clo1313_1334,polA,DNA-templated DNA replication
+2279,Clo1313_1334,polA, double-strand break repair
+2294,Clo1313_1342,ychF,
+2297,Clo1313_1344,trpE,L-tryptophan biosynthetic process
+2299,Clo1313_1346,trpD,L-tryptophan biosynthetic process
+2300,Clo1313_1347,trpC,L-tryptophan biosynthetic process
+2323,Clo1313_1362,floA,
+2344,Clo1313_1371,aroQ,amino acid biosynthetic process
+2345,Clo1313_1371,aroQ, aromatic amino acid family biosynthetic process
+2346,Clo1313_1371,aroQ, chorismate biosynthetic process
+2347,Clo1313_1371,aroQ, quinate catabolic process
+2349,Clo1313_1373,efp,peptide biosynthetic process
+2374,Clo1313_1387,nusB,DNA-templated transcription termination
+2375,Clo1313_1387,nusB, transcription antitermination
+2456,Clo1313_1434,ileS,isoleucyl-tRNA aminoacylation
+2463,Clo1313_1438,miaB,
+2472,Clo1313_1445,mutS,mismatch repair
+2473,Clo1313_1446,mutL,mismatch repair
+2474,Clo1313_1447,miaA,tRNA modification
+2475,Clo1313_1448,hfq,regulation of DNA-templated transcription
+2476,Clo1313_1448,hfq, regulation of RNA stability
+2477,Clo1313_1448,hfq," regulation of translation, ncRNA-mediated"
+2478,Clo1313_1449,lexA,DNA repair
+2479,Clo1313_1449,lexA, DNA replication
+2480,Clo1313_1449,lexA, negative regulation of DNA-templated transcription
+2481,Clo1313_1449,lexA, proteolysis
+2482,Clo1313_1449,lexA, SOS response
+2487,Clo1313_1452,ffh,SRP-dependent cotranslational protein targeting to membrane
+2488,Clo1313_1453,rpsP,translation
+2492,Clo1313_1455,rimM,ribosomal small subunit biogenesis
+2493,Clo1313_1455,rimM, rRNA processing
+2494,Clo1313_1456,trmD,tRNA N1-guanine methylation
+2495,Clo1313_1457,rplS,translation
+2560,Clo1313_1491,aroC,amino acid biosynthetic process
+2561,Clo1313_1491,aroC, aromatic amino acid family biosynthetic process
+2562,Clo1313_1491,aroC, chorismate biosynthetic process
+2582,Clo1313_1501,mnmA,tRNA wobble position uridine thiolation
+2595,Clo1313_1508,ndk,CTP biosynthetic process
+2596,Clo1313_1508,ndk, GTP biosynthetic process
+2597,Clo1313_1508,ndk, UTP biosynthetic process
+2639,Clo1313_1530,speE,spermidine biosynthetic process
+2648,Clo1313_1535,scpB,cell division
+2649,Clo1313_1535,scpB, chromosome separation
+2650,Clo1313_1535,scpB, DNA replication
+2657,Clo1313_1540,lysA,lysine biosynthetic process via diaminopimelate
+2681,Clo1313_1547,xerD,cell division
+2682,Clo1313_1547,xerD, chromosome segregation
+2683,Clo1313_1547,xerD, DNA transposition
+2689,Clo1313_1550,rnhA,"DNA replication, removal of RNA primer"
+2690,Clo1313_1551,proC,L-proline biosynthetic process
+2792,Clo1313_1607,mtnA,L-methionine salvage from methylthioadenosine
+2821,Clo1313_1627,thiC,thiamine biosynthetic process
+2822,Clo1313_1627,thiC, thiamine diphosphate biosynthetic process
+2861,Clo1313_2278,rsgA,ribosomal small subunit biogenesis
+2866,Clo1313_1665,rlmN,rRNA base methylation
+2867,Clo1313_1665,rlmN, tRNA methylation
+2874,Clo1313_1670,def,translation
+2875,Clo1313_1671,priA,DNA recombination
+2876,Clo1313_1671,priA, DNA replication initiation
+2877,Clo1313_1671,priA," DNA replication, synthesis of primer"
+2878,Clo1313_1671,priA, double-strand break repair
+2986,Clo1313_1735,flhA,bacterial-type flagellum assembly
+2987,Clo1313_1735,flhA, protein secretion
+2988,Clo1313_1736,flhB,bacterial-type flagellum assembly
+2989,Clo1313_1736,flhB, protein secretion
+2994,Clo1313_1738,fliQ,bacterial-type flagellum assembly
+2995,Clo1313_1738,fliQ, protein secretion
+2996,Clo1313_1739,fliP,bacterial-type flagellum organization
+2997,Clo1313_1739,fliP, protein secretion
+3042,Clo1313_1756,fliE,bacterial-type flagellum-dependent cell motility
+3046,Clo1313_1759,trmFO,tRNA methylation
+3047,Clo1313_1759,trmFO, tRNA wobble uridine modification
+3048,Clo1313_1760,topA,DNA topological change
+3063,Clo1313_1770,nrdR,negative regulation of DNA-templated transcription
+3080,Clo1313_1775,ftsZ,division septum assembly
+3081,Clo1313_1775,ftsZ, FtsZ-dependent cytokinesis
+3082,Clo1313_1775,ftsZ, protein polymerization
+3083,Clo1313_1776,ftsA,FtsZ-dependent cytokinesis
+3123,Clo1313_1798,adhE,alcohol metabolic process
+3124,Clo1313_1798,adhE, carbon utilization
+3137,Clo1313_1804,rpsO,translation
+3205,Clo1313_1846,guaA,
+3213,Clo1313_1852,larC,protein maturation
+3312,Clo1313_1916,uvrA,nucleotide-excision repair
+3313,Clo1313_1916,uvrA, SOS response
+3315,Clo1313_1918,uvrB,nucleotide-excision repair
+3316,Clo1313_1918,uvrB, SOS response
+3480,Clo1313_2018,pheS,phenylalanyl-tRNA aminoacylation
+3523,Clo1313_2045,rph,rRNA 3'-end processing
+3524,Clo1313_2045,rph, rRNA catabolic process
+3525,Clo1313_2045,rph, tRNA processing
+3532,Clo1313_2051,ruvB,DNA recombination
+3533,Clo1313_2051,ruvB, DNA repair
+3534,Clo1313_2052,ruvA,DNA recombination
+3535,Clo1313_2052,ruvA, DNA repair
+3536,Clo1313_2053,ruvC,DNA recombination
+3537,Clo1313_2053,ruvC, DNA repair
+3541,Clo1313_2055,argH,L-arginine biosynthetic process via ornithine
+3566,Clo1313_2072,rpmA,translation
+3571,Clo1313_2074,rplU,translation
+3589,Clo1313_2086,rnr,mRNA catabolic process
+3595,Clo1313_2090,eno,glycolytic process
+3605,Clo1313_2094,pgk,gluconeogenesis
+3606,Clo1313_2094,pgk, glycolytic process
+3646,Clo1313_2115,whiA,cell division
+3647,Clo1313_2115,whiA, regulation of sporulation
+3654,Clo1313_2119,murB,cell division
+3655,Clo1313_2119,murB, cell wall organization
+3656,Clo1313_2119,murB, peptidoglycan biosynthetic process
+3657,Clo1313_2119,murB, regulation of cell shape
+3660,Clo1313_2121,hprK,regulation of carbohydrate metabolic process
+3671,Clo1313_2129,trmB,
+3681,Clo1313_2137,minE,cell division
+3682,Clo1313_2137,minE, regulation of division septum assembly
+3687,Clo1313_2139,minC,cell morphogenesis
+3688,Clo1313_2139,minC, division septum assembly
+3689,Clo1313_2139,minC, regulation of cell septum assembly
+3705,Clo1313_2149,lon,cellular response to heat
+3706,Clo1313_2149,lon, protein quality control for misfolded or incompletely synthesized proteins
+3707,Clo1313_2150,argJ,L-arginine biosynthetic process
+3708,Clo1313_2150,argJ, ornithine biosynthetic process
+3725,Clo1313_2162,asnS,asparaginyl-tRNA aminoacylation
+3788,Clo1313_2198,hcp,response to hydrogen peroxide
+3802,Clo1313_2207,bioA,biotin biosynthetic process
+3803,Clo1313_2208,bioC,biotin biosynthetic process
+3804,Clo1313_2208,bioC, methylation
+3807,Clo1313_2211,bioD,biotin biosynthetic process
+3808,Clo1313_2212,bioB,biotin biosynthetic process
+3844,Clo1313_2239,dcd,dUMP biosynthetic process
+3845,Clo1313_2239,dcd, dUTP biosynthetic process
+3929,Clo1313_2304,gatB,translation
+3988,Clo1313_2339,nifH,
+3990,Clo1313_2341,deoD,purine nucleoside metabolic process
+3991,Clo1313_2341,deoD, uridine catabolic process
+4006,Clo1313_2615,deoC,2-deoxyribose 1-phosphate catabolic process
+4007,Clo1313_2615,deoC, carbohydrate catabolic process
+4008,Clo1313_2615,deoC, deoxyribonucleotide catabolic process
+4178,Clo1313_2439,proB,L-proline biosynthetic process
+4204,Clo1313_2455,rpsI,translation
+4205,Clo1313_2456,rplM,negative regulation of translation
+4206,Clo1313_2456,rplM, translation
+4209,Clo1313_2458,disA,DNA repair
+4210,Clo1313_2459,radA,proteolysis
+4211,Clo1313_2459,radA, recombinational repair
+4256,Clo1313_2487,ureG,urea catabolic process
+4258,Clo1313_2490,ureC,urea catabolic process
+4321,Clo1313_2544,hslO,protein refolding
+4340,Clo1313_2552,ftsE,cell division
+4346,Clo1313_2556,argB,L-arginine biosynthetic process via ornithine
+4537,Clo1313_2694,addA,double-strand break repair via homologous recombination
+4538,Clo1313_2695,addB,double-strand break repair via homologous recombination
+4607,Clo1313_2742,dinB,DNA repair
+4608,Clo1313_2742,dinB, DNA-templated DNA replication
+4609,Clo1313_2742,dinB, error-prone translesion synthesis
+4610,Clo1313_2742,dinB, SOS response
+4631,Clo1313_2750,rsmA,
+4637,Clo1313_2754,metG,methionyl-tRNA aminoacylation
+4646,Clo1313_2759,rsmI,
+4711,Clo1313_2800,recR,DNA recombination
+4712,Clo1313_2800,recR, DNA repair
+4760,Clo1313_2831,rpmE,translation
+4794,Clo1313_2854,glgB,cellulose catabolic process
+4795,Clo1313_2854,glgB, glycogen biosynthetic process
+4818,Clo1313_2876,folE,one-carbon metabolic process
+4819,Clo1313_2876,folE, tetrahydrobiopterin biosynthetic process
+4820,Clo1313_2876,folE, tetrahydrofolate biosynthetic process
+4827,Clo1313_2882,leuB,L-leucine biosynthetic process
+4828,Clo1313_2883,leuD,L-leucine biosynthetic process
+4829,Clo1313_2884,leuC,L-leucine biosynthetic process
+4879,Clo1313_2912,csrA,bacterial-type flagellum organization
+4880,Clo1313_2912,csrA, mRNA catabolic process
+4881,Clo1313_2912,csrA, negative regulation of translational initiation
+4882,Clo1313_2912,csrA, regulation of bacterial-type flagellum assembly
+4883,Clo1313_2912,csrA, regulation of carbohydrate metabolic process
+4890,Clo1313_2917,flgK,bacterial-type flagellum assembly
+4907,Clo1313_2926,ftsH,cell division
+4908,Clo1313_2926,ftsH, protein catabolic process
+4909,Clo1313_2926,ftsH, proteolysis
+4910,Clo1313_2926,ftsH,protein catabolic process
+4911,Clo1313_2926,ftsH, proteolysis
+4922,Clo1313_2928,tilS,tRNA modification
+4929,Clo1313_2933,pheA,L-phenylalanine biosynthetic process
+4936,Clo1313_0190,atpE,proton motive force-driven plasma membrane ATP synthesis
+4940,Clo1313_0195,atpD,proton motive force-driven plasma membrane ATP synthesis
+5019,Clo1313_2987,rlmH,
+5075,Clo1313_3019,nadA,'de novo' NAD+ biosynthetic process from L-aspartate
+5084,Clo1313_3024,gyrA,DNA topological change
+5085,Clo1313_3024,gyrA, DNA-templated DNA replication
+5092,Clo1313_3026,rsmG,
+5093,Clo1313_3027,mnmG,tRNA methylation
+5094,Clo1313_3027,mnmG, tRNA wobble uridine modification
+5095,Clo1313_3028,mnmE,tRNA methylation
+5096,Clo1313_3028,mnmE, tRNA wobble uridine modification
+5106,Clo1313_3032,rnpA,tRNA 5'-leader removal
+5107,Clo1313_3033,rpmH,translation

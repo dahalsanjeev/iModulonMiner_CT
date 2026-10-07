@@ -1,0 +1,830 @@
+,gene_id,biocyc_pathways
+0,Clo1313_2606,tRNA charging
+1,Clo1313_2723,tRNA charging
+2,Clo1313_1301,tRNA charging
+3,Clo1313_1578,tRNA charging
+4,Clo1313_1434,tRNA charging
+5,Clo1313_1020,tRNA charging
+6,Clo1313_1902,tRNA charging
+7,Clo1313_0749,tRNA charging
+8,Clo1313_2162,tRNA charging
+9,Clo1313_2307,tRNA charging
+10,Clo1313_0923,tRNA charging
+11,Clo1313_1500,tRNA charging
+12,Clo1313_1537,tRNA charging
+13,Clo1313_1029,tRNA charging
+14,Clo1313_0011,tRNA charging
+15,Clo1313_0498,tRNA charging
+16,Clo1313_2018,tRNA charging
+17,Clo1313_2017,tRNA charging
+18,Clo1313_0403,tRNA charging
+19,Clo1313_0922,tRNA charging
+20,Clo1313_0944,tRNA charging
+21,Clo1313_2754,tRNA charging
+22,Clo1313_R0003,tRNA charging
+23,Clo1313_R0051,tRNA charging
+24,Clo1313_R0011,tRNA charging
+25,Clo1313_R0004,tRNA charging
+26,Clo1313_R0056,tRNA charging
+27,Clo1313_R0031,tRNA charging
+28,Clo1313_R0048,tRNA charging
+29,Clo1313_R0043,tRNA charging
+30,Clo1313_R0009,tRNA charging
+31,Clo1313_R0021,tRNA charging
+32,Clo1313_R0014,tRNA charging
+33,Clo1313_R0039,tRNA charging
+34,Clo1313_R0036,tRNA charging
+35,Clo1313_R0050,tRNA charging
+36,Clo1313_R0037,tRNA charging
+37,Clo1313_R0006,tRNA charging
+38,Clo1313_R0033,tRNA charging
+39,Clo1313_R0045,tRNA charging
+40,Clo1313_R0030,tRNA charging
+41,Clo1313_R0010,tRNA charging
+42,Clo1313_R0066,tRNA charging
+43,Clo1313_R0060,tRNA charging
+44,Clo1313_R0071,tRNA charging
+45,Clo1313_R0026,tRNA charging
+46,Clo1313_R0044,tRNA charging
+47,Clo1313_R0029,tRNA charging
+48,Clo1313_R0038,tRNA charging
+49,Clo1313_R0022,tRNA charging
+50,Clo1313_R0059,tRNA charging
+51,Clo1313_R0034,tRNA charging
+52,Clo1313_R0024,tRNA charging
+53,Clo1313_R0041,tRNA charging
+54,Clo1313_R0065,tRNA charging
+55,Clo1313_R0023,tRNA charging
+56,Clo1313_R0061,tRNA charging
+57,Clo1313_R0032,tRNA charging
+58,Clo1313_R0068,tRNA charging
+59,Clo1313_R0002,tRNA charging
+60,Clo1313_R0005,tRNA charging
+61,Clo1313_R0001,tRNA charging
+62,Clo1313_R0067,tRNA charging
+63,Clo1313_R0055,tRNA charging
+64,Clo1313_R0042,tRNA charging
+65,Clo1313_R0058,tRNA charging
+66,Clo1313_R0035,tRNA charging
+67,Clo1313_R0007,tRNA charging
+68,Clo1313_R0008,tRNA charging
+69,Clo1313_R0020,tRNA charging
+70,Clo1313_R0046,tRNA charging
+71,Clo1313_R0047,tRNA charging
+72,Clo1313_R0049,tRNA charging
+73,Clo1313_R0054,tRNA charging
+74,Clo1313_R0057,tRNA charging
+75,Clo1313_R0062,tRNA charging
+76,Clo1313_R0053,tRNA charging
+77,Clo1313_R0052,tRNA charging
+78,Clo1313_1008,inosine-5'-phosphate biosynthesis II
+79,Clo1313_0426,inosine-5'-phosphate biosynthesis II
+80,Clo1313_1481,inosine-5'-phosphate biosynthesis II
+81,Clo1313_1012,inosine-5'-phosphate biosynthesis II
+82,Clo1313_1318,&beta;-alanine biosynthesis III
+83,Clo1313_2339,nitrogen fixation I (ferredoxin)
+84,Clo1313_2054,L-arginine biosynthesis II (acetyl cycle)
+85,Clo1313_2055,L-arginine biosynthesis II (acetyl cycle)
+86,Clo1313_2561,L-arginine biosynthesis II (acetyl cycle)
+87,Clo1313_2558,L-arginine biosynthesis II (acetyl cycle)
+88,Clo1313_2555,L-arginine biosynthesis II (acetyl cycle)
+89,Clo1313_2556,L-arginine biosynthesis II (acetyl cycle)
+90,Clo1313_2560,L-arginine biosynthesis II (acetyl cycle)
+91,Clo1313_2559,L-arginine biosynthesis II (acetyl cycle)
+92,Clo1313_1268,L-arginine biosynthesis II (acetyl cycle)
+93,Clo1313_1267,L-arginine biosynthesis II (acetyl cycle)
+94,Clo1313_2150,L-arginine biosynthesis II (acetyl cycle)
+95,Clo1313_0622,<i>cis</i>-vaccenate biosynthesis
+96,Clo1313_1285,<i>cis</i>-vaccenate biosynthesis
+97,Clo1313_1283,<i>cis</i>-vaccenate biosynthesis
+98,Clo1313_0213,<i>cis</i>-vaccenate biosynthesis
+99,Clo1313_0720,<i>cis</i>-vaccenate biosynthesis
+100,Clo1313_0704,5-hydroxybenzimidazolyl adenosylcobamide biosynthesis from adenosylcobinamide-GDP
+101,Clo1313_0703,5-hydroxybenzimidazolyl adenosylcobamide biosynthesis from adenosylcobinamide-GDP
+102,Clo1313_0960,5-hydroxybenzimidazolyl adenosylcobamide biosynthesis from adenosylcobinamide-GDP
+103,Clo1313_1849,L-glutamate biosynthesis III
+104,Clo1313_1847,L-glutamate biosynthesis III
+105,Clo1313_1009,5-aminoimidazole ribonucleotide biosynthesis I
+106,Clo1313_1013,5-aminoimidazole ribonucleotide biosynthesis I
+107,Clo1313_1011,5-aminoimidazole ribonucleotide biosynthesis I
+108,Clo1313_1683,5-aminoimidazole ribonucleotide biosynthesis I
+109,Clo1313_1010,5-aminoimidazole ribonucleotide biosynthesis I
+110,Clo1313_1211,UTP and CTP <i>de novo</i> biosynthesis
+111,Clo1313_1508,UTP and CTP <i>de novo</i> biosynthesis
+112,Clo1313_2597,UTP and CTP <i>de novo</i> biosynthesis
+113,Clo1313_2927,guanine and guanosine salvage II
+114,Clo1313_0119,assimilatory sulfate reduction IV
+115,Clo1313_0120,assimilatory sulfate reduction IV
+116,Clo1313_0118,assimilatory sulfate reduction IV
+117,Clo1313_0119,assimilatory sulfate reduction III
+118,Clo1313_0118,assimilatory sulfate reduction III
+119,Clo1313_0592,demethylmenaquinol-9 biosynthesis
+120,Clo1313_1551,L-proline biosynthesis I (from L-glutamate)
+121,Clo1313_1967,L-proline biosynthesis I (from L-glutamate)
+122,Clo1313_2439,L-proline biosynthesis I (from L-glutamate)
+123,Clo1313_0982,coenzyme A biosynthesis I (prokaryotic)
+124,Clo1313_1335,coenzyme A biosynthesis I (prokaryotic)
+125,Clo1313_0943,coenzyme A biosynthesis I (prokaryotic)
+126,Clo1313_1798,ethanol degradation I
+127,Clo1313_1364,L-leucine degradation V (oxidative Stickland reaction)
+128,Clo1313_0385,L-leucine degradation V (oxidative Stickland reaction)
+129,Clo1313_0384,L-leucine degradation V (oxidative Stickland reaction)
+130,Clo1313_0022,L-leucine degradation V (oxidative Stickland reaction)
+131,Clo1313_0168,superpathway of tetrahydrofolate biosynthesis
+132,Clo1313_0864,superpathway of tetrahydrofolate biosynthesis
+133,Clo1313_1031,superpathway of tetrahydrofolate biosynthesis
+134,Clo1313_0170,superpathway of tetrahydrofolate biosynthesis
+135,Clo1313_0169,superpathway of tetrahydrofolate biosynthesis
+136,Clo1313_2876,superpathway of tetrahydrofolate biosynthesis
+137,Clo1313_1345,superpathway of tetrahydrofolate biosynthesis
+138,Clo1313_1530,spermidine biosynthesis I
+139,Clo1313_1509,spermidine biosynthesis I
+140,Clo1313_2765,pyrimidine deoxyribonucleotide phosphorylation
+141,Clo1313_1512,pyrimidine deoxyribonucleotide phosphorylation
+142,Clo1313_1508,pyrimidine deoxyribonucleotide phosphorylation
+143,Clo1313_1255,dipicolinate biosynthesis
+144,Clo1313_0873,dipicolinate biosynthesis
+145,Clo1313_1254,dipicolinate biosynthesis
+146,Clo1313_1801,dipicolinate biosynthesis
+147,Clo1313_1800,dipicolinate biosynthesis
+148,Clo1313_1607,5'-deoxyadenosine degradation I
+149,Clo1313_1606,5'-deoxyadenosine degradation I
+150,Clo1313_2341,xanthine and xanthosine salvage
+151,Clo1313_1056,xanthine and xanthosine salvage
+152,Clo1313_1244,peptidoglycan biosynthesis I (<I>meso</I>-diaminopimelate containing)
+153,Clo1313_1242,peptidoglycan biosynthesis I (<I>meso</I>-diaminopimelate containing)
+154,Clo1313_2989,peptidoglycan biosynthesis I (<I>meso</I>-diaminopimelate containing)
+155,Clo1313_1779,peptidoglycan biosynthesis I (<I>meso</I>-diaminopimelate containing)
+156,Clo1313_0202,peptidoglycan biosynthesis I (<I>meso</I>-diaminopimelate containing)
+157,Clo1313_1245,peptidoglycan biosynthesis I (<I>meso</I>-diaminopimelate containing)
+158,Clo1313_2119,peptidoglycan biosynthesis I (<I>meso</I>-diaminopimelate containing)
+159,Clo1313_1241,peptidoglycan biosynthesis I (<I>meso</I>-diaminopimelate containing)
+160,Clo1313_0214,peptidoglycan biosynthesis I (<I>meso</I>-diaminopimelate containing)
+161,Clo1313_1172,peptidoglycan biosynthesis I (<I>meso</I>-diaminopimelate containing)
+162,Clo1313_2608,peptidoglycan biosynthesis I (<I>meso</I>-diaminopimelate containing)
+163,Clo1313_1240,peptidoglycan biosynthesis I (<I>meso</I>-diaminopimelate containing)
+164,Clo1313_2609,peptidoglycan biosynthesis I (<I>meso</I>-diaminopimelate containing)
+165,Clo1313_1281,even <i>iso</i>-branched-chain fatty acid biosynthesis
+166,Clo1313_1354,even <i>iso</i>-branched-chain fatty acid biosynthesis
+167,Clo1313_1364,even <i>iso</i>-branched-chain fatty acid biosynthesis
+168,Clo1313_1285,even <i>iso</i>-branched-chain fatty acid biosynthesis
+169,Clo1313_1283,even <i>iso</i>-branched-chain fatty acid biosynthesis
+170,Clo1313_0213,even <i>iso</i>-branched-chain fatty acid biosynthesis
+171,Clo1313_0720,even <i>iso</i>-branched-chain fatty acid biosynthesis
+172,Clo1313_0622,even <i>iso</i>-branched-chain fatty acid biosynthesis
+173,Clo1313_1229,flavin biosynthesis I (bacteria and plants)
+174,Clo1313_2126,flavin biosynthesis I (bacteria and plants)
+175,Clo1313_2124,flavin biosynthesis I (bacteria and plants)
+176,Clo1313_2127,flavin biosynthesis I (bacteria and plants)
+177,Clo1313_2125,flavin biosynthesis I (bacteria and plants)
+178,Clo1313_1628,thiamine diphosphate biosynthesis II (Bacillus)
+179,Clo1313_1606,<i>S</i>-methyl-5'-thioadenosine degradation II
+180,Clo1313_1491,chorismate biosynthesis from 3-dehydroquinate
+181,Clo1313_2470,chorismate biosynthesis from 3-dehydroquinate
+182,Clo1313_0636,chorismate biosynthesis from 3-dehydroquinate
+183,Clo1313_0068,chorismate biosynthesis from 3-dehydroquinate
+184,Clo1313_1492,chorismate biosynthesis from 3-dehydroquinate
+185,Clo1313_1366,chorismate biosynthesis from 3-dehydroquinate
+186,Clo1313_1371,chorismate biosynthesis from 3-dehydroquinate
+187,Clo1313_1215,CDP-diacylglycerol biosynthesis II
+188,Clo1313_1192,CDP-diacylglycerol biosynthesis II
+189,Clo1313_1511,CDP-diacylglycerol biosynthesis II
+190,Clo1313_1191,CDP-diacylglycerol biosynthesis II
+191,Clo1313_0703,adenosylcobalamin biosynthesis from adenosylcobinamide-GDP I
+192,Clo1313_0704,adenosylcobalamin biosynthesis from adenosylcobinamide-GDP I
+193,Clo1313_0960,adenosylcobalamin biosynthesis from adenosylcobinamide-GDP I
+194,Clo1313_2560,UMP biosynthesis III
+195,Clo1313_2559,UMP biosynthesis III
+196,Clo1313_1268,UMP biosynthesis III
+197,Clo1313_1267,UMP biosynthesis III
+198,Clo1313_1264,UMP biosynthesis III
+199,Clo1313_1265,UMP biosynthesis III
+200,Clo1313_1266,UMP biosynthesis III
+201,Clo1313_1270,UMP biosynthesis III
+202,Clo1313_1269,UMP biosynthesis III
+203,Clo1313_0579,histamine biosynthesis
+204,Clo1313_0873,L-lysine biosynthesis III
+205,Clo1313_1255,L-lysine biosynthesis III
+206,Clo1313_1254,L-lysine biosynthesis III
+207,Clo1313_1540,L-lysine biosynthesis III
+208,Clo1313_1295,L-lysine biosynthesis III
+209,Clo1313_1253,L-lysine biosynthesis III
+210,Clo1313_1090,L-lysine biosynthesis III
+211,Clo1313_1717,pyruvate fermentation to ethanol I
+212,Clo1313_1798,pyruvate fermentation to ethanol I
+213,Clo1313_1931,superpathway of L-serine and glycine biosynthesis I
+214,Clo1313_0586,superpathway of L-serine and glycine biosynthesis I
+215,Clo1313_1155,superpathway of L-serine and glycine biosynthesis I
+216,Clo1313_0288,alanine racemization
+217,Clo1313_0704,5-methoxybenzimidazolyl adenosylcobamide biosynthesis from adenosylcobinamide-GDP
+218,Clo1313_0703,5-methoxybenzimidazolyl adenosylcobamide biosynthesis from adenosylcobinamide-GDP
+219,Clo1313_0960,5-methoxybenzimidazolyl adenosylcobamide biosynthesis from adenosylcobinamide-GDP
+220,Clo1313_1542,inosine 5'-phosphate degradation
+221,Clo1313_2341,inosine 5'-phosphate degradation
+222,Clo1313_1056,inosine 5'-phosphate degradation
+223,Clo1313_0643,adenosine ribonucleotides <i>de novo</i> biosynthesis
+224,Clo1313_1481,adenosine ribonucleotides <i>de novo</i> biosynthesis
+225,Clo1313_0466,adenosine ribonucleotides <i>de novo</i> biosynthesis
+226,Clo1313_1102,arsenate detoxification II (glutaredoxin)
+227,Clo1313_2561,urea cycle
+228,Clo1313_2054,urea cycle
+229,Clo1313_2055,urea cycle
+230,Clo1313_2560,urea cycle
+231,Clo1313_2559,urea cycle
+232,Clo1313_1268,urea cycle
+233,Clo1313_1267,urea cycle
+234,Clo1313_2933,L-phenylalanine biosynthesis I
+235,Clo1313_1513,L-phenylalanine biosynthesis I
+236,Clo1313_2927,guanine and guanosine salvage
+237,Clo1313_2341,guanine and guanosine salvage
+238,Clo1313_1056,guanine and guanosine salvage
+239,Clo1313_0423,L-histidine biosynthesis
+240,Clo1313_1619,L-histidine biosynthesis
+241,Clo1313_0424,L-histidine biosynthesis
+242,Clo1313_0425,L-histidine biosynthesis
+243,Clo1313_0429,L-histidine biosynthesis
+244,Clo1313_0427,L-histidine biosynthesis
+245,Clo1313_0428,L-histidine biosynthesis
+246,Clo1313_0430,L-histidine biosynthesis
+247,Clo1313_0422,L-histidine biosynthesis
+248,Clo1313_0421,L-histidine biosynthesis
+249,Clo1313_0304,L-valine biosynthesis
+250,Clo1313_1364,L-valine biosynthesis
+251,Clo1313_0101,L-valine biosynthesis
+252,Clo1313_0305,L-valine biosynthesis
+253,Clo1313_0100,L-valine biosynthesis
+254,Clo1313_0099,L-valine biosynthesis
+255,Clo1313_2179,adenosine deoxyribonucleotides <i>de novo</i> biosynthesis II
+256,Clo1313_1508,adenosine deoxyribonucleotides <i>de novo</i> biosynthesis II
+257,Clo1313_1580,adenosine deoxyribonucleotides <i>de novo</i> biosynthesis II
+258,Clo1313_1435,chorismate biosynthesis I
+259,Clo1313_2468,chorismate biosynthesis I
+260,Clo1313_1340,chorismate biosynthesis I
+261,Clo1313_1491,chorismate biosynthesis I
+262,Clo1313_2470,chorismate biosynthesis I
+263,Clo1313_0636,chorismate biosynthesis I
+264,Clo1313_0068,chorismate biosynthesis I
+265,Clo1313_1492,chorismate biosynthesis I
+266,Clo1313_1366,chorismate biosynthesis I
+267,Clo1313_1371,chorismate biosynthesis I
+268,Clo1313_2469,L-tyrosine biosynthesis I
+269,Clo1313_1513,L-tyrosine biosynthesis I
+270,Clo1313_1393,pyridoxal 5'-phosphate biosynthesis I
+271,Clo1313_1931,pyridoxal 5'-phosphate biosynthesis I
+272,Clo1313_1289,pyridoxal 5'-phosphate biosynthesis I
+273,Clo1313_2597,glutaminyl-tRNA<sup>gln</sup> biosynthesis via transamidation
+274,Clo1313_2560,glutaminyl-tRNA<sup>gln</sup> biosynthesis via transamidation
+275,Clo1313_2559,glutaminyl-tRNA<sup>gln</sup> biosynthesis via transamidation
+276,Clo1313_1268,glutaminyl-tRNA<sup>gln</sup> biosynthesis via transamidation
+277,Clo1313_1267,glutaminyl-tRNA<sup>gln</sup> biosynthesis via transamidation
+278,Clo1313_1849,glutaminyl-tRNA<sup>gln</sup> biosynthesis via transamidation
+279,Clo1313_1846,glutaminyl-tRNA<sup>gln</sup> biosynthesis via transamidation
+280,Clo1313_1681,glutaminyl-tRNA<sup>gln</sup> biosynthesis via transamidation
+281,Clo1313_0429,glutaminyl-tRNA<sup>gln</sup> biosynthesis via transamidation
+282,Clo1313_0427,glutaminyl-tRNA<sup>gln</sup> biosynthesis via transamidation
+283,Clo1313_2306,glutaminyl-tRNA<sup>gln</sup> biosynthesis via transamidation
+284,Clo1313_2305,glutaminyl-tRNA<sup>gln</sup> biosynthesis via transamidation
+285,Clo1313_2304,glutaminyl-tRNA<sup>gln</sup> biosynthesis via transamidation
+286,Clo1313_1183,glutaminyl-tRNA<sup>gln</sup> biosynthesis via transamidation
+287,Clo1313_1182,glutaminyl-tRNA<sup>gln</sup> biosynthesis via transamidation
+288,Clo1313_1181,glutaminyl-tRNA<sup>gln</sup> biosynthesis via transamidation
+289,Clo1313_R0031,glutaminyl-tRNA<sup>gln</sup> biosynthesis via transamidation
+290,Clo1313_R0048,glutaminyl-tRNA<sup>gln</sup> biosynthesis via transamidation
+291,Clo1313_0592,demethylmenaquinol-6 biosynthesis I
+292,Clo1313_2047,UDP-&alpha;-D-galactose biosynthesis
+293,Clo1313_2335,L-homocysteine biosynthesis
+294,Clo1313_2537,L-homocysteine biosynthesis
+295,Clo1313_1364,L-isoleucine biosynthesis V
+296,Clo1313_0385,L-isoleucine biosynthesis V
+297,Clo1313_0384,L-isoleucine biosynthesis V
+298,Clo1313_0022,L-isoleucine biosynthesis V
+299,Clo1313_0622,acyl-[acyl-carrier protein] thioesterase pathway
+300,Clo1313_0177,"(1,4)-&beta;-D-xylan degradation"
+301,Clo1313_2777,"(1,4)-&beta;-D-xylan degradation"
+302,Clo1313_2635,"(1,4)-&beta;-D-xylan degradation"
+303,Clo1313_2530,"(1,4)-&beta;-D-xylan degradation"
+304,Clo1313_1305,"(1,4)-&beta;-D-xylan degradation"
+305,Clo1313_1529,putrescine biosynthesis I
+306,Clo1313_2561,L-citrulline degradation
+307,Clo1313_2560,L-citrulline degradation
+308,Clo1313_2559,L-citrulline degradation
+309,Clo1313_1268,L-citrulline degradation
+310,Clo1313_1267,L-citrulline degradation
+311,Clo1313_2597,L-glutamine degradation I
+312,Clo1313_2560,L-glutamine degradation I
+313,Clo1313_2559,L-glutamine degradation I
+314,Clo1313_1268,L-glutamine degradation I
+315,Clo1313_1267,L-glutamine degradation I
+316,Clo1313_2306,L-glutamine degradation I
+317,Clo1313_1183,L-glutamine degradation I
+318,Clo1313_1182,L-glutamine degradation I
+319,Clo1313_1181,L-glutamine degradation I
+320,Clo1313_1849,L-glutamine degradation I
+321,Clo1313_1846,L-glutamine degradation I
+322,Clo1313_1681,L-glutamine degradation I
+323,Clo1313_0429,L-glutamine degradation I
+324,Clo1313_0427,L-glutamine degradation I
+325,Clo1313_2305,L-glutamine degradation I
+326,Clo1313_2304,L-glutamine degradation I
+327,Clo1313_2618,thioredoxin pathway
+328,Clo1313_1512,CMP phosphorylation
+329,Clo1313_1508,CMP phosphorylation
+330,Clo1313_1285,gondoate biosynthesis (anaerobic)
+331,Clo1313_1283,gondoate biosynthesis (anaerobic)
+332,Clo1313_0213,gondoate biosynthesis (anaerobic)
+333,Clo1313_0720,gondoate biosynthesis (anaerobic)
+334,Clo1313_0218,PRPP biosynthesis
+335,Clo1313_1233,lipoprotein posttranslational modification
+336,Clo1313_1309,lipoprotein posttranslational modification
+337,Clo1313_0829,lipoprotein posttranslational modification
+338,Clo1313_0110,dipyrromethane cofactor biosynthesis
+339,Clo1313_2882,L-leucine biosynthesis
+340,Clo1313_1364,L-leucine biosynthesis
+341,Clo1313_0857,L-leucine biosynthesis
+342,Clo1313_0708,L-leucine biosynthesis
+343,Clo1313_2884,L-leucine biosynthesis
+344,Clo1313_2883,L-leucine biosynthesis
+345,Clo1313_1717,pyruvate fermentation to acetate IV
+346,Clo1313_1186,pyruvate fermentation to acetate IV
+347,Clo1313_1185,pyruvate fermentation to acetate IV
+348,Clo1313_1155,glycine biosynthesis I
+349,Clo1313_2924,<i>S</i>-adenosyl-L-methionine salvage II
+350,Clo1313_1057,<i>S</i>-adenosyl-L-methionine salvage II
+351,Clo1313_1582,<i>S</i>-adenosyl-L-methionine salvage II
+352,Clo1313_1031,folate transformations III (<i>E. coli</i>)
+353,Clo1313_0962,folate transformations III (<i>E. coli</i>)
+354,Clo1313_2132,folate transformations III (<i>E. coli</i>)
+355,Clo1313_2977,folate transformations III (<i>E. coli</i>)
+356,Clo1313_1582,folate transformations III (<i>E. coli</i>)
+357,Clo1313_1120,folate transformations III (<i>E. coli</i>)
+358,Clo1313_1155,folate transformations III (<i>E. coli</i>)
+359,Clo1313_1030,folate transformations III (<i>E. coli</i>)
+360,Clo1313_1345,4-aminobenzoate biosynthesis
+361,Clo1313_2924,L-methionine degradation I (to L-homocysteine)
+362,Clo1313_1057,L-methionine degradation I (to L-homocysteine)
+363,Clo1313_0177,cellulose and hemicellulose degradation (cellulolosome)
+364,Clo1313_2777,cellulose and hemicellulose degradation (cellulolosome)
+365,Clo1313_2635,cellulose and hemicellulose degradation (cellulolosome)
+366,Clo1313_2530,cellulose and hemicellulose degradation (cellulolosome)
+367,Clo1313_1305,cellulose and hemicellulose degradation (cellulolosome)
+368,Clo1313_0909,ppGpp metabolism
+369,Clo1313_1508,ppGpp metabolism
+370,Clo1313_2853,<i>N</i>-acetylglucosamine degradation I
+371,Clo1313_1364,L-valine degradation III (oxidative Stickland reaction)
+372,Clo1313_0385,L-valine degradation III (oxidative Stickland reaction)
+373,Clo1313_0384,L-valine degradation III (oxidative Stickland reaction)
+374,Clo1313_0022,L-valine degradation III (oxidative Stickland reaction)
+375,Clo1313_2239,pyrimidine deoxyribonucleotides <i>de novo</i> biosynthesis II
+376,Clo1313_0245,pyrimidine deoxyribonucleotides <i>de novo</i> biosynthesis II
+377,Clo1313_2765,pyrimidine deoxyribonucleotides <i>de novo</i> biosynthesis II
+378,Clo1313_1508,pyrimidine deoxyribonucleotides <i>de novo</i> biosynthesis II
+379,Clo1313_1580,pyrimidine deoxyribonucleotides <i>de novo</i> biosynthesis II
+380,Clo1313_1030,pyrimidine deoxyribonucleotides <i>de novo</i> biosynthesis II
+381,Clo1313_1546,2-deoxy-&alpha;-D-ribose 1-phosphate degradation
+382,Clo1313_2615,2-deoxy-&alpha;-D-ribose 1-phosphate degradation
+383,Clo1313_2349,2-deoxy-&alpha;-D-ribose 1-phosphate degradation
+384,Clo1313_1798,2-deoxy-&alpha;-D-ribose 1-phosphate degradation
+385,Clo1313_0385,L-isoleucine biosynthesis IV
+386,Clo1313_0384,L-isoleucine biosynthesis IV
+387,Clo1313_0022,L-isoleucine biosynthesis IV
+388,Clo1313_0305,L-isoleucine biosynthesis IV
+389,Clo1313_0100,L-isoleucine biosynthesis IV
+390,Clo1313_0099,L-isoleucine biosynthesis IV
+391,Clo1313_0101,L-isoleucine biosynthesis IV
+392,Clo1313_0304,L-isoleucine biosynthesis IV
+393,Clo1313_1364,L-isoleucine biosynthesis IV
+394,Clo1313_2348,pyrimidine ribonucleosides degradation
+395,Clo1313_1145,pyrimidine ribonucleosides degradation
+396,Clo1313_0098,pyrimidine ribonucleosides degradation
+397,Clo1313_0085,pyrimidine ribonucleosides degradation
+398,Clo1313_1545,pyrimidine ribonucleosides degradation
+399,Clo1313_0558,superoxide radicals degradation
+400,Clo1313_1503,cytidylyl molybdenum cofactor sulfurylation
+401,Clo1313_1150,cytidylyl molybdenum cofactor sulfurylation
+402,Clo1313_0704,5-methylbenzimidazolyl adenosylcobamide biosynthesis from adenosylcobinamide-GDP
+403,Clo1313_0703,5-methylbenzimidazolyl adenosylcobamide biosynthesis from adenosylcobinamide-GDP
+404,Clo1313_0960,5-methylbenzimidazolyl adenosylcobamide biosynthesis from adenosylcobinamide-GDP
+405,Clo1313_1262,pyrimidine nucleobases salvage I
+406,Clo1313_0185,pyrimidine nucleobases salvage I
+407,Clo1313_2211,biotin biosynthesis from 8-amino-7-oxononanoate I
+408,Clo1313_2207,biotin biosynthesis from 8-amino-7-oxononanoate I
+409,Clo1313_2212,biotin biosynthesis from 8-amino-7-oxononanoate I
+410,Clo1313_0170,6-hydroxymethyl-dihydropterin diphosphate biosynthesis I
+411,Clo1313_0169,6-hydroxymethyl-dihydropterin diphosphate biosynthesis I
+412,Clo1313_2876,6-hydroxymethyl-dihydropterin diphosphate biosynthesis I
+413,Clo1313_3032,tRNA processing
+414,Clo1313_2045,tRNA processing
+415,Clo1313_1039,N-end rule pathway I (prokaryotic)
+416,Clo1313_R0045,N-end rule pathway I (prokaryotic)
+417,Clo1313_R0050,N-end rule pathway I (prokaryotic)
+418,Clo1313_R0006,N-end rule pathway I (prokaryotic)
+419,Clo1313_R0037,N-end rule pathway I (prokaryotic)
+420,Clo1313_R0033,N-end rule pathway I (prokaryotic)
+421,Clo1313_1681,L-asparagine biosynthesis I
+422,Clo1313_1354,2-oxoisovalerate decarboxylation to isobutanoyl-CoA
+423,Clo1313_1435,3-dehydroquinate biosynthesis I
+424,Clo1313_2468,3-dehydroquinate biosynthesis I
+425,Clo1313_1340,3-dehydroquinate biosynthesis I
+426,Clo1313_1878,homolactic fermentation
+427,Clo1313_1160,homolactic fermentation
+428,Clo1313_0997,homolactic fermentation
+429,Clo1313_1876,homolactic fermentation
+430,Clo1313_1875,homolactic fermentation
+431,Clo1313_2093,homolactic fermentation
+432,Clo1313_2095,homolactic fermentation
+433,Clo1313_2094,homolactic fermentation
+434,Clo1313_2090,homolactic fermentation
+435,Clo1313_2015,homolactic fermentation
+436,Clo1313_0489,homolactic fermentation
+437,Clo1313_2092,homolactic fermentation
+438,Clo1313_0966,homolactic fermentation
+439,Clo1313_1529,L-arginine degradation III (arginine decarboxylase/agmatinase pathway)
+440,Clo1313_2150,L-ornithine biosynthesis I
+441,Clo1313_2556,L-ornithine biosynthesis I
+442,Clo1313_2555,L-ornithine biosynthesis I
+443,Clo1313_2558,L-ornithine biosynthesis I
+444,Clo1313_0073,glycerol degradation I
+445,Clo1313_1251,adenosylcobalamin salvage from cobalamin
+446,Clo1313_2054,L-arginine biosynthesis I (via L-ornithine)
+447,Clo1313_2055,L-arginine biosynthesis I (via L-ornithine)
+448,Clo1313_2561,L-arginine biosynthesis I (via L-ornithine)
+449,Clo1313_2560,L-arginine biosynthesis I (via L-ornithine)
+450,Clo1313_2559,L-arginine biosynthesis I (via L-ornithine)
+451,Clo1313_1268,L-arginine biosynthesis I (via L-ornithine)
+452,Clo1313_1267,L-arginine biosynthesis I (via L-ornithine)
+453,Clo1313_2150,L-arginine biosynthesis I (via L-ornithine)
+454,Clo1313_2556,L-arginine biosynthesis I (via L-ornithine)
+455,Clo1313_2555,L-arginine biosynthesis I (via L-ornithine)
+456,Clo1313_2558,L-arginine biosynthesis I (via L-ornithine)
+457,Clo1313_0864,folate polyglutamylation
+458,Clo1313_0030,folate polyglutamylation
+459,Clo1313_1155,folate polyglutamylation
+460,Clo1313_0704,adeninyl adenosylcobamide biosynthesis from adenosylcobinamide-GDP
+461,Clo1313_0703,adeninyl adenosylcobamide biosynthesis from adenosylcobinamide-GDP
+462,Clo1313_0960,adeninyl adenosylcobamide biosynthesis from adenosylcobinamide-GDP
+463,Clo1313_2099,long-chain fatty acid activation
+464,Clo1313_0168,tetrahydrofolate biosynthesis
+465,Clo1313_0864,tetrahydrofolate biosynthesis
+466,Clo1313_1031,tetrahydrofolate biosynthesis
+467,Clo1313_0122,molybdopterin biosynthesis
+468,Clo1313_1503,molybdopterin biosynthesis
+469,Clo1313_1150,molybdopterin biosynthesis
+470,Clo1313_2031,L-glutamine biosynthesis I
+471,Clo1313_2303,L-glutamine biosynthesis I
+472,Clo1313_2038,L-glutamine biosynthesis I
+473,Clo1313_1357,L-glutamine biosynthesis I
+474,Clo1313_0196,ATP biosynthesis
+475,Clo1313_0195,ATP biosynthesis
+476,Clo1313_0194,ATP biosynthesis
+477,Clo1313_0193,ATP biosynthesis
+478,Clo1313_0192,ATP biosynthesis
+479,Clo1313_0191,ATP biosynthesis
+480,Clo1313_0190,ATP biosynthesis
+481,Clo1313_0189,ATP biosynthesis
+482,Clo1313_2942,ATP biosynthesis
+483,Clo1313_2941,ATP biosynthesis
+484,Clo1313_2940,ATP biosynthesis
+485,Clo1313_2939,ATP biosynthesis
+486,Clo1313_2938,ATP biosynthesis
+487,Clo1313_2937,ATP biosynthesis
+488,Clo1313_2936,ATP biosynthesis
+489,Clo1313_2935,ATP biosynthesis
+490,Clo1313_0997,glycolysis III (from glucose)
+491,Clo1313_1876,glycolysis III (from glucose)
+492,Clo1313_1875,glycolysis III (from glucose)
+493,Clo1313_2093,glycolysis III (from glucose)
+494,Clo1313_2095,glycolysis III (from glucose)
+495,Clo1313_2094,glycolysis III (from glucose)
+496,Clo1313_2090,glycolysis III (from glucose)
+497,Clo1313_2015,glycolysis III (from glucose)
+498,Clo1313_0489,glycolysis III (from glucose)
+499,Clo1313_2092,glycolysis III (from glucose)
+500,Clo1313_0966,glycolysis III (from glucose)
+501,Clo1313_1285,"octanoyl-[acyl-carrier protein] biosynthesis (mitochondria, yeast)"
+502,Clo1313_1283,"octanoyl-[acyl-carrier protein] biosynthesis (mitochondria, yeast)"
+503,Clo1313_0213,"octanoyl-[acyl-carrier protein] biosynthesis (mitochondria, yeast)"
+504,Clo1313_0720,"octanoyl-[acyl-carrier protein] biosynthesis (mitochondria, yeast)"
+505,Clo1313_1364,L-isoleucine degradation III (oxidative Stickland reaction)
+506,Clo1313_0385,L-isoleucine degradation III (oxidative Stickland reaction)
+507,Clo1313_0384,L-isoleucine degradation III (oxidative Stickland reaction)
+508,Clo1313_0022,L-isoleucine degradation III (oxidative Stickland reaction)
+509,Clo1313_1627,4-amino-2-methyl-5-diphosphomethylpyrimidine biosynthesis I
+510,Clo1313_1258,queuosine biosynthesis I (<i>de novo</i>)
+511,Clo1313_1257,queuosine biosynthesis I (<i>de novo</i>)
+512,Clo1313_2067,queuosine biosynthesis I (<i>de novo</i>)
+513,Clo1313_2050,queuosine biosynthesis I (<i>de novo</i>)
+514,Clo1313_1393,methylerythritol phosphate pathway I
+515,Clo1313_1216,methylerythritol phosphate pathway I
+516,Clo1313_0497,methylerythritol phosphate pathway I
+517,Clo1313_1510,methylerythritol phosphate pathway I
+518,Clo1313_0034,methylerythritol phosphate pathway I
+519,Clo1313_0492,methylerythritol phosphate pathway I
+520,Clo1313_1218,methylerythritol phosphate pathway I
+521,Clo1313_2902,CMP-pseudaminate biosynthesis
+522,Clo1313_2895,CMP-pseudaminate biosynthesis
+523,Clo1313_2901,CMP-pseudaminate biosynthesis
+524,Clo1313_2894,CMP-pseudaminate biosynthesis
+525,Clo1313_2905,CMP-pseudaminate biosynthesis
+526,Clo1313_1405,NADP biosynthesis
+527,Clo1313_1058,purine ribonucleosides degradation
+528,Clo1313_2341,purine ribonucleosides degradation
+529,Clo1313_1056,purine ribonucleosides degradation
+530,Clo1313_1546,purine ribonucleosides degradation
+531,Clo1313_1016,NAD <i>de novo</i> biosynthesis I (from aspartate)
+532,Clo1313_1901,NAD <i>de novo</i> biosynthesis I (from aspartate)
+533,Clo1313_3017,NAD <i>de novo</i> biosynthesis I (from aspartate)
+534,Clo1313_3019,NAD <i>de novo</i> biosynthesis I (from aspartate)
+535,Clo1313_3018,NAD <i>de novo</i> biosynthesis I (from aspartate)
+536,Clo1313_0245,pyrimidine deoxyribonucleotides dephosphorylation
+537,Clo1313_0245,pyrimidine deoxyribonucleotides <i>de novo</i> biosynthesis I
+538,Clo1313_2765,pyrimidine deoxyribonucleotides <i>de novo</i> biosynthesis I
+539,Clo1313_1508,pyrimidine deoxyribonucleotides <i>de novo</i> biosynthesis I
+540,Clo1313_2179,pyrimidine deoxyribonucleotides <i>de novo</i> biosynthesis I
+541,Clo1313_1030,pyrimidine deoxyribonucleotides <i>de novo</i> biosynthesis I
+542,Clo1313_2335,L-methionine biosynthesis III
+543,Clo1313_2537,L-methionine biosynthesis III
+544,Clo1313_1582,L-methionine biosynthesis III
+545,Clo1313_1214,"di-<i>trans</i>,poly-<i>cis</i>-undecaprenyl phosphate biosynthesis"
+546,Clo1313_2978,"di-<i>trans</i>,poly-<i>cis</i>-undecaprenyl phosphate biosynthesis"
+547,Clo1313_1542,guanosine ribonucleotides <i>de novo</i> biosynthesis
+548,Clo1313_1846,guanosine ribonucleotides <i>de novo</i> biosynthesis
+549,Clo1313_0941,guanosine ribonucleotides <i>de novo</i> biosynthesis
+550,Clo1313_1508,guanosine ribonucleotides <i>de novo</i> biosynthesis
+551,Clo1313_2724,L-cysteine biosynthesis I
+552,Clo1313_2532,L-cysteine biosynthesis I
+553,Clo1313_2335,L-cysteine biosynthesis I
+554,Clo1313_1627,superpathway of thiamine diphosphate biosynthesis I
+555,Clo1313_1628,superpathway of thiamine diphosphate biosynthesis I
+556,Clo1313_1631,superpathway of thiamine diphosphate biosynthesis I
+557,Clo1313_1393,superpathway of thiamine diphosphate biosynthesis I
+558,Clo1313_1629,superpathway of thiamine diphosphate biosynthesis I
+559,Clo1313_1630,superpathway of thiamine diphosphate biosynthesis I
+560,Clo1313_1503,superpathway of thiamine diphosphate biosynthesis I
+561,Clo1313_1150,superpathway of thiamine diphosphate biosynthesis I
+562,Clo1313_1826,ribose phosphorylation
+563,Clo1313_1628,thiamine diphosphate biosynthesis III (Staphylococcus)
+564,Clo1313_1660,thiamine diphosphate biosynthesis III (Staphylococcus)
+565,Clo1313_1317,phosphopantothenate biosynthesis I
+566,Clo1313_1316,phosphopantothenate biosynthesis I
+567,Clo1313_0175,phosphopantothenate biosynthesis I
+568,Clo1313_2348,superpathway of pyrimidine deoxyribonucleosides degradation
+569,Clo1313_1145,superpathway of pyrimidine deoxyribonucleosides degradation
+570,Clo1313_0098,superpathway of pyrimidine deoxyribonucleosides degradation
+571,Clo1313_0085,superpathway of pyrimidine deoxyribonucleosides degradation
+572,Clo1313_1545,superpathway of pyrimidine deoxyribonucleosides degradation
+573,Clo1313_1546,superpathway of pyrimidine deoxyribonucleosides degradation
+574,Clo1313_2615,superpathway of pyrimidine deoxyribonucleosides degradation
+575,Clo1313_2349,superpathway of pyrimidine deoxyribonucleosides degradation
+576,Clo1313_1798,superpathway of pyrimidine deoxyribonucleosides degradation
+577,Clo1313_2348,pyrimidine deoxyribonucleosides degradation
+578,Clo1313_1145,pyrimidine deoxyribonucleosides degradation
+579,Clo1313_0098,pyrimidine deoxyribonucleosides degradation
+580,Clo1313_0085,pyrimidine deoxyribonucleosides degradation
+581,Clo1313_1545,pyrimidine deoxyribonucleosides degradation
+582,Clo1313_0102,L-glutamate degradation VI (to pyruvate)
+583,Clo1313_1186,acetate and ATP formation from acetyl-CoA I
+584,Clo1313_1185,acetate and ATP formation from acetyl-CoA I
+585,Clo1313_1503,L-alanine biosynthesis III
+586,Clo1313_1150,L-alanine biosynthesis III
+587,Clo1313_0704,2-methyladeninyl adenosylcobamide biosynthesis from adenosylcobinamide-GDP
+588,Clo1313_0703,2-methyladeninyl adenosylcobamide biosynthesis from adenosylcobinamide-GDP
+589,Clo1313_0960,2-methyladeninyl adenosylcobamide biosynthesis from adenosylcobinamide-GDP
+590,Clo1313_0592,menaquinol-7 biosynthesis
+591,Clo1313_0213,fatty acid elongation -- saturated
+592,Clo1313_0720,fatty acid elongation -- saturated
+593,Clo1313_1283,fatty acid elongation -- saturated
+594,Clo1313_1285,fatty acid elongation -- saturated
+595,Clo1313_0119,sulfate activation for sulfonation
+596,Clo1313_0120,sulfate activation for sulfonation
+597,Clo1313_0287,NADPH repair (prokaryotes)
+598,Clo1313_1501,tRNA-uridine 2-thiolation and selenation (bacteria)
+599,Clo1313_1503,tRNA-uridine 2-thiolation and selenation (bacteria)
+600,Clo1313_1150,tRNA-uridine 2-thiolation and selenation (bacteria)
+601,Clo1313_3028,tRNA-uridine 2-thiolation and selenation (bacteria)
+602,Clo1313_3027,tRNA-uridine 2-thiolation and selenation (bacteria)
+603,Clo1313_2341,adenine and adenosine salvage I
+604,Clo1313_1056,adenine and adenosine salvage I
+605,Clo1313_0908,adenine and adenosine salvage I
+606,Clo1313_1503,<i>bis</i>(guanylyl molybdopterin) cofactor sulfurylation
+607,Clo1313_1150,<i>bis</i>(guanylyl molybdopterin) cofactor sulfurylation
+608,Clo1313_0704,benzimidazolyl adenosylcobamide biosynthesis from adenosylcobinamide-GDP
+609,Clo1313_0703,benzimidazolyl adenosylcobamide biosynthesis from adenosylcobinamide-GDP
+610,Clo1313_0960,benzimidazolyl adenosylcobamide biosynthesis from adenosylcobinamide-GDP
+611,Clo1313_2878,cyanophycin metabolism
+612,Clo1313_2877,cyanophycin metabolism
+613,Clo1313_2880,cyanophycin metabolism
+614,Clo1313_0873,L-lysine biosynthesis VI
+615,Clo1313_1255,L-lysine biosynthesis VI
+616,Clo1313_1254,L-lysine biosynthesis VI
+617,Clo1313_0652,L-lysine biosynthesis VI
+618,Clo1313_0651,L-lysine biosynthesis VI
+619,Clo1313_1540,L-lysine biosynthesis VI
+620,Clo1313_1253,L-lysine biosynthesis VI
+621,Clo1313_1090,L-lysine biosynthesis VI
+622,Clo1313_1580,guanosine deoxyribonucleotides <i>de novo</i> biosynthesis II
+623,Clo1313_2179,guanosine deoxyribonucleotides <i>de novo</i> biosynthesis II
+624,Clo1313_1508,guanosine deoxyribonucleotides <i>de novo</i> biosynthesis II
+625,Clo1313_1542,superpathway of guanosine nucleotides <i>de novo</i> biosynthesis II
+626,Clo1313_1846,superpathway of guanosine nucleotides <i>de novo</i> biosynthesis II
+627,Clo1313_0941,superpathway of guanosine nucleotides <i>de novo</i> biosynthesis II
+628,Clo1313_1580,superpathway of guanosine nucleotides <i>de novo</i> biosynthesis II
+629,Clo1313_2179,superpathway of guanosine nucleotides <i>de novo</i> biosynthesis II
+630,Clo1313_1508,superpathway of guanosine nucleotides <i>de novo</i> biosynthesis II
+631,Clo1313_0287,NADH repair (prokaryotes)
+632,Clo1313_1931,L-serine biosynthesis I
+633,Clo1313_0586,L-serine biosynthesis I
+634,Clo1313_1317,superpathway of coenzyme A biosynthesis I (bacteria)
+635,Clo1313_1316,superpathway of coenzyme A biosynthesis I (bacteria)
+636,Clo1313_0175,superpathway of coenzyme A biosynthesis I (bacteria)
+637,Clo1313_0982,superpathway of coenzyme A biosynthesis I (bacteria)
+638,Clo1313_1335,superpathway of coenzyme A biosynthesis I (bacteria)
+639,Clo1313_0943,superpathway of coenzyme A biosynthesis I (bacteria)
+640,Clo1313_1318,superpathway of coenzyme A biosynthesis I (bacteria)
+641,Clo1313_0030,"formate assimilation into 5,10-methylenetetrahydrofolate"
+642,Clo1313_1120,"formate assimilation into 5,10-methylenetetrahydrofolate"
+643,Clo1313_0109,siroheme biosynthesis
+644,Clo1313_0111,siroheme biosynthesis
+645,Clo1313_0703,5-methoxy-6-methylbenzimidazolyl adenosylcobamide biosynthesis from adenosylcobinamide-GDP
+646,Clo1313_0960,5-methoxy-6-methylbenzimidazolyl adenosylcobamide biosynthesis from adenosylcobinamide-GDP
+647,Clo1313_0704,5-methoxy-6-methylbenzimidazolyl adenosylcobamide biosynthesis from adenosylcobinamide-GDP
+648,Clo1313_2239,superpathway of pyrimidine deoxyribonucleotides <i>de novo</i> biosynthesis (<i>E. coli</i>)
+649,Clo1313_1580,superpathway of pyrimidine deoxyribonucleotides <i>de novo</i> biosynthesis (<i>E. coli</i>)
+650,Clo1313_0245,superpathway of pyrimidine deoxyribonucleotides <i>de novo</i> biosynthesis (<i>E. coli</i>)
+651,Clo1313_2765,superpathway of pyrimidine deoxyribonucleotides <i>de novo</i> biosynthesis (<i>E. coli</i>)
+652,Clo1313_1508,superpathway of pyrimidine deoxyribonucleotides <i>de novo</i> biosynthesis (<i>E. coli</i>)
+653,Clo1313_2179,superpathway of pyrimidine deoxyribonucleotides <i>de novo</i> biosynthesis (<i>E. coli</i>)
+654,Clo1313_1030,superpathway of pyrimidine deoxyribonucleotides <i>de novo</i> biosynthesis (<i>E. coli</i>)
+655,Clo1313_0172,biotin-carboxyl carrier protein assembly
+656,Clo1313_1526,biotin-carboxyl carrier protein assembly
+657,Clo1313_0643,superpathway of adenosine nucleotides <i>de novo</i> biosynthesis II
+658,Clo1313_1481,superpathway of adenosine nucleotides <i>de novo</i> biosynthesis II
+659,Clo1313_0466,superpathway of adenosine nucleotides <i>de novo</i> biosynthesis II
+660,Clo1313_2179,superpathway of adenosine nucleotides <i>de novo</i> biosynthesis II
+661,Clo1313_1508,superpathway of adenosine nucleotides <i>de novo</i> biosynthesis II
+662,Clo1313_1580,superpathway of adenosine nucleotides <i>de novo</i> biosynthesis II
+663,Clo1313_0365,NAD salvage pathway IV (from nicotinamide riboside)
+664,Clo1313_1347,L-tryptophan biosynthesis
+665,Clo1313_1348,L-tryptophan biosynthesis
+666,Clo1313_1346,L-tryptophan biosynthesis
+667,Clo1313_1344,L-tryptophan biosynthesis
+668,Clo1313_0837,L-tryptophan biosynthesis
+669,Clo1313_0836,L-tryptophan biosynthesis
+670,Clo1313_1185,mixed acid fermentation
+671,Clo1313_1186,mixed acid fermentation
+672,Clo1313_1717,mixed acid fermentation
+673,Clo1313_1798,mixed acid fermentation
+674,Clo1313_0640,mixed acid fermentation
+675,Clo1313_0578,mixed acid fermentation
+676,Clo1313_0709,mixed acid fermentation
+677,Clo1313_1944,mixed acid fermentation
+678,Clo1313_1879,mixed acid fermentation
+679,Clo1313_0217,UDP-<i>N</i>-acetyl-D-glucosamine biosynthesis I
+680,Clo1313_1099,UDP-<i>N</i>-acetyl-D-glucosamine biosynthesis I
+681,Clo1313_1098,UDP-<i>N</i>-acetyl-D-glucosamine biosynthesis I
+682,Clo1313_2015,UDP-<i>N</i>-acetyl-D-glucosamine biosynthesis I
+683,Clo1313_1282,fatty acid biosynthesis initiation (type II)
+684,Clo1313_2102,fatty acid biosynthesis initiation (type II)
+685,Clo1313_2100,fatty acid biosynthesis initiation (type II)
+686,Clo1313_1281,fatty acid biosynthesis initiation (type II)
+687,Clo1313_1526,fatty acid biosynthesis initiation (type II)
+688,Clo1313_0912,heme <i>b</i> biosynthesis II (oxygen-independent)
+689,Clo1313_0930,heme <i>b</i> biosynthesis II (oxygen-independent)
+690,Clo1313_1849,L-glutamine degradation II
+691,Clo1313_0592,demethylmenaquinol-8 biosynthesis I
+692,Clo1313_1502,[2Fe-2S] iron-sulfur cluster biosynthesis
+693,Clo1313_1503,[2Fe-2S] iron-sulfur cluster biosynthesis
+694,Clo1313_1150,[2Fe-2S] iron-sulfur cluster biosynthesis
+695,Clo1313_1878,pyruvate fermentation to (<i>S</i>)-lactate
+696,Clo1313_1160,pyruvate fermentation to (<i>S</i>)-lactate
+697,Clo1313_2597,L-glutamate biosynthesis I
+698,Clo1313_2560,L-glutamate biosynthesis I
+699,Clo1313_2559,L-glutamate biosynthesis I
+700,Clo1313_1268,L-glutamate biosynthesis I
+701,Clo1313_1267,L-glutamate biosynthesis I
+702,Clo1313_2306,L-glutamate biosynthesis I
+703,Clo1313_1183,L-glutamate biosynthesis I
+704,Clo1313_1182,L-glutamate biosynthesis I
+705,Clo1313_1181,L-glutamate biosynthesis I
+706,Clo1313_1846,L-glutamate biosynthesis I
+707,Clo1313_1681,L-glutamate biosynthesis I
+708,Clo1313_0429,L-glutamate biosynthesis I
+709,Clo1313_0427,L-glutamate biosynthesis I
+710,Clo1313_2305,L-glutamate biosynthesis I
+711,Clo1313_2304,L-glutamate biosynthesis I
+712,Clo1313_1849,L-glutamate biosynthesis I
+713,Clo1313_1847,L-glutamate biosynthesis I
+714,Clo1313_0873,L-homoserine biosynthesis
+715,Clo1313_1255,L-homoserine biosynthesis
+716,Clo1313_1938,L-homoserine biosynthesis
+717,Clo1313_0872,L-homoserine biosynthesis
+718,Clo1313_2031,ammonia assimilation cycle III
+719,Clo1313_2303,ammonia assimilation cycle III
+720,Clo1313_2038,ammonia assimilation cycle III
+721,Clo1313_1357,ammonia assimilation cycle III
+722,Clo1313_2597,ammonia assimilation cycle III
+723,Clo1313_2560,ammonia assimilation cycle III
+724,Clo1313_2559,ammonia assimilation cycle III
+725,Clo1313_1268,ammonia assimilation cycle III
+726,Clo1313_1267,ammonia assimilation cycle III
+727,Clo1313_2306,ammonia assimilation cycle III
+728,Clo1313_1183,ammonia assimilation cycle III
+729,Clo1313_1182,ammonia assimilation cycle III
+730,Clo1313_1181,ammonia assimilation cycle III
+731,Clo1313_1846,ammonia assimilation cycle III
+732,Clo1313_1681,ammonia assimilation cycle III
+733,Clo1313_0429,ammonia assimilation cycle III
+734,Clo1313_0427,ammonia assimilation cycle III
+735,Clo1313_2305,ammonia assimilation cycle III
+736,Clo1313_2304,ammonia assimilation cycle III
+737,Clo1313_1849,ammonia assimilation cycle III
+738,Clo1313_1847,ammonia assimilation cycle III
+739,Clo1313_2341,superpathway of purine deoxyribonucleosides degradation
+740,Clo1313_1056,superpathway of purine deoxyribonucleosides degradation
+741,Clo1313_1058,superpathway of purine deoxyribonucleosides degradation
+742,Clo1313_1546,superpathway of purine deoxyribonucleosides degradation
+743,Clo1313_2615,superpathway of purine deoxyribonucleosides degradation
+744,Clo1313_2349,superpathway of purine deoxyribonucleosides degradation
+745,Clo1313_1798,superpathway of purine deoxyribonucleosides degradation
+746,Clo1313_1215,CDP-diacylglycerol biosynthesis I
+747,Clo1313_1511,CDP-diacylglycerol biosynthesis I
+748,Clo1313_1191,CDP-diacylglycerol biosynthesis I
+749,Clo1313_1192,CDP-diacylglycerol biosynthesis I
+750,Clo1313_1660,thiamine diphosphate salvage III
+751,Clo1313_1285,stearate biosynthesis II (bacteria and plants)
+752,Clo1313_1283,stearate biosynthesis II (bacteria and plants)
+753,Clo1313_0213,stearate biosynthesis II (bacteria and plants)
+754,Clo1313_0720,stearate biosynthesis II (bacteria and plants)
+755,Clo1313_0622,stearate biosynthesis II (bacteria and plants)
+756,Clo1313_2099,stearate biosynthesis II (bacteria and plants)
+757,Clo1313_2876,preQ<sub>0</sub> biosynthesis
+758,Clo1313_0657,preQ<sub>0</sub> biosynthesis
+759,Clo1313_0658,preQ<sub>0</sub> biosynthesis
+760,Clo1313_0656,preQ<sub>0</sub> biosynthesis
+761,Clo1313_0702,adenosylcobinamide-GDP salvage from cobinamide I
+762,Clo1313_1251,adenosylcobinamide-GDP salvage from cobinamide I
+763,Clo1313_0277,acyl-CoA hydrolysis
+764,Clo1313_0998,acyl-CoA hydrolysis
+765,Clo1313_1631,thiazole component of thiamine diphosphate biosynthesis I
+766,Clo1313_1393,thiazole component of thiamine diphosphate biosynthesis I
+767,Clo1313_1629,thiazole component of thiamine diphosphate biosynthesis I
+768,Clo1313_1630,thiazole component of thiamine diphosphate biosynthesis I
+769,Clo1313_1503,thiazole component of thiamine diphosphate biosynthesis I
+770,Clo1313_1150,thiazole component of thiamine diphosphate biosynthesis I
+771,Clo1313_1947,glycogen biosynthesis I (from ADP-D-Glucose)
+772,Clo1313_0974,glycogen biosynthesis I (from ADP-D-Glucose)
+773,Clo1313_2854,glycogen biosynthesis I (from ADP-D-Glucose)
+774,Clo1313_0718,glycogen biosynthesis I (from ADP-D-Glucose)
+775,Clo1313_0717,glycogen biosynthesis I (from ADP-D-Glucose)
+776,Clo1313_0993,glycogen biosynthesis I (from ADP-D-Glucose)
+777,Clo1313_0867,L-threonine biosynthesis
+778,Clo1313_2248,8-oxo-(d)GTP detoxification I
+779,Clo1313_1530,spermidine biosynthesis III
+780,Clo1313_1529,spermidine biosynthesis III
+781,Clo1313_1509,spermidine biosynthesis III
+782,Clo1313_1285,palmitate biosynthesis (type II fatty acid synthase)
+783,Clo1313_1283,palmitate biosynthesis (type II fatty acid synthase)
+784,Clo1313_0720,palmitate biosynthesis (type II fatty acid synthase)
+785,Clo1313_0622,palmitate biosynthesis (type II fatty acid synthase)
+786,Clo1313_0213,palmitate biosynthesis (type II fatty acid synthase)
+787,Clo1313_2099,palmitate biosynthesis (type II fatty acid synthase)
+788,Clo1313_1011,"tetrahydrofolate salvage from 5,10-methenyltetrahydrofolate"
+789,Clo1313_1120,"tetrahydrofolate salvage from 5,10-methenyltetrahydrofolate"
+790,Clo1313_1211,superpathway of pyrimidine nucleobases salvage
+791,Clo1313_1508,superpathway of pyrimidine nucleobases salvage
+792,Clo1313_2597,superpathway of pyrimidine nucleobases salvage
+793,Clo1313_1262,superpathway of pyrimidine nucleobases salvage
+794,Clo1313_0185,superpathway of pyrimidine nucleobases salvage
+795,Clo1313_1852,nickel cofactor biosynthesis
+796,Clo1313_2533,nickel cofactor biosynthesis
+797,Clo1313_2490,urea degradation II
+798,Clo1313_0332,N<sup>6</sup>-L-threonylcarbamoyladenosine<sup>37</sup>-modified tRNA biosynthesis
+799,Clo1313_2449,N<sup>6</sup>-L-threonylcarbamoyladenosine<sup>37</sup>-modified tRNA biosynthesis
+800,Clo1313_2448,N<sup>6</sup>-L-threonylcarbamoyladenosine<sup>37</sup>-modified tRNA biosynthesis
+801,Clo1313_0182,N<sup>6</sup>-L-threonylcarbamoyladenosine<sup>37</sup>-modified tRNA biosynthesis
+802,Clo1313_2989,UDP-<i>N</i>-acetylmuramoyl-pentapeptide biosynthesis I (<i>meso</i>-diaminopimelate containing)
+803,Clo1313_1779,UDP-<i>N</i>-acetylmuramoyl-pentapeptide biosynthesis I (<i>meso</i>-diaminopimelate containing)
+804,Clo1313_0202,UDP-<i>N</i>-acetylmuramoyl-pentapeptide biosynthesis I (<i>meso</i>-diaminopimelate containing)
+805,Clo1313_1245,UDP-<i>N</i>-acetylmuramoyl-pentapeptide biosynthesis I (<i>meso</i>-diaminopimelate containing)
+806,Clo1313_2119,UDP-<i>N</i>-acetylmuramoyl-pentapeptide biosynthesis I (<i>meso</i>-diaminopimelate containing)
+807,Clo1313_1241,UDP-<i>N</i>-acetylmuramoyl-pentapeptide biosynthesis I (<i>meso</i>-diaminopimelate containing)
+808,Clo1313_0214,UDP-<i>N</i>-acetylmuramoyl-pentapeptide biosynthesis I (<i>meso</i>-diaminopimelate containing)
+809,Clo1313_1172,UDP-<i>N</i>-acetylmuramoyl-pentapeptide biosynthesis I (<i>meso</i>-diaminopimelate containing)
+810,Clo1313_2608,UDP-<i>N</i>-acetylmuramoyl-pentapeptide biosynthesis I (<i>meso</i>-diaminopimelate containing)
+811,Clo1313_1240,UDP-<i>N</i>-acetylmuramoyl-pentapeptide biosynthesis I (<i>meso</i>-diaminopimelate containing)
+812,Clo1313_2609,UDP-<i>N</i>-acetylmuramoyl-pentapeptide biosynthesis I (<i>meso</i>-diaminopimelate containing)
+813,Clo1313_2341,purine deoxyribonucleosides degradation I
+814,Clo1313_1056,purine deoxyribonucleosides degradation I
+815,Clo1313_1058,purine deoxyribonucleosides degradation I
+816,Clo1313_1628,thiamine diphosphate biosynthesis I (E. coli)
+817,Clo1313_1875,gluconeogenesis I
+818,Clo1313_2095,gluconeogenesis I
+819,Clo1313_2094,gluconeogenesis I
+820,Clo1313_2092,gluconeogenesis I
+821,Clo1313_0966,gluconeogenesis I
+822,Clo1313_2090,gluconeogenesis I
+823,Clo1313_1005,gluconeogenesis I
+824,Clo1313_2093,gluconeogenesis I
+825,Clo1313_1879,gluconeogenesis I
+826,Clo1313_2015,gluconeogenesis I
+827,Clo1313_2847,UDP-&alpha;-D-glucose biosynthesis
+828,Clo1313_0993,UDP-&alpha;-D-glucose biosynthesis

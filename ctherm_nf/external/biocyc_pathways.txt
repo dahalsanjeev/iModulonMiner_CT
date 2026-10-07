@@ -1,0 +1,190 @@
+Pathways	Genes of pathway	Accession-2
+tRNA charging	RS13235 // RS13835 // RS06610 // RS07965 // ileS // RS05200 // RS09625 // alaS // asnS // aspS // aspS // RS07580 // trpS // thrS // serS // RS02525 // pheS // RS10210 // RS02040 // RS04720 // RS04830 // metG // RS00270 // RS10335 // RS01420 // RS00445 // RS12895 // RS04860 // RS09605 // RS07960 // RS01395 // RS03300 // RS02240 // RS06725 // RS05970 // RS10190 // RS06345 // RS01280 // RS05945 // RS08645 // RS03745 // RS01400 // RS14435 // RS12915 // RS15365 // RS03410 // RS08345 // RS03425 // RS06720 // RS03305 // RS12910 // RS05960 // RS03315 // RS07830 // RS14420 // RS03310 // RS13795 // RS05390 // RS15160 // RS00070 // RS00455 // RS00065 // RS14445 // RS12380 // RS07875 // RS12905 // RS05965 // RS01285 // RS01390 // RS03295 // RS08650 // RS09600 // RS09610 // RS10760 // RS12900 // RS13800 // RS10755 // RS10340	Clo1313_2606 // Clo1313_2723 // Clo1313_1301 // Clo1313_1578 // Clo1313_1434 // Clo1313_1020 // Clo1313_1902 // Clo1313_0749 // Clo1313_2162 // Clo1313_2307 // Clo1313_0923 // Clo1313_1500 // Clo1313_1537 // Clo1313_1029 // Clo1313_0011 // Clo1313_0498 // Clo1313_2018 // Clo1313_2017 // Clo1313_0403 // Clo1313_0922 // Clo1313_0944 // Clo1313_2754 // Clo1313_R0003 // Clo1313_R0051 // Clo1313_R0011 // Clo1313_R0004 // Clo1313_R0056 // Clo1313_R0031 // Clo1313_R0048 // Clo1313_R0043 // Clo1313_R0009 // Clo1313_R0021 // Clo1313_R0014 // Clo1313_R0039 // Clo1313_R0036 // Clo1313_R0050 // Clo1313_R0037 // Clo1313_R0006 // Clo1313_R0033 // Clo1313_R0045 // Clo1313_R0030 // Clo1313_R0010 // Clo1313_R0066 // Clo1313_R0060 // Clo1313_R0071 // Clo1313_R0026 // Clo1313_R0044 // Clo1313_R0029 // Clo1313_R0038 // Clo1313_R0022 // Clo1313_R0059 // Clo1313_R0034 // Clo1313_R0024 // Clo1313_R0041 // Clo1313_R0065 // Clo1313_R0023 // Clo1313_R0061 // Clo1313_R0032 // Clo1313_R0068 // Clo1313_R0002 // Clo1313_R0005 // Clo1313_R0001 // Clo1313_R0067 // Clo1313_R0055 // Clo1313_R0042 // Clo1313_R0058 // Clo1313_R0035 // Clo1313_R0007 // Clo1313_R0008 // Clo1313_R0020 // Clo1313_R0046 // Clo1313_R0047 // Clo1313_R0049 // Clo1313_R0054 // Clo1313_R0057 // Clo1313_R0062 // Clo1313_R0053 // Clo1313_R0052
+inosine-5'-phosphate biosynthesis II	purE // RS02150 // RS07490 // purH	Clo1313_1008 // Clo1313_0426 // Clo1313_1481 // Clo1313_1012
+&beta;-alanine biosynthesis III	RS06685	Clo1313_1318
+nitrogen fixation I (ferredoxin)	nifH	Clo1313_2339
+L-arginine biosynthesis II (acetyl cycle)	RS10405 // argH // argF // RS12990 // RS12975 // argB // carB // carA // carB // RS06435 // argJ	Clo1313_2054 // Clo1313_2055 // Clo1313_2561 // Clo1313_2558 // Clo1313_2555 // Clo1313_2556 // Clo1313_2560 // Clo1313_2559 // Clo1313_1268 // Clo1313_1267 // Clo1313_2150
+<i>cis</i>-vaccenate biosynthesis	RS03185 // fabF // fabG // fabZ // RS03725	Clo1313_0622 // Clo1313_1285 // Clo1313_1283 // Clo1313_0213 // Clo1313_0720
+5-hydroxybenzimidazolyl adenosylcobamide biosynthesis from adenosylcobinamide-GDP	cobC // RS03640 // cobT	Clo1313_0704 // Clo1313_0703 // Clo1313_0960
+L-glutamate biosynthesis III	gltA // gdhA	Clo1313_1849 // Clo1313_1847
+5-aminoimidazole ribonucleotide biosynthesis I	RS05145 // purD // RS05155 // RS08500 // RS05150	Clo1313_1009 // Clo1313_1013 // Clo1313_1011 // Clo1313_1683 // Clo1313_1010
+UTP and CTP <i>de novo</i> biosynthesis	RS06160 // ndk // RS13185	Clo1313_1211 // Clo1313_1508 // Clo1313_2597
+guanine and guanosine salvage II	hpt	Clo1313_2927
+assimilatory sulfate reduction IV	RS00630 // RS00635 // RS00625	Clo1313_0119 // Clo1313_0120 // Clo1313_0118
+assimilatory sulfate reduction III	RS00630 // RS00625	Clo1313_0119 // Clo1313_0118
+demethylmenaquinol-9 biosynthesis	menA	Clo1313_0592
+L-proline biosynthesis I (from L-glutamate)	proC // RS09950 // proB	Clo1313_1551 // Clo1313_1967 // Clo1313_2439
+coenzyme A biosynthesis I (prokaryotic)	coaD // RS06770 // coaBC	Clo1313_0982 // Clo1313_1335 // Clo1313_0943
+ethanol degradation I	adhE	Clo1313_1798
+L-leucine degradation V (oxidative Stickland reaction)	RS06910 // RS01950 // porA // porA	Clo1313_1364 // Clo1313_0385 // Clo1313_0384 // Clo1313_0022
+superpathway of tetrahydrofolate biosynthesis	folP // RS04435 // RS05255 // folK // folB // folE // RS11190 // RS06820	Clo1313_0168 // Clo1313_0864 // Clo1313_1031 // Clo1313_0170 // Clo1313_0169 // Clo1313_2876 // Clo1313_1345
+spermidine biosynthesis I	speE // RS07620	Clo1313_1530 // Clo1313_1509
+pyrimidine deoxyribonucleotide phosphorylation	RS14050 // RS07635 // ndk	Clo1313_2765 // Clo1313_1512 // Clo1313_1508
+dipicolinate biosynthesis	RS06375 // RS04480 // RS06370 // dpsA // RS09105	Clo1313_1255 // Clo1313_0873 // Clo1313_1254 // Clo1313_1801 // Clo1313_1800
+5'-deoxyadenosine degradation I	mtnA // RS08105	Clo1313_1607 // Clo1313_1606
+xanthine and xanthosine salvage	deoD // RS05375	Clo1313_2341 // Clo1313_1056
+peptidoglycan biosynthesis I (<I>meso</I>-diaminopimelate containing)	murG // RS06300 // RS15190 // murA // murA // RS06315 // murB // RS06295 // RS01095 // RS05955 // RS13245 // RS06290 // RS13250	Clo1313_1244 // Clo1313_1242 // Clo1313_2989 // Clo1313_1779 // Clo1313_0202 // Clo1313_1245 // Clo1313_2119 // Clo1313_1241 // Clo1313_0214 // Clo1313_1172 // Clo1313_2608 // Clo1313_1240 // Clo1313_2609
+even <i>iso</i>-branched-chain fatty acid biosynthesis	RS06505 // RS06860 // RS06910 // fabF // fabG // fabZ // RS03725 // RS03185	Clo1313_1281 // Clo1313_1354 // Clo1313_1364 // Clo1313_1285 // Clo1313_1283 // Clo1313_0213 // Clo1313_0720 // Clo1313_0622
+flavin biosynthesis I (bacteria and plants)	RS06245 // RS10780 // RS10770 // ribD // RS10775	Clo1313_1229 // Clo1313_2126 // Clo1313_2124 // Clo1313_2127 // Clo1313_2125
+thiamine diphosphate biosynthesis II (Bacillus)	RS08210	Clo1313_1628
+<i>S</i>-methyl-5'-thioadenosine degradation II	RS08105	Clo1313_1606
+chorismate biosynthesis from 3-dehydroquinate	aroC // aroA // aroA // RS00360 // RS07540 // RS06920 // aroQ	Clo1313_1491 // Clo1313_2470 // Clo1313_0636 // Clo1313_0068 // Clo1313_1492 // Clo1313_1366 // Clo1313_1371
+CDP-diacylglycerol biosynthesis II	RS06180 // RS06065 // RS07630 // plsY	Clo1313_1215 // Clo1313_1192 // Clo1313_1511 // Clo1313_1191
+adenosylcobalamin biosynthesis from adenosylcobinamide-GDP I	RS03640 // cobC // cobT	Clo1313_0703 // Clo1313_0704 // Clo1313_0960
+UMP biosynthesis III	carB // carA // carB // RS06435 // RS06420 // RS06425 // pyrF // RS06450 // RS06445	Clo1313_2560 // Clo1313_2559 // Clo1313_1268 // Clo1313_1267 // Clo1313_1264 // Clo1313_1265 // Clo1313_1266 // Clo1313_1270 // Clo1313_1269
+histamine biosynthesis	RS02950	Clo1313_0579
+L-lysine biosynthesis III	RS04480 // RS06375 // RS06370 // lysA // RS06575 // RS06365 // dapB	Clo1313_0873 // Clo1313_1255 // Clo1313_1254 // Clo1313_1540 // Clo1313_1295 // Clo1313_1253 // Clo1313_1090
+pyruvate fermentation to ethanol I	pflB // adhE	Clo1313_1717 // Clo1313_1798
+superpathway of L-serine and glycine biosynthesis I	RS09770 // RS02985 // RS05865	Clo1313_1931 // Clo1313_0586 // Clo1313_1155
+alanine racemization	alr	Clo1313_0288
+5-methoxybenzimidazolyl adenosylcobamide biosynthesis from adenosylcobinamide-GDP	cobC // RS03640 // cobT	Clo1313_0704 // Clo1313_0703 // Clo1313_0960
+inosine 5'-phosphate degradation	RS07780 // deoD // RS05375	Clo1313_1542 // Clo1313_2341 // Clo1313_1056
+adenosine ribonucleotides <i>de novo</i> biosynthesis	RS03290 // RS07490 // RS02365	Clo1313_0643 // Clo1313_1481 // Clo1313_0466
+arsenate detoxification II (glutaredoxin)	RS05595	Clo1313_1102
+urea cycle	argF // RS10405 // argH // carB // carA // carB // RS06435	Clo1313_2561 // Clo1313_2054 // Clo1313_2055 // Clo1313_2560 // Clo1313_2559 // Clo1313_1268 // Clo1313_1267
+L-phenylalanine biosynthesis I	pheA // aroH	Clo1313_2933 // Clo1313_1513
+guanine and guanosine salvage	hpt // deoD // RS05375	Clo1313_2927 // Clo1313_2341 // Clo1313_1056
+L-histidine biosynthesis	hisD // RS08165 // hisC // hisB // hisF // hisH // hisA // RS02170 // RS02130 // hisZ	Clo1313_0423 // Clo1313_1619 // Clo1313_0424 // Clo1313_0425 // Clo1313_0429 // Clo1313_0427 // Clo1313_0428 // Clo1313_0430 // Clo1313_0422 // Clo1313_0421
+L-valine biosynthesis	ilvD // RS06910 // ilvC // ilvB // ilvN // ilvB	Clo1313_0304 // Clo1313_1364 // Clo1313_0101 // Clo1313_0305 // Clo1313_0100 // Clo1313_0099
+adenosine deoxyribonucleotides <i>de novo</i> biosynthesis II	RS11040 // ndk // RS07975	Clo1313_2179 // Clo1313_1508 // Clo1313_1580
+chorismate biosynthesis I	RS07260 // aroF // aroF // aroC // aroA // aroA // RS00360 // RS07540 // RS06920 // aroQ	Clo1313_1435 // Clo1313_2468 // Clo1313_1340 // Clo1313_1491 // Clo1313_2470 // Clo1313_0636 // Clo1313_0068 // Clo1313_1492 // Clo1313_1366 // Clo1313_1371
+L-tyrosine biosynthesis I	RS12510 // aroH	Clo1313_2469 // Clo1313_1513
+pyridoxal 5'-phosphate biosynthesis I	RS07055 // RS09770 // pdxA	Clo1313_1393 // Clo1313_1931 // Clo1313_1289
+glutaminyl-tRNA<sup>gln</sup> biosynthesis via transamidation	RS13185 // carB // carA // carB // RS06435 // gltA // guaA // asnB // hisF // hisH // RS11715 // gatA // gatB // gatB // gatA // gatC // RS04860 // RS09605	Clo1313_2597 // Clo1313_2560 // Clo1313_2559 // Clo1313_1268 // Clo1313_1267 // Clo1313_1849 // Clo1313_1846 // Clo1313_1681 // Clo1313_0429 // Clo1313_0427 // Clo1313_2306 // Clo1313_2305 // Clo1313_2304 // Clo1313_1183 // Clo1313_1182 // Clo1313_1181 // Clo1313_R0031 // Clo1313_R0048
+demethylmenaquinol-6 biosynthesis I	menA	Clo1313_0592
+UDP-&alpha;-D-galactose biosynthesis	galE	Clo1313_2047
+L-homocysteine biosynthesis	RS11850 // metA	Clo1313_2335 // Clo1313_2537
+L-isoleucine biosynthesis V	RS06910 // RS01950 // porA // porA	Clo1313_1364 // Clo1313_0385 // Clo1313_0384 // Clo1313_0022
+acyl-[acyl-carrier protein] thioesterase pathway	RS03185	Clo1313_0622
+(1,4)-&beta;-D-xylan degradation	RS00915 // RS14110 // RS13380 // RS12825 // RS06630	Clo1313_0177 // Clo1313_2777 // Clo1313_2635 // Clo1313_2530 // Clo1313_1305
+putrescine biosynthesis I	speB	Clo1313_1529
+L-citrulline degradation	argF // carB // carA // carB // RS06435	Clo1313_2561 // Clo1313_2560 // Clo1313_2559 // Clo1313_1268 // Clo1313_1267
+L-glutamine degradation I	RS13185 // carB // carA // carB // RS06435 // RS11715 // gatB // gatA // gatC // gltA // guaA // asnB // hisF // hisH // gatA // gatB	Clo1313_2597 // Clo1313_2560 // Clo1313_2559 // Clo1313_1268 // Clo1313_1267 // Clo1313_2306 // Clo1313_1183 // Clo1313_1182 // Clo1313_1181 // Clo1313_1849 // Clo1313_1846 // Clo1313_1681 // Clo1313_0429 // Clo1313_0427 // Clo1313_2305 // Clo1313_2304
+thioredoxin pathway	trxB	Clo1313_2618
+CMP phosphorylation	RS07635 // ndk	Clo1313_1512 // Clo1313_1508
+gondoate biosynthesis (anaerobic)	fabF // fabG // fabZ // RS03725	Clo1313_1285 // Clo1313_1283 // Clo1313_0213 // Clo1313_0720
+PRPP biosynthesis	RS01115	Clo1313_0218
+lipoprotein posttranslational modification	RS06260 // lspA // sppA	Clo1313_1233 // Clo1313_1309 // Clo1313_0829
+dipyrromethane cofactor biosynthesis	hemC	Clo1313_0110
+L-leucine biosynthesis	leuB // RS06910 // RS04395 // RS03665 // leuC // leuD	Clo1313_2882 // Clo1313_1364 // Clo1313_0857 // Clo1313_0708 // Clo1313_2884 // Clo1313_2883
+pyruvate fermentation to acetate IV	pflB // RS06035 // pta	Clo1313_1717 // Clo1313_1186 // Clo1313_1185
+glycine biosynthesis I	RS05865	Clo1313_1155
+<i>S</i>-adenosyl-L-methionine salvage II	RS14860 // RS05380 // RS07985	Clo1313_2924 // Clo1313_1057 // Clo1313_1582
+folate transformations III (<i>E. coli</i>)	RS05255 // RS04920 // metF // RS15120 // RS07985 // folD // RS05865 // thyA	Clo1313_1031 // Clo1313_0962 // Clo1313_2132 // Clo1313_2977 // Clo1313_1582 // Clo1313_1120 // Clo1313_1155 // Clo1313_1030
+4-aminobenzoate biosynthesis	RS11190 // RS06820	Clo1313_1345
+L-methionine degradation I (to L-homocysteine)	RS14860 // RS05380	Clo1313_2924 // Clo1313_1057
+cellulose and hemicellulose degradation (cellulolosome)	RS00915 // RS14110 // RS13380 // RS12825 // RS06630	Clo1313_0177 // Clo1313_2777 // Clo1313_2635 // Clo1313_2530 // Clo1313_1305
+ppGpp metabolism	RS04655 // ndk	Clo1313_0909 // Clo1313_1508
+<i>N</i>-acetylglucosamine degradation I	nagA	Clo1313_2853
+L-valine degradation III (oxidative Stickland reaction)	RS06910 // RS01950 // porA // porA	Clo1313_1364 // Clo1313_0385 // Clo1313_0384 // Clo1313_0022
+pyrimidine deoxyribonucleotides <i>de novo</i> biosynthesis II	dcd // mazG // RS14050 // ndk // RS07975 // thyA	Clo1313_2239 // Clo1313_0245 // Clo1313_2765 // Clo1313_1508 // Clo1313_1580 // Clo1313_1030
+2-deoxy-&alpha;-D-ribose 1-phosphate degradation	RS07800 // deoC // deoC // adhE	Clo1313_1546 // Clo1313_2615 // Clo1313_2349 // Clo1313_1798
+L-isoleucine biosynthesis IV	RS01950 // porA // porA // ilvB // ilvN // ilvB // ilvC // ilvD // RS06910	Clo1313_0385 // Clo1313_0384 // Clo1313_0022 // Clo1313_0305 // Clo1313_0100 // Clo1313_0099 // Clo1313_0101 // Clo1313_0304 // Clo1313_1364
+pyrimidine ribonucleosides degradation	RS11915 // cdd // RS00525 // RS00450 // RS07795	Clo1313_2348 // Clo1313_1145 // Clo1313_0098 // Clo1313_0085 // Clo1313_1545
+superoxide radicals degradation	RS02860	Clo1313_0558
+cytidylyl molybdenum cofactor sulfurylation	nifS // RS05835	Clo1313_1503 // Clo1313_1150
+5-methylbenzimidazolyl adenosylcobamide biosynthesis from adenosylcobinamide-GDP	cobC // RS03640 // cobT	Clo1313_0704 // Clo1313_0703 // Clo1313_0960
+pyrimidine nucleobases salvage I	pyrR // upp	Clo1313_1262 // Clo1313_0185
+biotin biosynthesis from 8-amino-7-oxononanoate I	bioD // bioA // bioB	Clo1313_2211 // Clo1313_2207 // Clo1313_2212
+6-hydroxymethyl-dihydropterin diphosphate biosynthesis I	folK // folB // folE	Clo1313_0170 // Clo1313_0169 // Clo1313_2876
+tRNA processing	rnpA // rph	Clo1313_3032 // Clo1313_2045
+N-end rule pathway I (prokaryotic)	RS05295 // RS08645 // RS10190 // RS01280 // RS06345 // RS05945	Clo1313_1039 // Clo1313_R0045 // Clo1313_R0050 // Clo1313_R0006 // Clo1313_R0037 // Clo1313_R0033
+L-asparagine biosynthesis I	asnB	Clo1313_1681
+2-oxoisovalerate decarboxylation to isobutanoyl-CoA	RS06860	Clo1313_1354
+3-dehydroquinate biosynthesis I	RS07260 // aroF // aroF	Clo1313_1435 // Clo1313_2468 // Clo1313_1340
+homolactic fermentation	RS09495 // RS05890 // pfkA // RS09485 // fba // RS10605 // gap // pgk // eno // RS10200 // RS02480 // RS10600 // RS04935	Clo1313_1878 // Clo1313_1160 // Clo1313_0997 // Clo1313_1876 // Clo1313_1875 // Clo1313_2093 // Clo1313_2095 // Clo1313_2094 // Clo1313_2090 // Clo1313_2015 // Clo1313_0489 // Clo1313_2092 // Clo1313_0966
+L-arginine degradation III (arginine decarboxylase/agmatinase pathway)	speB	Clo1313_1529
+L-ornithine biosynthesis I	argJ // argB // RS12975 // RS12990	Clo1313_2150 // Clo1313_2556 // Clo1313_2555 // Clo1313_2558
+glycerol degradation I	glpK	Clo1313_0073
+adenosylcobalamin salvage from cobalamin	RS06355	Clo1313_1251
+L-arginine biosynthesis I (via L-ornithine)	RS10405 // argH // argF // carB // carA // carB // RS06435 // argJ // argB // RS12975 // RS12990	Clo1313_2054 // Clo1313_2055 // Clo1313_2561 // Clo1313_2560 // Clo1313_2559 // Clo1313_1268 // Clo1313_1267 // Clo1313_2150 // Clo1313_2556 // Clo1313_2555 // Clo1313_2558
+folate polyglutamylation	RS04435 // RS00160 // RS05865	Clo1313_0864 // Clo1313_0030 // Clo1313_1155
+adeninyl adenosylcobamide biosynthesis from adenosylcobinamide-GDP	cobC // RS03640 // cobT	Clo1313_0704 // Clo1313_0703 // Clo1313_0960
+long-chain fatty acid activation	RS10635	Clo1313_2099
+tetrahydrofolate biosynthesis	folP // RS04435 // RS05255	Clo1313_0168 // Clo1313_0864 // Clo1313_1031
+molybdopterin biosynthesis	moeB // nifS // RS05835	Clo1313_0122 // Clo1313_1503 // Clo1313_1150
+L-glutamine biosynthesis I	glnA // RS11700 // RS10315 // RS06875	Clo1313_2031 // Clo1313_2303 // Clo1313_2038 // Clo1313_1357
+ATP biosynthesis	RS01010 // atpD // RS01000 // RS00995 // RS00990 // atpF // atpE // RS00975 // RS14950 // RS14945 // RS14940 // RS14935 // RS14930 // RS14925 // RS14920 // RS14915	Clo1313_0196 // Clo1313_0195 // Clo1313_0194 // Clo1313_0193 // Clo1313_0192 // Clo1313_0191 // Clo1313_0190 // Clo1313_0189 // Clo1313_2942 // Clo1313_2941 // Clo1313_2940 // Clo1313_2939 // Clo1313_2938 // Clo1313_2937 // Clo1313_2936 // Clo1313_2935
+glycolysis III (from glucose)	pfkA // RS09485 // fba // RS10605 // gap // pgk // eno // RS10200 // RS02480 // RS10600 // RS04935	Clo1313_0997 // Clo1313_1876 // Clo1313_1875 // Clo1313_2093 // Clo1313_2095 // Clo1313_2094 // Clo1313_2090 // Clo1313_2015 // Clo1313_0489 // Clo1313_2092 // Clo1313_0966
+octanoyl-[acyl-carrier protein] biosynthesis (mitochondria, yeast)	fabF // fabG // fabZ // RS03725	Clo1313_1285 // Clo1313_1283 // Clo1313_0213 // Clo1313_0720
+L-isoleucine degradation III (oxidative Stickland reaction)	RS06910 // RS01950 // porA // porA	Clo1313_1364 // Clo1313_0385 // Clo1313_0384 // Clo1313_0022
+4-amino-2-methyl-5-diphosphomethylpyrimidine biosynthesis I	thiC	Clo1313_1627
+queuosine biosynthesis I (<i>de novo</i>)	tgt // queA // RS10470 // RS10385	Clo1313_1258 // Clo1313_1257 // Clo1313_2067 // Clo1313_2050
+methylerythritol phosphate pathway I	RS07055 // RS06185 // RS02520 // RS15600 // RS00180 // ispD // ispG	Clo1313_1393 // Clo1313_1216 // Clo1313_0497 // Clo1313_1510 // Clo1313_0034 // Clo1313_0492 // Clo1313_1218
+CMP-pseudaminate biosynthesis	pseI // pseG // pseH // pseC // RS14765	Clo1313_2902 // Clo1313_2895 // Clo1313_2901 // Clo1313_2894 // Clo1313_2905
+NADP biosynthesis	RS07110	Clo1313_1405
+purine ribonucleosides degradation	RS05385 // deoD // RS05375 // RS07800	Clo1313_1058 // Clo1313_2341 // Clo1313_1056 // Clo1313_1546
+NAD <i>de novo</i> biosynthesis I (from aspartate)	RS05180 // RS09620 // nadC // nadA // nadB	Clo1313_1016 // Clo1313_1901 // Clo1313_3017 // Clo1313_3019 // Clo1313_3018
+pyrimidine deoxyribonucleotides dephosphorylation	mazG	Clo1313_0245
+pyrimidine deoxyribonucleotides <i>de novo</i> biosynthesis I	mazG // RS14050 // ndk // RS11040 // thyA	Clo1313_0245 // Clo1313_2765 // Clo1313_1508 // Clo1313_2179 // Clo1313_1030
+L-methionine biosynthesis III	RS11850 // metA // RS07985	Clo1313_2335 // Clo1313_2537 // Clo1313_1582
+di-<i>trans</i>,poly-<i>cis</i>-undecaprenyl phosphate biosynthesis	RS06175 // RS15125	Clo1313_1214 // Clo1313_2978
+guanosine ribonucleotides <i>de novo</i> biosynthesis	RS07780 // guaA // gmk // ndk	Clo1313_1542 // Clo1313_1846 // Clo1313_0941 // Clo1313_1508
+L-cysteine biosynthesis I	cysE // cysK // RS11850	Clo1313_2724 // Clo1313_2532 // Clo1313_2335
+superpathway of thiamine diphosphate biosynthesis I	thiC // RS08210 // RS08225 // RS07055 // thiF // thiH // nifS // RS05835	Clo1313_1627 // Clo1313_1628 // Clo1313_1631 // Clo1313_1393 // Clo1313_1629 // Clo1313_1630 // Clo1313_1503 // Clo1313_1150
+ribose phosphorylation	rbsD	Clo1313_1826
+thiamine diphosphate biosynthesis III (Staphylococcus)	RS08210 // RS08385	Clo1313_1628 // Clo1313_1660
+phosphopantothenate biosynthesis I	RS06680 // panB // RS00905	Clo1313_1317 // Clo1313_1316 // Clo1313_0175
+superpathway of pyrimidine deoxyribonucleosides degradation	RS11915 // cdd // RS00525 // RS00450 // RS07795 // RS07800 // deoC // deoC // adhE	Clo1313_2348 // Clo1313_1145 // Clo1313_0098 // Clo1313_0085 // Clo1313_1545 // Clo1313_1546 // Clo1313_2615 // Clo1313_2349 // Clo1313_1798
+pyrimidine deoxyribonucleosides degradation	RS11915 // cdd // RS00525 // RS00450 // RS07795	Clo1313_2348 // Clo1313_1145 // Clo1313_0098 // Clo1313_0085 // Clo1313_1545
+L-glutamate degradation VI (to pyruvate)	RS00545	Clo1313_0102
+acetate and ATP formation from acetyl-CoA I	RS06035 // pta	Clo1313_1186 // Clo1313_1185
+L-alanine biosynthesis III	nifS // RS05835	Clo1313_1503 // Clo1313_1150
+2-methyladeninyl adenosylcobamide biosynthesis from adenosylcobinamide-GDP	cobC // RS03640 // cobT	Clo1313_0704 // Clo1313_0703 // Clo1313_0960
+menaquinol-7 biosynthesis	menA	Clo1313_0592
+fatty acid elongation -- saturated	fabZ // RS03725 // fabG // fabF	Clo1313_0213 // Clo1313_0720 // Clo1313_1283 // Clo1313_1285
+sulfate activation for sulfonation	RS00630 // RS00635	Clo1313_0119 // Clo1313_0120
+NADPH repair (prokaryotes)	RS01485	Clo1313_0287
+tRNA-uridine 2-thiolation and selenation (bacteria)	mnmA // nifS // RS05835 // mnmE // mnmG	Clo1313_1501 // Clo1313_1503 // Clo1313_1150 // Clo1313_3028 // Clo1313_3027
+adenine and adenosine salvage I	deoD // RS05375 // RS04650	Clo1313_2341 // Clo1313_1056 // Clo1313_0908
+<i>bis</i>(guanylyl molybdopterin) cofactor sulfurylation	nifS // RS05835	Clo1313_1503 // Clo1313_1150
+benzimidazolyl adenosylcobamide biosynthesis from adenosylcobinamide-GDP	cobC // RS03640 // cobT	Clo1313_0704 // Clo1313_0703 // Clo1313_0960
+cyanophycin metabolism	RS14625 // cphA // RS14635	Clo1313_2878 // Clo1313_2877 // Clo1313_2880
+L-lysine biosynthesis VI	RS04480 // RS06375 // RS06370 // RS03360 // RS03355 // lysA // RS06365 // dapB	Clo1313_0873 // Clo1313_1255 // Clo1313_1254 // Clo1313_0652 // Clo1313_0651 // Clo1313_1540 // Clo1313_1253 // Clo1313_1090
+guanosine deoxyribonucleotides <i>de novo</i> biosynthesis II	RS07975 // RS11040 // ndk	Clo1313_1580 // Clo1313_2179 // Clo1313_1508
+superpathway of guanosine nucleotides <i>de novo</i> biosynthesis II	RS07780 // guaA // gmk // RS07975 // RS11040 // ndk	Clo1313_1542 // Clo1313_1846 // Clo1313_0941 // Clo1313_1580 // Clo1313_2179 // Clo1313_1508
+NADH repair (prokaryotes)	RS01485	Clo1313_0287
+L-serine biosynthesis I	RS09770 // RS02985	Clo1313_1931 // Clo1313_0586
+superpathway of coenzyme A biosynthesis I (bacteria)	RS06680 // panB // RS00905 // coaD // RS06770 // coaBC // RS06685	Clo1313_1317 // Clo1313_1316 // Clo1313_0175 // Clo1313_0982 // Clo1313_1335 // Clo1313_0943 // Clo1313_1318
+formate assimilation into 5,10-methylenetetrahydrofolate	RS00160 // folD	Clo1313_0030 // Clo1313_1120
+siroheme biosynthesis	RS00580 // cobA	Clo1313_0109 // Clo1313_0111
+5-methoxy-6-methylbenzimidazolyl adenosylcobamide biosynthesis from adenosylcobinamide-GDP	RS03640 // cobT // cobC	Clo1313_0703 // Clo1313_0960 // Clo1313_0704
+superpathway of pyrimidine deoxyribonucleotides <i>de novo</i> biosynthesis (<i>E. coli</i>)	dcd // RS07975 // mazG // RS14050 // ndk // RS11040 // thyA	Clo1313_2239 // Clo1313_1580 // Clo1313_0245 // Clo1313_2765 // Clo1313_1508 // Clo1313_2179 // Clo1313_1030
+biotin-carboxyl carrier protein assembly	RS00890 // RS07700	Clo1313_0172 // Clo1313_1526
+superpathway of adenosine nucleotides <i>de novo</i> biosynthesis II	RS03290 // RS07490 // RS02365 // RS11040 // ndk // RS07975	Clo1313_0643 // Clo1313_1481 // Clo1313_0466 // Clo1313_2179 // Clo1313_1508 // Clo1313_1580
+NAD salvage pathway IV (from nicotinamide riboside)	nadR	Clo1313_0365
+L-tryptophan biosynthesis	trpC // RS06835 // trpD // trpE // RS04305 // trpB	Clo1313_1347 // Clo1313_1348 // Clo1313_1346 // Clo1313_1344 // Clo1313_0837 // Clo1313_0836
+mixed acid fermentation	pta // RS06035 // pflB // adhE // RS03275 // RS02945 // RS03670 // RS09840 // RS09500	Clo1313_1185 // Clo1313_1186 // Clo1313_1717 // Clo1313_1798 // Clo1313_0640 // Clo1313_0578 // Clo1313_0709 // Clo1313_1944 // Clo1313_1879
+UDP-<i>N</i>-acetyl-D-glucosamine biosynthesis I	glmU // glmS // RS05575 // RS10200	Clo1313_0217 // Clo1313_1099 // Clo1313_1098 // Clo1313_2015
+fatty acid biosynthesis initiation (type II)	fabD // RS10650 // RS10640 // RS06505 // RS07700	Clo1313_1282 // Clo1313_2102 // Clo1313_2100 // Clo1313_1281 // Clo1313_1526
+heme <i>b</i> biosynthesis II (oxygen-independent)	hemZ // RS04760	Clo1313_0912 // Clo1313_0930
+L-glutamine degradation II	gltA	Clo1313_1849
+demethylmenaquinol-8 biosynthesis I	menA	Clo1313_0592
+[2Fe-2S] iron-sulfur cluster biosynthesis	nifU // nifS // RS05835	Clo1313_1502 // Clo1313_1503 // Clo1313_1150
+pyruvate fermentation to (<i>S</i>)-lactate	RS09495 // RS05890	Clo1313_1878 // Clo1313_1160
+L-glutamate biosynthesis I	RS13185 // carB // carA // carB // RS06435 // RS11715 // gatB // gatA // gatC // guaA // asnB // hisF // hisH // gatA // gatB // gltA // gdhA	Clo1313_2597 // Clo1313_2560 // Clo1313_2559 // Clo1313_1268 // Clo1313_1267 // Clo1313_2306 // Clo1313_1183 // Clo1313_1182 // Clo1313_1181 // Clo1313_1846 // Clo1313_1681 // Clo1313_0429 // Clo1313_0427 // Clo1313_2305 // Clo1313_2304 // Clo1313_1849 // Clo1313_1847
+L-homoserine biosynthesis	RS04480 // RS06375 // RS09815 // RS04475	Clo1313_0873 // Clo1313_1255 // Clo1313_1938 // Clo1313_0872
+ammonia assimilation cycle III	glnA // RS11700 // RS10315 // RS06875 // RS13185 // carB // carA // carB // RS06435 // RS11715 // gatB // gatA // gatC // guaA // asnB // hisF // hisH // gatA // gatB // gltA // gdhA	Clo1313_2031 // Clo1313_2303 // Clo1313_2038 // Clo1313_1357 // Clo1313_2597 // Clo1313_2560 // Clo1313_2559 // Clo1313_1268 // Clo1313_1267 // Clo1313_2306 // Clo1313_1183 // Clo1313_1182 // Clo1313_1181 // Clo1313_1846 // Clo1313_1681 // Clo1313_0429 // Clo1313_0427 // Clo1313_2305 // Clo1313_2304 // Clo1313_1849 // Clo1313_1847
+superpathway of purine deoxyribonucleosides degradation	deoD // RS05375 // RS05385 // RS07800 // deoC // deoC // adhE	Clo1313_2341 // Clo1313_1056 // Clo1313_1058 // Clo1313_1546 // Clo1313_2615 // Clo1313_2349 // Clo1313_1798
+CDP-diacylglycerol biosynthesis I	RS06180 // RS07630 // plsY // RS06065	Clo1313_1215 // Clo1313_1511 // Clo1313_1191 // Clo1313_1192
+thiamine diphosphate salvage III	RS08385	Clo1313_1660
+stearate biosynthesis II (bacteria and plants)	fabF // fabG // fabZ // RS03725 // RS03185 // RS10635	Clo1313_1285 // Clo1313_1283 // Clo1313_0213 // Clo1313_0720 // Clo1313_0622 // Clo1313_2099
+preQ<sub>0</sub> biosynthesis	folE // queD // RS03390 // queC	Clo1313_2876 // Clo1313_0657 // Clo1313_0658 // Clo1313_0656
+adenosylcobinamide-GDP salvage from cobinamide I	cobU // RS06355	Clo1313_0702 // Clo1313_1251
+acyl-CoA hydrolysis	RS01440 // RS05095	Clo1313_0277 // Clo1313_0998
+thiazole component of thiamine diphosphate biosynthesis I	RS08225 // RS07055 // thiF // thiH // nifS // RS05835	Clo1313_1631 // Clo1313_1393 // Clo1313_1629 // Clo1313_1630 // Clo1313_1503 // Clo1313_1150
+glycogen biosynthesis I (from ADP-D-Glucose)	glgA // glgA // glgB // glgD // RS03710 // RS05070	Clo1313_1947 // Clo1313_0974 // Clo1313_2854 // Clo1313_0718 // Clo1313_0717 // Clo1313_0993
+L-threonine biosynthesis	RS04450	Clo1313_0867
+8-oxo-(d)GTP detoxification I	mutT	Clo1313_2248
+spermidine biosynthesis III	speE // speB // RS07620	Clo1313_1530 // Clo1313_1529 // Clo1313_1509
+palmitate biosynthesis (type II fatty acid synthase)	fabF // fabG // RS03725 // RS03185 // fabZ // RS10635	Clo1313_1285 // Clo1313_1283 // Clo1313_0720 // Clo1313_0622 // Clo1313_0213 // Clo1313_2099
+tetrahydrofolate salvage from 5,10-methenyltetrahydrofolate	RS05155 // folD	Clo1313_1011 // Clo1313_1120
+superpathway of pyrimidine nucleobases salvage	RS06160 // ndk // RS13185 // pyrR // upp	Clo1313_1211 // Clo1313_1508 // Clo1313_2597 // Clo1313_1262 // Clo1313_0185
+nickel cofactor biosynthesis	larC // larE	Clo1313_1852 // Clo1313_2533
+urea degradation II	ureC	Clo1313_2490
+N<sup>6</sup>-L-threonylcarbamoyladenosine<sup>37</sup>-modified tRNA biosynthesis	tsaD // tsaE // tsaB // RS00940	Clo1313_0332 // Clo1313_2449 // Clo1313_2448 // Clo1313_0182
+UDP-<i>N</i>-acetylmuramoyl-pentapeptide biosynthesis I (<i>meso</i>-diaminopimelate containing)	RS15190 // murA // murA // RS06315 // murB // RS06295 // RS01095 // RS05955 // RS13245 // RS06290 // RS13250	Clo1313_2989 // Clo1313_1779 // Clo1313_0202 // Clo1313_1245 // Clo1313_2119 // Clo1313_1241 // Clo1313_0214 // Clo1313_1172 // Clo1313_2608 // Clo1313_1240 // Clo1313_2609
+purine deoxyribonucleosides degradation I	deoD // RS05375 // RS05385	Clo1313_2341 // Clo1313_1056 // Clo1313_1058
+thiamine diphosphate biosynthesis I (E. coli)	RS08210	Clo1313_1628
+gluconeogenesis I	fba // gap // pgk // RS10600 // RS04935 // eno // RS05125 // RS10605 // RS09500 // RS10200	Clo1313_1875 // Clo1313_2095 // Clo1313_2094 // Clo1313_2092 // Clo1313_0966 // Clo1313_2090 // Clo1313_1005 // Clo1313_2093 // Clo1313_1879 // Clo1313_2015
+UDP-&alpha;-D-glucose biosynthesis	galU // RS05070	Clo1313_2847 // Clo1313_0993
