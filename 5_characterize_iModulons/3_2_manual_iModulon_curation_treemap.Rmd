@@ -11,12 +11,13 @@ Try executing this chunk by clicking the *Run* button within the chunk or by pla
 install.packages('treemap')
 library('treemap')
 
-setwd('/Users/skd6150/Documents/Research/CBI/iModulon_Ctherm/iModulonMiner_eh_combined/5_characterize_iModulons_v2/')
+# setwd('')
 # Use this if PDF version is desired
 # pdf("./results_characterize_imodulons/iModulon_treemap_ctherm.pdf", #file where it will be saved
 #     width=16, #svg params, change as you need
 #     height=12, 
 #     pointsize=12)
+
 # Use this if SVG version is desired
 svg("./results_characterize_imodulons/iModulon_treemap_ctherm.svg", #file where it will be saved
     width=16, #svg params, change as you need
