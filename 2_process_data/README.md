@@ -19,6 +19,10 @@ Nextflow pipeline to download and process microbial RNA-seq data from NCBI SRA
 - The nextflow workflow has been heavily updated to ensure it runs well on HPC. Furthermore, fastq-dl has replaced fastqc in this iteration of iModulonMiner.
 
 
+## Note:
+- The pipeline was run on SLURM HPC. The account, partition, and others need to be modified within the file run_process_data_imodulonminer_cdm.slurm
+
+
 ## Run Nextflow on HPC (use run_process_data_imodulonminer_cdm.slurm)
 Required Arguments:
   -profile              Executor profile name (e.g. local)
@@ -37,7 +41,6 @@ nextflow run main_fixed_no_delete.nf -profile slurm --organism ctherm --metadata
 ```
 
 ## Once it's finished running, you may delete the `work` folder in this root directory to save space.
-
 
 ## Common errors
 
