@@ -3,13 +3,12 @@
 This folder contains five Jupyter notebooks that outline the following characterization steps:
 1. Creating a gene annotation table
 2. Performing regulon, KEGG, and GO enrichments
-3. Curating enrichments and iModulon thresholds
-4. Compare iModulons with regulons 
-5. Perform high level analyis of iModulons including variance explained plots and treemaps.
+3. Curating enrichments and iModulon thresholds to rename iModulons
+4. Perform high level analyis of iModulons including variance explained plots and treemaps.
 
 To run these notebooks, you can either install [Jupyter Notebook](https://jupyter.org/install) or install all requirements listed in the [`environment.yml`](../environment.yml) file on the main page, or use a pre-existing docker container.
 
-## Running the docker container
+## Running the docker container (Check Sastry et al., 2024)
 1. Install [Docker](https://docs.docker.com/get-docker/)
 2. Run the following code in terminal
 ```bash
